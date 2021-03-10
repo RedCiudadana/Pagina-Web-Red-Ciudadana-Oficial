@@ -5721,7 +5721,7 @@ button.b-btn.btn-black {
   -webkit-transform: scaley(1);
   -ms-transform: scaley(1);
   transform: scaley(1); }
-  
+
 .features-02-icon{
   background: #06324F!important;
 }
@@ -5773,4 +5773,8 @@ button.b-btn.btn-black {
 
 .txt-white{
   color: #fff!important;
+}
+
+.slick-slide img {
+  display: inline-block;
 }
