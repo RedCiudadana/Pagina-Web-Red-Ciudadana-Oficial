@@ -3025,22 +3025,11 @@ label {
 .green-btn::before {
   background: #ffc226; }
 
-.greeno-btn {
-  background: #19A280;
-  color: #ffffff; }
-
-.greeno-btn::before {
-  background: #ffc226; }
-
 .green-btn:hover::before {
   -webkit-transform: scaley(1);
   -ms-transform: scaley(1);
   transform: scaley(1); }
 
-.greeno-btn:hover::before {
-  -webkit-transform: scaley(1);
-  -ms-transform: scaley(1);
-  transform: scaley(1); }
 
 /* 08. counter */
 .counter-area {
@@ -5721,6 +5710,18 @@ button.b-btn.btn-black {
 
 
 /*Mis Propias Adiciones al css*/
+.greeno-btn {
+  background: #19A280;
+  color: #ffffff; }
+
+.greeno-btn::before {
+  background: #ffc226; }
+
+.greeno-btn:hover::before {
+  -webkit-transform: scaley(1);
+  -ms-transform: scaley(1);
+  transform: scaley(1); }
+  
 .features-02-icon{
   background: #06324F!important;
 }
