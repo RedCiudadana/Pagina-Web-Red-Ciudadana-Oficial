@@ -5718,3 +5718,14 @@ button.b-btn.btn-black {
   background-position: bottom right; }
 
 /*# sourceMappingURL=main.css.map */
+
+
+/*Mis Propias Adiciones al css*/
+.features-02-icon{
+  background: #06324F!important;
+}
+
+.features-02-icon:hover{
+  background: #03b664!important;
+}
+
