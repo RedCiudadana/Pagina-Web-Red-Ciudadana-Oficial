@@ -5729,3 +5729,47 @@ button.b-btn.btn-black {
   background: #03b664!important;
 }
 
+.section-title span {
+  background:#E5E9EF!important;
+}
+
+.section-title span i{
+  background:#DD4C35!important;
+}
+
+.case-tab li a.active {
+  background: #19A280!important;
+}
+
+.case-tab li a {
+  background:#DD4C35!important;
+}
+
+.case-tab li a::before {
+  border-color:  #19A280 transparent transparent transparent;
+}
+
+.case-tab li a:hover{
+  background: #19A280!important;
+}
+
+.cta-button:hover{
+  background:#DD4C35!important;
+  border-radius: 5px;
+}
+
+#scrollUp{
+  background:#DD4C35!important;
+}
+
+#scrollUp:hover{
+  background:#ffc226!important;
+}
+
+.footer-02-icon a:hover{
+  background: #19A280!important;
+}
+
+.txt-white{
+  color: #fff!important;
+}
