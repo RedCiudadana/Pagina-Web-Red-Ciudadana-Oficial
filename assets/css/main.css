@@ -5816,3 +5816,22 @@ button.b-btn.btn-black {
 .pad45px{
   padding: 45px 45px;
 }
+
+/*Eventos*/
+.event-bg-03{
+  background: #E6EAF0!important; 
+}
+
+.event-bg-03 .evt-button a:hover{
+  background:#19A280!important;
+  border-color:#19A280!important;
+}
+
+.event-bg-03 .evt-button a:hover::before {
+  background:#19A280!important;
+  border-color:#19A280!important;
+}
+
+.verdeo{
+  color: #19A280!important;
+}
