@@ -5780,6 +5780,18 @@ button.b-btn.btn-black {
   display: inline-block;
 }
 
+.fa-facebook-f:hover::before{
+  color: #19A280!important;
+}
+
+.fa-twitter:hover::before{
+  color: #19A280!important;
+}
+
+.fa-youtube:hover::before{
+  color: #19A280!important;
+}
+
 /*Nosotros*/
 .history-wrapper:hover{
   background:#19A280!important;
