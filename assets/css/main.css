@@ -5807,3 +5807,12 @@ button.b-btn.btn-black {
 .team-text span{
   color: #DD4C35!important;
 }
+
+/*Proyectos*/
+.services-wrapper{
+  padding: 0 0 50px 0;
+}
+
+.pad45px{
+  padding: 45px 45px;
+}
