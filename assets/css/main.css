@@ -5710,6 +5710,7 @@ button.b-btn.btn-black {
 
 
 /*Mis Propias Adiciones al css*/
+
 .greeno-btn {
   background: #19A280;
   color: #ffffff; }
@@ -5777,4 +5778,32 @@ button.b-btn.btn-black {
 
 .slick-slide img {
   display: inline-block;
+}
+
+/*Nosotros*/
+.history-wrapper:hover{
+  background:#19A280!important;
+}
+.history-wrapper:hover{
+  background:#19A280!important;
+}
+
+.history-arrow:hover::before{
+  border-color:  #19A280 transparent transparent transparent;
+}
+
+.history-arrow-2:hover::before {
+    border-color: transparent transparent #19A280 transparent;
+}
+
+.history-arrow::after{
+  background:#19A280!important;
+}
+
+.history-arrow-2::after{
+  background:#19A280!important;
+}
+
+.team-text span{
+  color: #DD4C35!important;
 }
