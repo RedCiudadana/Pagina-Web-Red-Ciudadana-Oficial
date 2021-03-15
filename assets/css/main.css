@@ -5792,6 +5792,28 @@ button.b-btn.btn-black {
   color: #19A280!important;
 }
 
+@media(max-width: 767px){
+  .slider-text{
+    margin-right: 55%!important;
+  }
+}
+@media(min-width: 450px){
+  .slider-text{
+    margin-right: 55%!important;
+  }
+}
+
+@media(max-width: 992px){
+  .slider-text{
+    margin-right: 30%!important;
+  }
+}
+@media(min-width: 768px){
+  .slider-text{
+    margin-right: 30%!important;
+  }
+}
+
 /*Nosotros*/
 .history-wrapper:hover{
   background:#19A280!important;
