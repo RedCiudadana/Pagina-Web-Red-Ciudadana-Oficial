@@ -5842,6 +5842,14 @@ button.b-btn.btn-black {
   color: #DD4C35!important;
 }
 
+.footer-icon a:hover{
+  background:#19A280!important;
+  border: 2px solid #19A280!important;
+}
+.footer-icon a i:hover{
+  color: #fff!important;
+}
+
 /*Proyectos*/
 .services-wrapper{
   padding: 0 0 50px 0;
