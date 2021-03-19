@@ -5796,6 +5796,28 @@ button.b-btn.btn-black {
   color: #fff!important;
 }
 
+.pb-50{
+  padding-bottom: 50px!important;
+}
+.mb-50{
+  margin-bottom: 50px!important;
+}
+
+.pl-50{
+  padding-left: 100px!important;
+  padding-right: 50px!important;
+}
+
+.pr-100{
+  padding-right: 100px!important;
+}
+
+@media(max-width: 1200px){
+  .popup-video{
+    display: none!important;
+  }
+}
+
 /*Nosotros*/
 .history-wrapper:hover{
   background:#19A280!important;
