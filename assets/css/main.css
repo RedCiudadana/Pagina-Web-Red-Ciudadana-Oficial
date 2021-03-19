@@ -5796,8 +5796,15 @@ button.b-btn.btn-black {
   color: #fff!important;
 }
 
+.txt-left{
+  text-align: left!important;
+}
+
 .pb-50{
   padding-bottom: 50px!important;
+}
+.pt-50{
+  padding-top: 70px!important;
 }
 .mb-50{
   margin-bottom: 50px!important;
@@ -5809,12 +5816,42 @@ button.b-btn.btn-black {
 }
 
 .pr-100{
-  padding-right: 100px!important;
+  padding-right: 50px!important;
+  padding-left: 100px!important;
 }
 
 @media(max-width: 1200px){
   .popup-video{
     display: none!important;
+  }
+  .slider-text{
+    padding: 5px!important;
+  }
+  .mb-50 {
+    margin: 0px!important;
+  }
+  .pb-50 {
+    padding: 5px 0 10px 0!important;
+  }
+  .pl-50{
+    padding: 5px 0 10px 0!important;
+  }
+}
+
+.menu-2{
+  padding: 0!important;
+}
+
+@media(max-width: 994px){
+  .menu-2{
+    padding:30px 50px 15px 20px!important;
+  }
+}  
+
+@media(max-width: 767px){
+  .slider-text{
+    margin-right: 5%!important;
+    margin-left: 5%!important
   }
 }
 
