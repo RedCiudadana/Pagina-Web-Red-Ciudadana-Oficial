@@ -5901,6 +5901,20 @@ button.b-btn.btn-black {
   padding: 45px 45px;
 }
 
+body .sk-ww-medium-publication-feed .sk-medium-publication-feed-name a{
+  margin-left: 5%!important;
+  margin-right: 5%!important;
+}
+
+body .sk-ww-medium-publication-feed .sk-medium-publication-feed-profile-description{
+  margin-left: 5%!important;
+  margin-right: 5%!important;
+}
+
+.sk_medium_publication_feed_white_pop_up{
+  padding: 5px 10px!important;
+}
+
 /*Eventos*/
 .event-bg-03{
   background: #E6EAF0!important; 
