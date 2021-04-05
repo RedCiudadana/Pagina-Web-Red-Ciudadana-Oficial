@@ -29,9 +29,9 @@
         <link href="preview-files/preview.css" type="text/css" rel="stylesheet">
 
         <!-- Start of sidebar assets code -->
+        <!-- If you have Font Awesome, jQuery or Velocity on your page already, do not add them again. -->
         <!-- When you deploy the files on the web, you can use the commented out CDN loading options instead, for a faster load time. -->
         <link href="super-sidebar/css/super-sidebar.min.css" type="text/css" rel="stylesheet">
-
         <script src="super-sidebar/js/jquery-3.4.1.min.js" type="text/javascript"></script>
         <script src="super-sidebar/js/velocity.min.js" type="text/javascript"></script>
         <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" type="text/css" rel="stylesheet"> -->
@@ -42,19 +42,73 @@
 
     </head>
     <body>
+        <!-- Start of sidebar markup code -->
+        <div class="super-sidebar">
+            <ul class="sb-bar">
+                <li class="sb-sub sb-b-social">
+                    <div class="sb-icon fa fa-share-alt"></div>
+                    <ul class="sb-subbar">
+                        <li class="sb-b-facebook">
+                            <a data-share="facebook">
+                                <div class="sb-icon fab fa-facebook-f"></div>
+                                <div class="sb-label">Share on Facebook</div>
+                            </a>
+                        </li>
+                        <li class="sb-b-twitter">
+                            <a data-share="twitter">
+                                <div class="sb-icon fab fa-twitter"></div>
+                                <div class="sb-label">Share on Twitter</div>
+                            </a>
+                        </li>
+                        <li class="sb-b-pinterest">
+                            <a data-share="pinterest">
+                                <div class="sb-icon fab fa-pinterest"></div>
+                                <div class="sb-label">Share on Pinterest</div>
+                            </a>
+                        </li>
+                        <li class="sb-b-linkedin">
+                            <a data-share="linkedin">
+                                <div class="sb-icon fab fa-linkedin-in"></div>
+                                <div class="sb-label">Share on LinkedIn</div>
+                            </a>
+                        </li>
+                        <li class="sb-b-reddit">
+                            <a data-share="reddit">
+                                <div class="sb-icon fab fa-reddit-alien"></div>
+                                <div class="sb-label">Share on Reddit</div>
+                            </a>
+                        </li>
+                        <li class="sb-b-tumblr">
+                            <a data-share="tumblr">
+                                <div class="sb-icon fab fa-tumblr"></div>
+                                <div class="sb-label">Share on Tumblr</div>
+                            </a>
+                        </li>
+                        <li class="sb-b-email">
+                            <a data-share="email">
+                                <div class="sb-icon fas fa-at"></div>
+                                <div class="sb-label">Share on Email</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- End of sidebar markup code -->
 
+    
 
         <!-- header-start -->
 		<header class="default-header"><!--header-transparent-->
             <div class="main-menu-area menu-2 pl-155 pr-115">
                 <div class="container-fluid">
-                    <div class="row d-flex align-items-center">
+                    <div class="row d-flex align-items-center padmen " id="menu">
                         <div class="col-xl-2 col-lg-3">
                             <div class="logo">
                                 <a href="index.html"><img src="assets/ELEMENTOS/HOME/LOGOS RED/LOGO-A-COLOR4.png" alt="Logo Red Ciudadana" style="margin-left: 5%;" /></a>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-9">
+                        <div class="col-xl-7 col-lg-9">
                             <div class="main-menu f-left ">
                                 <nav id="mobile-menu">
                                     <ul>
@@ -71,12 +125,13 @@
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 d-none d-xl-block pr-100">
+                        <div class="col-xl-3 col-lg-3 d-none d-xl-block ">
                             <div class="header-02-wrapper">
                                 
                                 <div class="header-icon header-02-icon  f-left">
                                     <a href="https://www.facebook.com/Redciudadanagt"><i class="fab fa-facebook-f"></i></a>
                                     <a href="https://twitter.com/redxguate"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com/redxguate/"><i class="fab fa-instagram"></i></a>
                                     <a href="https://www.youtube.com/channel/UCQwc62j7beStZYFzwPxBEQg"><i class="fab fa-youtube"></i></a>
                                 </div>
                                 <div class="header-lang mr-60 pos-rel f-left">
@@ -95,7 +150,7 @@
                 </div>
             </div>
         </header>
-        <!-- header-start -->
+        <!-- header-end -->
 
         <main>
             
@@ -120,7 +175,7 @@
                         </div>
                         <div class="col-xl-3">
                             <div class="slider-video-icon">
-			                    <a class="popup-video play-btn-style" href="https://youtu.be/cs-sh5ez5Iw"><i class="fas fa-play"></i></a>
+			                    <a class="popup-video play-btn-style" href="https://youtu.be/RFu8UDHeZIA"><i class="fas fa-play"></i></a>
 			                </div>
                                 
                             
@@ -845,7 +900,7 @@
                                  data-maxcols="3" 
                                  data-layout="slider" 
                                  data-poststyle="modal" 
-                                 data-readmore="Read the rest" 
+                                 data-readmore="Leer Más" 
                                  data-buttonclass="btn btn-primary" 
                                  data-offset="-200">&#160;</div>   
                             </div>
@@ -913,6 +968,26 @@
                 </div>
             </div>
             <!-- blog-area-end -->
+
+            <!--instragram gallery-->
+            <div class="brand-02-area pb-100">
+                <div class="container">
+
+                        <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
+                             <div class="section-title text-center mr-40 ml-40 mb-75">
+                                 <span><i class="fab fa-instagram"></i> Siguenos </span>
+                                 <h1> Siguenos en Instagram </h1>
+                             </div>
+                        </div>
+
+                    <div class="row ">
+                        
+
+                    </div>
+                </div>
+            </div>
+            <!-- Intagram-gallery-end-->
+
 
             <!-- brand-area-start -->
 
@@ -1127,59 +1202,46 @@
             </div>
         </div>
 
-        <!-- Start of sidebar markup code -->
-        <div class="super-sidebar" >
-            <ul class="sb-bar">
-                <li class="sb-sub sb-b-social">
-                    <div class="sb-icon fa fa-share-alt"></div>
-                    <ul class="sb-subbar">
-                        <li class="sb-b-facebook">
-                            <a data-share="facebook">
-                                <div class="sb-icon fab fa-facebook-f"></div>
-                                <div class="sb-label">Share on Facebook</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-twitter">
-                            <a data-share="twitter">
-                                <div class="sb-icon fab fa-twitter"></div>
-                                <div class="sb-label">Share on Twitter</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-pinterest">
-                            <a data-share="pinterest">
-                                <div class="sb-icon fab fa-pinterest"></div>
-                                <div class="sb-label">Share on Pinterest</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-linkedin">
-                            <a data-share="linkedin">
-                                <div class="sb-icon fab fa-linkedin-in"></div>
-                                <div class="sb-label">Share on LinkedIn</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-reddit">
-                            <a data-share="reddit">
-                                <div class="sb-icon fab fa-reddit-alien"></div>
-                                <div class="sb-label">Share on Reddit</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-tumblr">
-                            <a data-share="tumblr">
-                                <div class="sb-icon fab fa-tumblr"></div>
-                                <div class="sb-label">Share on Tumblr</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-email">
-                            <a data-share="email">
-                                <div class="sb-icon fas fa-at"></div>
-                                <div class="sb-label">Share on Email</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <!-- End of sidebar markup code -->
+
+        <!-- JS here -->
+        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <script src="assets/js/ajax-form.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.scrollUp.min.js"></script>
+        <script src="assets/js/jquery.knob.js"></script>
+        <script src="assets/js/jquery.appear.js"></script>
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <!--Script Header-->
+        <script type="text/javascript">      
+          $(function () {
+            var $win = $(window);
+            // definir mediente $pos la altura en píxeles desde el borde superior de la ventana del navegador y el elemento
+            var $pos = 50;
+            $win.scroll(function () {
+               if ($win.scrollTop() >= $pos)
+                    $('#menu').addClass('sticky');
+               else {
+                    $('#menu').removeClass('sticky');                 
+               }
+             });
+          });
+        </script>
+
+        <!--Embed Medium-->
+        <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
         <!-- Start of sidebar build code -->
         <script type="text/javascript">
@@ -1220,30 +1282,9 @@
         </script>
         <!-- End of sidebar build code -->
 
-        <!-- JS here -->
-        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <script src="assets/js/slick.min.js"></script>
-        <script src="assets/js/jquery.meanmenu.min.js"></script>
-        <script src="assets/js/ajax-form.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/jquery.scrollUp.min.js"></script>
-        <script src="assets/js/jquery.knob.js"></script>
-        <script src="assets/js/jquery.appear.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+        <!--HelloBar-->
+        <script src="https://my.hellobar.com/095e0a9dd7bb72110e8d160eb28ba5452fcf5a69.js" type="text/javascript" charset="utf-8" async="async"></script>
 
-
-
-        <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
     </body>
 </html>

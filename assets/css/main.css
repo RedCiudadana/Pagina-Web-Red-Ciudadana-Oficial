@@ -5711,6 +5711,12 @@ button.b-btn.btn-black {
 
 /*Mis Propias Adiciones al css*/
 
+.padmen{
+  padding: 0px 10%;
+}
+
+
+
 .greeno-btn {
   background: #19A280;
   color: #ffffff; }
