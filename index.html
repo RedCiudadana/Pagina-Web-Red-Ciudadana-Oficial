@@ -29,75 +29,15 @@
         <link href="preview-files/preview.css" type="text/css" rel="stylesheet">
 
         <!-- Start of sidebar assets code -->
-        <!-- If you have Font Awesome, jQuery or Velocity on your page already, do not add them again. -->
-        <!-- When you deploy the files on the web, you can use the commented out CDN loading options instead, for a faster load time. -->
         <link href="super-sidebar/css/super-sidebar.min.css" type="text/css" rel="stylesheet">
         <script src="super-sidebar/js/jquery-3.4.1.min.js" type="text/javascript"></script>
         <script src="super-sidebar/js/velocity.min.js" type="text/javascript"></script>
-        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" type="text/css" rel="stylesheet"> -->
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script> -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js" type="text/javascript"></script> -->
         <script src="super-sidebar/js/jquery.super-sidebar.min.js" type="text/javascript"></script>
         <!-- End of sidebar assets code -->
 
     </head>
     <body>
-        <!-- Start of sidebar markup code -->
-        <div class="super-sidebar">
-            <ul class="sb-bar">
-                <li class="sb-sub sb-b-social">
-                    <div class="sb-icon fa fa-share-alt"></div>
-                    <ul class="sb-subbar">
-                        <li class="sb-b-facebook">
-                            <a data-share="facebook">
-                                <div class="sb-icon fab fa-facebook-f"></div>
-                                <div class="sb-label">Share on Facebook</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-twitter">
-                            <a data-share="twitter">
-                                <div class="sb-icon fab fa-twitter"></div>
-                                <div class="sb-label">Share on Twitter</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-pinterest">
-                            <a data-share="pinterest">
-                                <div class="sb-icon fab fa-pinterest"></div>
-                                <div class="sb-label">Share on Pinterest</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-linkedin">
-                            <a data-share="linkedin">
-                                <div class="sb-icon fab fa-linkedin-in"></div>
-                                <div class="sb-label">Share on LinkedIn</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-reddit">
-                            <a data-share="reddit">
-                                <div class="sb-icon fab fa-reddit-alien"></div>
-                                <div class="sb-label">Share on Reddit</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-tumblr">
-                            <a data-share="tumblr">
-                                <div class="sb-icon fab fa-tumblr"></div>
-                                <div class="sb-label">Share on Tumblr</div>
-                            </a>
-                        </li>
-                        <li class="sb-b-email">
-                            <a data-share="email">
-                                <div class="sb-icon fas fa-at"></div>
-                                <div class="sb-label">Share on Email</div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <!-- End of sidebar markup code -->
-
-    
-
+        
         <!-- header-start -->
 		<header class="default-header"><!--header-transparent-->
             <div class="main-menu-area menu-2 pl-155 pr-115">
@@ -978,12 +918,8 @@
                                  <span><i class="fab fa-instagram"></i> Siguenos </span>
                                  <h1> Siguenos en Instagram </h1>
                              </div>
-                        </div>
-
-                    <div class="row ">
-                        
-
-                    </div>
+                        </div>                     
+                        <div class="demo"></div>
                 </div>
             </div>
             <!-- Intagram-gallery-end-->
@@ -1202,10 +1138,73 @@
             </div>
         </div>
 
+        <!-- Start of sidebar markup code -->
+        <div class="super-sidebar">
+            <ul class="sb-bar">
+                <li class="sb-b-facebook">
+                    <a data-share="facebook">
+                        <div class="sb-icon fab fa-facebook-f"></div>
+                        <div class="sb-label">Compartir en Facebook</div>
+                    </a>
+                </li>
+                <li class="sb-b-twitter">
+                    <a data-share="twitter">
+                        <div class="sb-icon fab fa-twitter"></div>
+                        <div class="sb-label">Compartir en Twitter</div>
+                    </a>
+                </li>
+                <li class="sb-b-linkedin">
+                    <a data-share="linkedin">
+                        <div class="sb-icon fab fa-linkedin-in"></div>
+                        <div class="sb-label">Compartir en LinkedIn</div>
+                    </a>
+                </li>
+                <li class="sb-b-email">
+                    <a data-share="email">
+                        <div class="sb-icon fas fa-at"></div>
+                        <div class="sb-label">Compartir en Correo</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End of sidebar markup code -->
+
+        <!-- Start of sidebar build code -->
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+
+                jQuery(".super-sidebar").superSidebar({
+                    // Main
+                    position: ["right", "center"],
+                    offset: [0, 0],
+                    buttonShape: "rounded-out",
+                    buttonColor: "default",
+                    buttonOverColor: "default",
+                    iconColor: "white",
+                    iconOverColor: "white",
+                    labelEnabled: true,
+                    labelColor: "match",
+                    labelTextColor: "match",
+                    labelEffect: "slide-out-fade",
+                    labelAnimate: [400, "easeOutQuad"],
+                    labelConnected: true,
+                    sideSpace: false,
+                    buttonSpace: true,
+                    labelSpace: false,
+                    // Other
+                    showAfterPosition: false,
+                    barAnimate: [250, "easeOutQuad"],
+                    hideUnderWidth: false,
+                    shareTarget: "default"
+                });
+
+            });
+        </script>
+        <!-- End of sidebar build code -->
 
         <!-- JS here -->
         <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <!--script src="assets/js/vendor/jquery-1.12.4.min.js"></script-->
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/owl.carousel.min.js"></script>
@@ -1243,44 +1242,12 @@
         <!--Embed Medium-->
         <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
-        <!-- Start of sidebar build code -->
+        <!--Instagram Gallery-->
         <script type="text/javascript">
-            jQuery(document).ready(function() {
-
-                jQuery(".super-sidebar").superSidebar({
-                    // Main
-                    position: ["left", "35%"],
-                    offset: [0, 0],
-                    buttonShape: "round",
-                    buttonColor: "default",
-                    buttonOverColor: "default",
-                    iconColor: "white",
-                    iconOverColor: "white",
-                    labelEnabled: true,
-                    labelColor: "match",
-                    labelTextColor: "match",
-                    labelEffect: "slide-out-fade",
-                    labelAnimate: [400, "easeOutQuad"],
-                    labelConnected: true,
-                    sideSpace: true,
-                    buttonSpace: true,
-                    labelSpace: false,
-                    // Subbar
-                    subPosition: ["circular", 105, -90, 90],
-                    subEffect: ["linear-slide", 40],
-                    subAnimate: [400, "easeOutQuad"],
-                    subSpace: false,
-                    subOpen: "mouseover",
-                    // Other
-                    showAfterPosition: false,
-                    barAnimate: [250, "easeOutQuad"],
-                    hideUnderWidth: false,
-                    shareTarget: "default"
-                });
-
+            $(document).ready(function(){
+                $('.demo').simpleInstagramFancybox();
             });
         </script>
-        <!-- End of sidebar build code -->
 
         <!--HelloBar-->
         <script src="https://my.hellobar.com/095e0a9dd7bb72110e8d160eb28ba5452fcf5a69.js" type="text/javascript" charset="utf-8" async="async"></script>

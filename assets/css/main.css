@@ -5715,7 +5715,9 @@ button.b-btn.btn-black {
   padding: 0px 10%;
 }
 
-
+.fa-facebook-f:hover::before{
+  color: #fff!important;
+}
 
 .greeno-btn {
   background: #19A280;
@@ -5787,15 +5789,7 @@ button.b-btn.btn-black {
 }
 
 .fa-facebook-f:hover::before{
-  color: #19A280!important;
-}
-
-.fa-twitter:hover::before{
-  color: #19A280!important;
-}
-
-.fa-youtube:hover::before{
-  color: #19A280!important;
+  color: inherit!important;
 }
 
 .txt-white{

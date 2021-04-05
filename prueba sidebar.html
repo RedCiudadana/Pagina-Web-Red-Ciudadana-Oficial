@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Template 7 - Super Sidebar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="preview-files/preview.css" type="text/css" rel="stylesheet">
+
+	<!-- Start of sidebar assets code -->
+	<!-- If you have Font Awesome, jQuery or Velocity on your page already, do not add them again. -->
+	<!-- When you deploy the files on the web, you can use the commented out CDN loading options instead, for a faster load time. -->
+	<link href="super-sidebar/css/super-sidebar.min.css" type="text/css" rel="stylesheet">
+	<link href="super-sidebar/font-awesome/css/all.min.css" type="text/css" rel="stylesheet">
+	<script src="super-sidebar/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script src="super-sidebar/js/velocity.min.js" type="text/javascript"></script>
+	<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" type="text/css" rel="stylesheet"> -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js" type="text/javascript"></script> -->
+	<script src="super-sidebar/js/jquery.super-sidebar.min.js" type="text/javascript"></script>
+	<!-- End of sidebar assets code -->
+
+</head>
+<body>
+
+	<!-- Start of sidebar markup code -->
+	<div class="super-sidebar">
+		<ul class="sb-bar">
+			<li class="sb-b-facebook">
+				<a data-share="facebook">
+					<div class="sb-icon fab fa-facebook-f"></div>
+					<div class="sb-label">Share on Facebook</div>
+				</a>
+			</li>
+			<li class="sb-b-twitter">
+				<a data-share="twitter">
+					<div class="sb-icon fab fa-twitter"></div>
+					<div class="sb-label">Share on Twitter</div>
+				</a>
+			</li>
+			<li class="sb-b-linkedin">
+				<a data-share="linkedin">
+					<div class="sb-icon fab fa-linkedin-in"></div>
+					<div class="sb-label">Share on LinkedIn</div>
+				</a>
+			</li>
+			<li class="sb-b-email">
+				<a data-share="email">
+					<div class="sb-icon fas fa-at"></div>
+					<div class="sb-label">Share on Email</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- End of sidebar markup code -->
+
+	<!-- Start of sidebar build code -->
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+
+			jQuery(".super-sidebar").superSidebar({
+				// Main
+				position: ["right", "center"],
+				offset: [0, 0],
+				buttonShape: "rounded-out",
+				buttonColor: "default",
+				buttonOverColor: "default",
+				iconColor: "white",
+				iconOverColor: "white",
+				labelEnabled: true,
+				labelColor: "match",
+				labelTextColor: "match",
+				labelEffect: "slide-out-fade",
+				labelAnimate: [400, "easeOutQuad"],
+				labelConnected: true,
+				sideSpace: false,
+				buttonSpace: true,
+				labelSpace: false,
+				// Other
+				showAfterPosition: false,
+				barAnimate: [250, "easeOutQuad"],
+				hideUnderWidth: false,
+				shareTarget: "default"
+			});
+
+		});
+	</script>
+	<!-- End of sidebar build code -->
+
+</body>
+</html>
