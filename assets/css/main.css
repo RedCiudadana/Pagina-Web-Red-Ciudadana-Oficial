@@ -5735,9 +5735,6 @@ button.b-btn.btn-black {
   background: #06324F!important;
 }
 
-.features-02-icon:hover{
-  background: #03b664!important;
-}
 
 .section-title span {
   background:#E5E9EF!important;
@@ -5774,10 +5771,6 @@ button.b-btn.btn-black {
 
 #scrollUp:hover{
   background:#ffc226!important;
-}
-
-.footer-02-icon a:hover{
-  background: #19A280!important;
 }
 
 .txt-white{
@@ -5854,8 +5847,6 @@ button.b-btn.btn-black {
     margin-left: 5%!important
   }
 }
-
-
 
 /*Nosotros*/
 .history-wrapper:hover{
