@@ -5893,6 +5893,10 @@ button.b-btn.btn-black {
   padding: 45px 45px;
 }
 
+.pad10{
+  padding: 0 10%;
+}
+
 body .sk-ww-medium-publication-feed .sk-medium-publication-feed-name a{
   margin-left: 5%!important;
   margin-right: 5%!important;
