@@ -26,6 +26,13 @@
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
 
+        <!-- Start of sidebar assets code -->
+        <link href="super-sidebar/css/super-sidebar.min.css" type="text/css" rel="stylesheet">
+        <script src="super-sidebar/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+        <script src="super-sidebar/js/velocity.min.js" type="text/javascript"></script>
+        <script src="super-sidebar/js/jquery.super-sidebar.min.js" type="text/javascript"></script>
+        <!-- End of sidebar assets code -->
+
     </head>
     <body>
 
@@ -433,11 +440,73 @@
         </footer>
         <!-- footer-area-end -->
 
+        <!-- Start of sidebar markup code -->
+        <div class="super-sidebar">
+            <ul class="sb-bar">
+                <li class="sb-b-facebook">
+                    <a data-share="facebook">
+                        <div class="sb-icon fab fa-facebook-f"></div>
+                        <div class="sb-label">Compartir en Facebook</div>
+                    </a>
+                </li>
+                <li class="sb-b-twitter">
+                    <a data-share="twitter">
+                        <div class="sb-icon fab fa-twitter"></div>
+                        <div class="sb-label">Compartir en Twitter</div>
+                    </a>
+                </li>
+                <li class="sb-b-linkedin">
+                    <a data-share="linkedin">
+                        <div class="sb-icon fab fa-linkedin-in"></div>
+                        <div class="sb-label">Compartir en LinkedIn</div>
+                    </a>
+                </li>
+                <li class="sb-b-email">
+                    <a data-share="email">
+                        <div class="sb-icon fas fa-at"></div>
+                        <div class="sb-label">Compartir en Correo</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End of sidebar markup code -->
 
+        <!-- Start of sidebar build code -->
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+
+                jQuery(".super-sidebar").superSidebar({
+                    // Main
+                    position: ["right", "center"],
+                    offset: [0, 0],
+                    buttonShape: "rounded-out",
+                    buttonColor: "default",
+                    buttonOverColor: "default",
+                    iconColor: "white",
+                    iconOverColor: "white",
+                    labelEnabled: true,
+                    labelColor: "match",
+                    labelTextColor: "match",
+                    labelEffect: "slide-out-fade",
+                    labelAnimate: [400, "easeOutQuad"],
+                    labelConnected: true,
+                    sideSpace: false,
+                    buttonSpace: true,
+                    labelSpace: false,
+                    // Other
+                    showAfterPosition: false,
+                    barAnimate: [250, "easeOutQuad"],
+                    hideUnderWidth: false,
+                    shareTarget: "default"
+                });
+
+            });
+        </script>
+        <!-- End of sidebar build code -->
 
 		<!-- JS here -->
         <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <!--script src="assets/js/vendor/jquery-1.12.4.min.js"></script-->
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/owl.carousel.min.js"></script>
