@@ -5848,6 +5848,11 @@ button.b-btn.btn-black {
   }
 }
 
+.read-more .btn{
+
+  bottom: 5px!important;
+}
+
 /*Nosotros*/
 .history-wrapper:hover{
   background:#19A280!important;
