@@ -5857,6 +5857,10 @@ button.b-btn.btn-black {
   display: none!important;
 }
 
+.eapps-link{
+  border-radius: 5000px!important;
+}
+
 /*Nosotros*/
 .history-wrapper:hover{
   background:#19A280!important;
