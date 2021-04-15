@@ -1044,6 +1044,8 @@
                         </div>                     
                         <div class="demo"></div>
                 </div>
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-f5fcb535-b5f9-4788-a239-c0defd00ea2b"></div>
             </div>
             <!-- Intagram-gallery-end-->
 
@@ -1363,7 +1365,10 @@
                if ($win.scrollTop() >= $pos)
                     $('#menu').addClass('sticky');
                else {
-                    $('#menu').removeClass('sticky');                 
+                    $('#menu').removeClass('sticky');
+                    $('#menu').removeClass('.eapps-link');
+                    $('#menu').removeClass('eapps-remove-link');            
+                    
                }
              });
           });

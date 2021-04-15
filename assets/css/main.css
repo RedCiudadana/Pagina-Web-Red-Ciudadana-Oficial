@@ -5853,6 +5853,10 @@ button.b-btn.btn-black {
   bottom: 5px!important;
 }
 
+.eapps-instagram-feed-title{
+  display: none!important;
+}
+
 /*Nosotros*/
 .history-wrapper:hover{
   background:#19A280!important;
