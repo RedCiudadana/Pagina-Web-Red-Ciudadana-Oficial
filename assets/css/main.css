@@ -5861,6 +5861,11 @@ button.b-btn.btn-black {
   border-radius: 5000px!important;
 }
 
+.default-header .main-menu nav > ul > li > a:hover{
+  color: #19A280;
+}
+
+
 /*Nosotros*/
 .history-wrapper:hover{
   background:#19A280!important;
