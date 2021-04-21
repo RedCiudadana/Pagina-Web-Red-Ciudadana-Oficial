@@ -36,7 +36,14 @@
         <!-- End of sidebar assets code -->
 
         <!--Start of instragram gallery assets code-->
-        
+        <script type="text/javascript" src="../jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="../fancybox2/source/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="../simpleInstagramFancybox.js"></script>
+        <script type="text/javascript" src="../js/demo.js"></script>
+
+        <link href="../fancybox2/source/jquery.fancybox.css" rel="stylesheet" >
+        <link href="../css/demo.css" rel="stylesheet">
+        <link href="../simpleInstagramFancybox.css" rel="stylesheet">
         <!--End of instragram gallery assets code-->
 
     </head>
@@ -1050,6 +1057,18 @@
             <!-- 
                 PIXLEE POSIBLE SOLUCION
                 Intagram-gallery-end-->
+            <div class="element"></div>
+            <script type="text/javascript">
+                $('.element').simpleInstagramFancybox({
+                   mode : 'user',
+                   userID : '2250984640',
+                   accessToken : 'YOUR_ACCESS_TOKEN',
+                   speed : 700,
+                   delayInterval : 80,
+                   appearEffect : 'fade',
+                   captionOn : false
+                });
+            </script>
 
 
             <!-- brand-area-start -->
