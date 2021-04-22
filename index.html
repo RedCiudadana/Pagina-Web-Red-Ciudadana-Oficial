@@ -36,14 +36,14 @@
         <!-- End of sidebar assets code -->
 
         <!--Start of instragram gallery assets code-->
-        <script type="text/javascript" src="../jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="../fancybox2/source/jquery.fancybox.pack.js"></script>
-        <script type="text/javascript" src="../simpleInstagramFancybox.js"></script>
-        <script type="text/javascript" src="../js/demo.js"></script>
+        <script type="text/javascript" src="fancybox/fancybox2/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="fancybox/fancybox2/source/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="fancybox/simpleInstagramFancybox.js"></script>
+        <script type="text/javascript" src="fancybox/demo/js/demo.js"></script>
 
-        <link href="../fancybox2/source/jquery.fancybox.css" rel="stylesheet" >
-        <link href="../css/demo.css" rel="stylesheet">
-        <link href="../simpleInstagramFancybox.css" rel="stylesheet">
+        <link href="fancybox/fancybox2/source/jquery.fancybox.css" rel="stylesheet" >
+        <link href="fancybox/demo/css/demo.css" rel="stylesheet">
+        <link href="fancybox/simpleInstagramFancybox.css" rel="stylesheet">
         <!--End of instragram gallery assets code-->
 
     </head>
@@ -1041,7 +1041,7 @@
 
             <!--instragram gallery-->
             <div class="brand-02-area pb-100">
-                <div class="container">
+                <div class="">
 
                         <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
                              <div class="section-title text-center mr-40 ml-40 mb-75">
@@ -1049,27 +1049,11 @@
                                  <h1> Siguenos en Instagram </h1>
                              </div>
                         </div>                     
-                        <div class="demo"></div>
+                        <div class="element"></div>
                 </div>
-                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                <div class="elfsight-app-f5fcb535-b5f9-4788-a239-c0defd00ea2b"></div>
             </div>
-            <!-- 
-                PIXLEE POSIBLE SOLUCION
-                Intagram-gallery-end-->
-            <div class="element"></div>
-            <script type="text/javascript">
-                $('.element').simpleInstagramFancybox({
-                   mode : 'user',
-                   userID : '2250984640',
-                   accessToken : 'YOUR_ACCESS_TOKEN',
-                   speed : 700,
-                   delayInterval : 80,
-                   appearEffect : 'fade',
-                   captionOn : false
-                });
-            </script>
-
+            <!--Intagram-gallery-end-->
+            
 
             <!-- brand-area-start -->
 
@@ -1397,9 +1381,16 @@
         <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
         <!--Instagram Gallery-->
+
         <script type="text/javascript">
-            $(document).ready(function(){
-                $('.demo').simpleInstagramFancybox();
+            $('.element').simpleInstagramFancybox({
+               mode : 'user',
+               userID : '17841402179211373',
+               accessToken : 'EAAEHqNm5i0cBAKgEV4ZBEBACwcMv9QJPx8VGCZCQrZBeRJZCHTKOXz2ZAAnUBl5PZCIDWNyZANA7QPMzlxw88TGXrDnzLGeVso70HAs42XyP3bV3UOEs3JQZB34cjMIZCS7ZCc8nnZCDNm155ZAAqZC47hMZCn3l51ZAZBYcEmTHrsRHTWSKp2PxUbXRqZBYh',
+               speed : 700,
+               delayInterval : 80,
+               appearEffect : 'fade',
+               captionOn : false
             });
         </script>
 
