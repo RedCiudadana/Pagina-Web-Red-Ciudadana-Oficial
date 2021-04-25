@@ -5865,6 +5865,10 @@ button.b-btn.btn-black {
   color: #19A280;
 }
 
+.slider-post h2{
+  font-size: 2rem!important;
+}
+
 
 /*Nosotros*/
 .history-wrapper:hover{
