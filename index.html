@@ -46,6 +46,12 @@
         <link href="fancybox/simpleInstagramFancybox.css" rel="stylesheet">
         <!--End of instragram gallery assets code-->
 
+        <!--Start of Pop up js-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw==" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <!--End Pop up js-->
+
     </head>
     <body class="p0">
         
@@ -103,7 +109,6 @@
             </div>
         </header>
         <!-- header-end -->
-
         <main>
             
 
@@ -129,8 +134,22 @@
                             <div class="slider-video-icon">
 			                    <a class="popup-video play-btn-style" href="https://youtu.be/RFu8UDHeZIA"><i class="fas fa-play"></i></a>
 			                </div>
-                                
+                            <!--Intento pop up video-->
+                            <!--div class="slider-video-icon">
+                                <a href="#videostory" class="popup-video play-btn-style" id="videolink"><i class="fas fa-play" aria-hidden="true"></i></a>                                
+                            </div>
+
+                            <div id="videostory" class="mfp-hide" style="max-width: 75%;margin: 0 auto;">
+                                <iframe width="853" height="480" src="https://www.youtube.com/embed/RFu8UDHeZIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                             
+                            <script type="text/javascript">
+                                $('#videolink').magnificPopup({
+                                    type:'inline',
+                                    midClick:true
+                                });
+                            </script-->
+
                         </div>
                     </div>
                 </div>
@@ -1339,6 +1358,15 @@
             });
         </script>
         <!-- End of sidebar build code -->
+
+        <!--Start script of pop up video-->
+        <script type="text/javascript">
+            $('#videolink').magnificPopup({
+                type:'inline',
+                midClick:true
+            });
+        </script>
+        <!--End script of pop up video-->
 
         <!-- JS here -->
         <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
