@@ -47,9 +47,14 @@
         <!--End of instragram gallery assets code-->
 
         <!--Start of Pop up js-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw==" crossorigin="anonymous" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <!-- Magnific Popup core CSS file -->
+        <link rel="stylesheet" href="assets/dist/magnific-popup.css">
+
+        <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+        <!-- Magnific Popup core JS file -->
+        <script src="assets/dist/jquery.magnific-popup.js"></script>
         <!--End Pop up js-->
 
     </head>
@@ -131,11 +136,11 @@
                             </div>
                         </div>
                         <div class="col-xl-3">
-                            <div class="slider-video-icon">
-			                    <a class="popup-video play-btn-style" href="https://youtu.be/RFu8UDHeZIA"><i class="fas fa-play"></i></a>
-			                </div>
-                            <!--Intento pop up video-->
                             <!--div class="slider-video-icon">
+			                    <a class="popup-video play-btn-style" href="https://youtu.be/RFu8UDHeZIA"><i class="fas fa-play"></i></a>
+			                </div-->
+                            <!--Intento pop up video-->
+                            <div class="slider-video-icon">
                                 <a href="#videostory" class="popup-video play-btn-style" id="videolink"><i class="fas fa-play" aria-hidden="true"></i></a>                                
                             </div>
 
@@ -143,12 +148,7 @@
                                 <iframe width="853" height="480" src="https://www.youtube.com/embed/RFu8UDHeZIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             
-                            <script type="text/javascript">
-                                $('#videolink').magnificPopup({
-                                    type:'inline',
-                                    midClick:true
-                                });
-                            </script-->
+
 
                         </div>
                     </div>

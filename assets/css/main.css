@@ -5955,3 +5955,8 @@ body .sk-ww-medium-publication-feed .sk-medium-publication-feed-profile-descript
 .p0{
   padding: 0!important;
 }
+
+button.mfp-close, button.mfp-arrow{
+  color: white!important;
+  size: 40px!important;
+}
