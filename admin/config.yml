@@ -18,10 +18,10 @@ collections:
       - { name: "title", label: "Title" }
       - { name: "enlace", label: "Enlace" }
       - {
-          name: "categoria",
-          label: "Categoria",
+          name: "programa",
+          label: "Programa",
           widget: "relation",
-          collection: "categorias",
+          collection: "programas",
           searchFields: ["nombre"],
           valueField: "nombre",
           multiple: false,
@@ -149,15 +149,15 @@ collections:
           default: false,
           hint: "Display podcast in home's highlights",
         }
-  - name: "categorias"
-    label: "Categorias"
-    folder: "src/categoria"
+  - name: "programas"
+    label: "Programas"
+    folder: "src/programas"
     create: true
     slug: "{{slug}}"
     identifier_field: nombre
     fields:
-      - { label: "Id", name: "id" }
       - { label: "Nombre", name: "nombre", widget: "string" }
-      - { label: "Img", name: "img", widget: "image" }
+      - { name: "description", label: "Description" }
+      - { label: "Foto", name: "foto", widget: "image" }
 
 show_preview_links: true
