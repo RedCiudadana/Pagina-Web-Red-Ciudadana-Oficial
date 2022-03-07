@@ -25,7 +25,6 @@ collections:
           searchFields: ["nombre"],
           valueField: "nombre",
           multiple: false,
-          hint: "Seleccione solo uno porfavor",
         }
       - { name: "descripcion", label: "Descripcion", widget: "markdown" }
       - { name: "ano", label: "Año" }
