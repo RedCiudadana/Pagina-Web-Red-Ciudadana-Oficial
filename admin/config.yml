@@ -159,5 +159,6 @@ collections:
       - { label: "Nombre", name: "nombre", widget: "string" }
       - { name: "description", label: "Description" }
       - { label: "Foto", name: "foto", widget: "image" }
+      - { label: "FotoPreview", name: "fotop", widget: "image" }
 
 show_preview_links: true
