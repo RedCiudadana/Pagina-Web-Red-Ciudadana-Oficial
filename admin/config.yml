@@ -152,7 +152,7 @@ collections:
   - name: "categorias"
     label: "Categorias"
     folder: "src/categoria"
-    create: false
+    create: true
     slug: "{{slug}}"
     identifier_field: nombre
     fields:
