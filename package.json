@@ -1,0 +1,26 @@
+{
+  "name": "pagina-web-red-ciudadana-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedCiudadana/Pagina-Web-Red-Ciudadana-2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedCiudadana/Pagina-Web-Red-Ciudadana-2021/issues"
+  },
+  "homepage": "https://github.com/RedCiudadana/Pagina-Web-Red-Ciudadana-2021#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
