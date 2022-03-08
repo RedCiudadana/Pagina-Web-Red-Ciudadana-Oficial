@@ -161,5 +161,23 @@ collections:
       - { name: "description", label: "Description" }
       - { label: "Foto", name: "foto", widget: "image" }
       - { label: "FotoPreview", name: "fotop", widget: "image" }
+  - name: "adds"
+    label: "Adds"
+    folder: "src/adds"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: nombre
+    fields:
+      - { label: "Nombre", name: "nombre" }
+      - { name: "enlaceh", label: "Enlace Add Horizontal" }
+      - { name: "enlacev", label: "Enlace Add Vertical" }
+      - { name: "enlaceg", label: "Enlace Add de Google" }
+      - {
+          name: "highlight",
+          label: "Highlight",
+          widget: "boolean",
+          default: false,
+          hint: "Anuncio Activo",
+        }
 
 show_preview_links: true
