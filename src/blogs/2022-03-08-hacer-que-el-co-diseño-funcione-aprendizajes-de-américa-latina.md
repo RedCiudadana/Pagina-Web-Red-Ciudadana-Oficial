@@ -5,7 +5,7 @@ description: Diseña con, no para. Involucra a más personas en el proceso. Esto
   son principios fundamentales para vivir, trabajar y diseñar.
 autor: Mer Joyce
 correo: Mer@dobiggood.com
-date: 2022-03-08T03:41:17.800Z
+date: 2021-12-16T03:41:17.800Z
 highlight: false
 ---
 <!--StartFragment-->

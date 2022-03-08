@@ -5,7 +5,7 @@ description: Durante la pandemia, los socios de ImpactaLatam estaban trabajando
   en mejorar sus habilidades para generar y medir el impacto.
 autor: Mer Joyce
 correo: Mer@dobiggood.com
-date: 2022-03-08T03:39:57.542Z
+date: 2021-12-16T03:39:57.542Z
 highlight: false
 ---
 <!--StartFragment-->
