@@ -274,364 +274,95 @@ permalink: "index.html"
                                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="row">
 
-                                        	<!-- Proyecto 1 - Innovación en Gobierno --> 
+                                            {% for proyecto in collections.proyectos%}
+                                            {% if proyecto.data.programa == 'Innovación en Gobierno'%}
+
+                                            <!-- Proyecto - Innovación en Gobierno --> 
                                             <div class="col-xl-4 col-lg-4 col-md-6">
                                                 <div class="case-wrapper case-02-wrapper mb-30">
                                                     <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/PROYECTOS/32_GOBIERNO-ABIERTO.png" alt="Gobierno Abierto"></a>
+                                                        <a href="{{proyecto.url}}"><img src="{{proyecto.data.foto}}" alt="{{proyecto.data.title}}"></a>
                                                     </div>
                                                     <div class="case-text">
-                                                        <h3><a href="proyectos.html">Gobierno Abierto </a></h3>
+                                                        <h3><a href="{{proyecto.url}}"> {{proyecto.data.title}} </a></h3>
                                                         <span>2019</span>
                                                     </div>
                                                     <div class="case-info">
-                                                        <p>En este proyecto se brindó asistencia técnica a la Comision de Gobierno Abierto y Electronico (GAE) para el Plan de Gobierno Abierto. Este proyecto trae consigo un acompañamiento en las fases posteriores, de co-creación y definición del plan de Gobierno Abierto. </p>
+                                                        <p> {{proyecto.data.descripcion}} </p>
                                                         <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
+                                                            <a href="{{proyecto.url}}"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                        	<!-- Proyecto 2 - Innovación en Gobierno --> 
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/PROYECTOS/26_Portal datos abiertos MINFIN.jpg" alt="Portal datos abiertos MINFIN"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Portal datos abiertos MINFIN </a></h3>
-                                                        <span>2018</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>En este proyecto se brindó asistencia técnica al Ministerio de Finanzas Públicas para desarrollar y lanzar su portal de datos abiertos. Este proyecto trae consigo un acompañamiento en las fases posteriores, de creación y fomento del ecosistema de datos abiertos. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        	<!-- Proyecto 3 - Innovación en Gobierno --> 
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/PROYECTOS/06_Justicia Abierta.jpg" alt="Justicia Abierta"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Justicia Abierta </a></h3>
-                                                        <span>2020</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>En este proyecto se brindó asistencia técnica a la Comision de Gobierno Abierto y Electronico (GAE) para el Plan de Gobierno Abierto. Este proyecto trae consigo un acompañamiento en las fases posteriores, de co-creación y definición del plan de Gobierno Abierto. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        	<!-- Proyecto 4 - Innovación en Gobierno --> 
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="causes-details.html"><img src="assets/ELEMENTOS/PROYECTOS/03_Plataforma de Servicios Públicos.jpg" alt="Gobierno Digital"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Gobierno Digital </a></h3>
-                                                        <span>2019</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>En este proyecto se brindó asistencia técnica a la Comision de Gobierno Abierto y Electronico (GAE) para la Transformación Digital del Estado. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        	<!-- Proyecto 5 - Innovación en Gobierno --> 
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/PROYECTOS/14_Fortalecimiento Municipal NIMD.jpg" alt="Fortalecimiento Municipal NIMD"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Fortalecimiento Municipal NIMD </a></h3>
-                                                        <span>2021</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Este proceso de formación forma parte del programa Jóvenes+D del Instituto Holandés para la Democracia Multipartidaria (NIMD) organizado por Red Ciudadana permite a los participantes conocer teoría y aplicar casos prácticos sobre temas que actualmente marcan tendencia para mejorar la gobernabilidad y democracia a nivel municipal. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        	<!-- Proyecto 6 - Innovación en Gobierno --> 
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/PROYECTOS/13_San Juan Sacatepequez en Datos.jpg" alt="San Juan Sacatepequez en Datos"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">San Juan Sacatepequez en Datos </a></h3>
-                                                        <span>2020</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Este proyecto/ subvención desarrolla un proceso de apoyo y asistencia técnica a la Municipalidad de San Juan Sacatepéquez, junto con el PNUD, para fortalecer las capacidades municipales en materia de datos abiertos, transparencia y auditoría social. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        	<!-- Proyecto 7 - Innovación en Gobierno --> 
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="causes-details.html"><img src="assets/ELEMENTOS/PROYECTOS/03_Plataforma de Servicios Públicos.jpg" alt="Servicios Públicos"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Servicios Públicos </a></h3>
-                                                        <span>2021</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Este proceso de formación forma parte del programa Jóvenes+D del Instituto Holandés para la Democracia Multipartidaria (NIMD) organizado por Red Ciudadana permite a los participantes conocer teoría y aplicar casos prácticos sobre temas que actualmente marcan tendencia para mejorar la gobernabilidad y democracia a nivel municipal. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        	<!-- Proyecto 8 - Innovación en Gobierno --> 
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/PROYECTOS/33_MANCO-VERAPAZ.png" alt="MancoVerapaz"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">MancoVerapaz </a></h3>
-                                                        <span>2021</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Fortalecimiento de servicios publicos y capacidades digitales de los municipios de MancoVerapaz. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            {% endif %}
+                                            {% endfor %}
 
                                         </div>
                                     </div>
                                     
                                 <!-- Innovación Social -->
-                                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                     <div class="row">
 
-                                        	<!-- Proyecto 1 - Innovación Social --> 
+                                        	{% for proyecto in collections.proyectos%}
+                                            {% if proyecto.data.programa == 'Innovación Social'%}
+
+                                            <!-- Proyecto - Innovación Social --> 
                                             <div class="col-xl-4 col-lg-4 col-md-6">
                                                 <div class="case-wrapper case-02-wrapper mb-30">
                                                     <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/PROYECTOS/11_Desafio COVID-19.jpg" alt="Desafio COVID-19"></a>
+                                                        <a href="{{proyecto.url}}"><img src="{{proyecto.data.foto}}" alt="{{proyecto.data.title}}"></a>
                                                     </div>
                                                     <div class="case-text">
-                                                        <h3><a href="proyectos.html">Desafio COVID-19 </a></h3>
-                                                        <span>2020</span>
+                                                        <h3><a href="{{proyecto.url}}"> {{proyecto.data.title}} </a></h3>
+                                                        <span>2019</span>
                                                     </div>
                                                     <div class="case-info">
-                                                        <p>El desafío COVID19 es un iniciativa para ciudadanos y ciudadanas de Guatemala que deseen presentar modelos físicos funcionales hechos con materiales locales de fácil acceso y bajo costo, para resolver problemas reales relacionados con el COVID-19 a nivel comunitario y municipal. </p>
+                                                        <p> {{proyecto.data.descripcion}} </p>
                                                         <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
+                                                            <a href="{{proyecto.url}}"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                        	<!-- Proyecto 2 - Innovación Social --> 
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/PROYECTOS/12_Hackathon COVID-19.jpg" alt="Hackathon COVID-19"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Hackathon COVID-19 </a></h3>
-                                                        <span>2021</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>El proyecto Hackathon Covi-19 surge ante la crisis de salud pública que se enfrenta de manera mundial, y en busca de fomentar espacios de innovación y construcción de oportunidades. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            {% endif %}
+                                            {% endfor %}
 
 
                                     </div>
                                  </div>
 
                            	   	<!-- Auditoria Social -->
-                                   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                                     <div class="row">
  
-                                        	<!-- Proyecto 1 - Auditoria Social --> 
+                                        	{% for proyecto in collections.proyectos%}
+                                            {% if proyecto.data.programa == 'Auditoria Social'%}
+
+                                            <!-- Proyecto - Auditoria Social --> 
                                             <div class="col-xl-4 col-lg-4 col-md-6">
                                                 <div class="case-wrapper case-02-wrapper mb-30">
                                                     <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/HOME/PROYECTOS/01_ELECCION CC.png" alt="Elección Corte de Constitucionalidad"></a>
+                                                        <a href="{{proyecto.url}}"><img src="{{proyecto.data.foto}}" alt="{{proyecto.data.title}}"></a>
                                                     </div>
                                                     <div class="case-text">
-                                                        <h3><a href="proyectos.html">Elección Corte de Constitucionalidad </a></h3>
-                                                        <span>2021</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Este proyecto de elección CC es una plataforma para conocer todo el proceso de la elección de magistrados y magistradas de la Corte de Constitucionalidad (2021 - 2026). </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Proyecto 2  - Auditoria Social  -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/HOME/PROYECTOS/02-JUSTICIAPEDIA.png" alt="JusticiaPedia"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">JusticiaPedia </a></h3>
-                                                        <span>2020</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Es una herramienta interactiva y sencilla que busca acercar a la ciudadanía con el sector justicia, hacer que sea comprensible, socializar y fomentar la participación ciudadana. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <!-- Proyecto 3 Auditoria Social  -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/HOME/PROYECTOS/04_NUESTRA SALUD.png" alt="Nuestra Salud"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Nuestra Salud  </a></h3>
-                                                        <span>2020</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Este proyecto es una herramienta cívica y de fiscalización que tiene como fin centralizar de información pública de manera amigable con la ciudadanía para buscar la transparencia en las acciones, gasto e inversión que realiza el Ministerio de Salud y Asistencia Social para enfrentar la emergencia de COVID 19 en Guatemala. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <!-- Proyecto 4  Auditoria Social  -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/HOME/PROYECTOS/05-AVMI.png" alt="¿A dónde van mis Impuestos?"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">¿A dónde van mis Impuestos?  </a></h3>
-                                                        <span>2016</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Plataforma virtual, amigable para conocer el presupuesto de la nación y como son utilizados los impuestos por el Gobierno. Asimismo diversas herramientas para conocer como se distribuye el presupuesto y el gasto a nivel institucional. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Proyecto 5 - Auditoria Social  -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/HOME/PROYECTOS/07_CANDIDATOS.png" alt="Candidatos"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Candidatos  </a></h3>
+                                                        <h3><a href="{{proyecto.url}}"> {{proyecto.data.title}} </a></h3>
                                                         <span>2019</span>
                                                     </div>
                                                     <div class="case-info">
-                                                        <p>Candidatos.gt es una plataforma web que permitió visualizar a los guatemaltecos, la información de los candidatos presidenciales en las elecciones del 2019. </p>
+                                                        <p> {{proyecto.data.descripcion}} </p>
                                                         <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
+                                                            <a href="{{proyecto.url}}"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <!-- Proyecto 6 - Auditoria Social -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/HOME/PROYECTOS/08_SEMAFORO ELECTORAL.png" alt="Semáforo Electoral"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Semáforo Electoral  </a></h3>
-                                                        <span>2019</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>El proyecto Semaforo electoral es una herramienta que busca facilitar a la ciudadanía la comprensión de qué es permitido y qué no lo es, en cada momento del proceso de campaña electoral, así como el reporte hacia el Tribunal Supremo Electoral de cualquier violación de la ley por parte de los partidos. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Proyecto 7 - Auditoria Social -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/HOME/PROYECTOS/09_ELECCION MP.png" alt="Elección MP"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Elección MP  </a></h3>
-                                                        <span>2018</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>“ElecciónMP” es un proyecto que utiliza estrategias y actividades mixtas para transparentar el proceso de elección del Fiscal General (2018- 2022) de Guatemala e incentivar la participación e incidencia ciudadana en los tomadores de decisiones para la evaluación de postulantes idóneos. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Proyecto 8 - Auditoria Social  -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/HOME/PROYECTOS/10_OBSERVATORIO FISCAL.png" alt="Observatorio Fiscal"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Observatorio Fiscal  </a></h3>
-                                                        <span>2021</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>El proyecto busca desarrollar iniciativas destinadas a generar una evaluación ciudadana del gasto público y a promover, con ello, una mejor rendición de cuentas en Guatemala. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            {% endif %}
+                                            {% endfor %}
 
                                     </div>
 
@@ -639,104 +370,34 @@ permalink: "index.html"
                                    </div>
 
                            	   	<!-- Fortalecimiento de Espacios Cívicos -->
-                                   <div class="tab-pane fade" id="contact1" role="tabpanel" aria-labelledby="contact-tab1">
+                                <div class="tab-pane fade" id="contact1" role="tabpanel" aria-labelledby="contact-tab1">
                                     <div class="row">
 
 
-                                            <!-- Proyecto 1 - Fortalecimiento de Espacios Cívicos -->
+                                            {% for proyecto in collections.proyectos%}
+                                            {% if proyecto.data.programa == 'Fortalecimiento de Espacios Cívicos'%}
+
+                                            <!-- Proyecto - Fortalecimiento de Espacios Cívicos --> 
                                             <div class="col-xl-4 col-lg-4 col-md-6">
                                                 <div class="case-wrapper case-02-wrapper mb-30">
                                                     <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/PROYECTOS/01_ImpactaLatam.jpg" alt="ImpactaLatam"></a>
+                                                        <a href="{{proyecto.url}}"><img src="{{proyecto.data.foto}}" alt="{{proyecto.data.title}}"></a>
                                                     </div>
                                                     <div class="case-text">
-                                                        <h3><a href="proyectos.html">ImpactaLatam </a></h3>
-                                                        <span>2021</span>
+                                                        <h3><a href="{{proyecto.url}}"> {{proyecto.data.title}} </a></h3>
+                                                        <span>2019</span>
                                                     </div>
                                                     <div class="case-info">
-                                                        <p>El proyecto ImpactaLatam es una creación de plataforma oficial. Es un proyecto de 15 ONG latinoamericanas que trabajan en democracia, gobernanza y derechos humanos para construir herramientas que simplifiquen el proceso de evaluación y monitoreo del impacto. </p>
+                                                        <p> {{proyecto.data.descripcion}} </p>
                                                         <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
+                                                            <a href="{{proyecto.url}}"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <!-- Proyecto 2 - Fortalecimiento de Espacios Cívicos -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/HOME/PROYECTOS/06_NUESTRA ELECCION.png" alt="Nuestra Elección"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Nuestra Elección  </a></h3>
-                                                        <span>2021</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Nuestra Elección es un plataforma desarrollada por Fundación Ciudadanía Inteligente de Chile y Red Ciudadana de Guatemala que busca cambiar la forma en que se viven las elecciones en Guatemala para que esta vez sean los ciudadanos y ciudadanas los que hagan sus propuestas a las candidaturas. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Proyecto 3 - Fortalecimiento de Espacios Cívicos -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/PROYECTOS/21_Mochila Electoral.jpg" alt="Mochila Electoral"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Mochila Electoral  </a></h3>
-                                                        <span>2021</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Proyecto donde se realizó un directorio de iniciativas electorales. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Proyecto 4 - Fortalecimiento de Espacios Cívicos -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/HOME/PROYECTOS/03-ALIANZA POR LA DEM.png" alt="Alianza por la Democracia"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Alianza por la Democracia </a></h3>
-                                                        <span>2021</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Este proyecto es un grupo de organizaciones de sociedad civil que están inmersas en distintas luchas y diversos frentes de acción en nuestras sociedades, identificamos la necesidad de desarrollar una alianza que actúe como un puente comunicante para tomar acción a nivel regional. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Proyecto 5 - Fortalecimiento de Espacios Cívicos -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6">
-                                                <div class="case-wrapper case-02-wrapper mb-30">
-                                                    <div class="case-img">
-                                                        <a href="proyectos.html"><img src="assets/ELEMENTOS/PROYECTOS/20_Guatemala Leaks.jpg" alt="Guatemala Leaks"></a>
-                                                    </div>
-                                                    <div class="case-text">
-                                                        <h3><a href="proyectos.html">Guatemala Leaks </a></h3>
-                                                        <span>2021</span>
-                                                    </div>
-                                                    <div class="case-info">
-                                                        <p>Guatemala Leaks es una plataforma de periodismo independiente y segura para compartir información de interés público de forma confidencial. </p>
-                                                        <div class="b-button">
-                                                            <a href="proyectos.html"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            {% endif %}
+                                            {% endfor %}
 
 
 
