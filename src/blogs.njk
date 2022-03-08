@@ -1,0 +1,81 @@
+---
+pagination:
+  data: collections.blogs
+  size: 5
+  alias: blogs
+  reverse: true
+permalink: "blogs/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+
+{% extends "base.njk" %}
+
+{% block head %}
+<title>Red Ciudadana - Blogs</title>
+{% endblock %}
+
+{% block content %}
+
+            <!-- Banner -area-start -->
+            <div class="breadcrumb-area pt-150 pb-155" style="background-image:url(/assets/ELEMENTOS/EVENTOS/SLIDER-EVENTOS.png)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="breadcrumb-text text-center">
+                                <h1>Blogs </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- breadcrumb-area-end -->
+
+            <!-- event-area-start -->
+            <div class="event-area pt-80 pb-130">
+                <div class="container">
+                    <div class="breadcrumb-text text-left">
+                        <h2>Blogs </h2>
+                    </div><br>
+
+                    {% if blogs%}
+                    {% for post in blogs%}
+
+                    <!-- Evento 1 -->
+                    <div class="event-bg event-bg-03 pos-rel mb-30">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="event-content mb-20">
+                                    <span><i class="far fa-calendar-alt verdeo"></i> Fecha:</span>
+                                    <h3>{{post.data.date | dateFormat('DD / MM / YYYY')}}</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4">
+                                <div class="event-img mb-20">
+                                    <a href="{{post.url}}"><img src="{{post.data.image}}" alt="Lanzamiento Web Red Ciudadana"></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-lg-5">
+                                <div class="event-wrapper mb-20 ">
+                                    <div class="event-text">
+                                        <span><i class="far fa-map-marked-alt verdeo"></i> {{post.data.description}}</span>
+                                        <h3><a href="{{post.url}}">{{post.data.title}}</a></h3>
+                                    </div>
+                                    <div class="event-meta">
+                                        <span><i class="far fa-user-circle"></i>{{post.data.autor}}</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="evt-button">
+                            <a href="{{post.url}}"><i class="far fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    {% endfor %}
+                    {% endif %}
+
+                </div>
+            </div>
+            <!-- event-area-end -->
+
+{% endblock %}
