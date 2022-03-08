@@ -62,6 +62,7 @@ collections:
       - { name: "title", label: "Title" }
       - { label: "Image", name: "image", widget: "image" }
       - { name: "description", label: "Description" }
+      - { name: "enlace", label: "Enlace Publicación" }
       - { name: "autor", label: "Autor" }
       - { name: "correo", label: "Correo" }
       - { name: "date", label: "Date", widget: "datetime" }
@@ -106,6 +107,7 @@ collections:
       - { name: "title", label: "Title" }
       - { label: "Image", name: "image", widget: "image" }
       - { name: "description", label: "Description" }
+      - { name: "enlace", label: "Enlace" }
       - { name: "autor", label: "Autor" }
       - { name: "correo", label: "Correo" }
       - { name: "date", label: "Date", widget: "datetime" }
