@@ -55,12 +55,13 @@ permalink: "blogs/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageNum
                             </div>
                             <div class="col-xl-5 col-lg-5">
                                 <div class="event-wrapper mb-20 ">
-                                    <div class="event-text">
-                                        <span><i class="far fa-map-marked-alt verdeo"></i> {{post.data.description}}</span>
+                                    <div class="event-text">                                    
                                         <h3><a href="{{post.url}}">{{post.data.title}}</a></h3>
                                     </div>
                                     <div class="event-meta">
                                         <span><i class="far fa-user-circle"></i>{{post.data.autor}}</span>
+                                        <br>
+                                        <span><i class="far fa-map-marked-alt verdeo"></i> {{post.data.description}}</span>
                                     </div>
 
                                 </div>
@@ -73,6 +74,19 @@ permalink: "blogs/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageNum
 
                     {% endfor %}
                     {% endif %}
+
+                    <div class="d-flex justify-content-center">
+                        {% if pagination.href.previous %}
+                        <div class="mx-4">
+                            {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Blogs más recientes</a>{% else %}←  Nuevos blog{% endif %}
+                        </div>
+                        {% endif %}
+                        {% if pagination.href.next %}
+                        <div class="mx-4">
+                            {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Blogs anteriores →</a>{% else %}Blog anteriores →{% endif %}
+                        </div>
+                        {% endif %}
+                    </div>
 
                 </div>
             </div>
