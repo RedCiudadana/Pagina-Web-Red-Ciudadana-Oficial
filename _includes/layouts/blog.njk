@@ -9,6 +9,17 @@
     
 <!--POST-->
 <div class="container " >
+
+  <div class="row my-4 py-4">
+    {% if collections.adds %}
+      {% for anuncio in collections.adds %}
+        <div class="col-xl-12 col-lg-12 col-md-12">
+          <embed src="{{anuncio.data.enlaceh}}">
+        </div>  
+      {% endfor %}
+    {% endif %}
+  </div>
+
   <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12">
       <article>
@@ -45,6 +56,13 @@
                         height="152" frameBorder="0" allowfullscreen="" class="rifra"
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     </div>
+                  {% endfor %}
+                {% endif %}
+                {% if collections.adds %}
+                  {% for anuncio in collections.adds %}
+                    <div class="block">
+                      <embed src="{{anuncio.data.enlacev}}">
+                    </div>  
                   {% endfor %}
                 {% endif %}
               </div>
