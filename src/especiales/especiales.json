@@ -1,5 +1,0 @@
-{
-    "tags": "especiales",
-    "permalink": "especiales/{{ page.fileSlug }}/index.html",
-    "layout": "layouts/especial.njk"
-}
