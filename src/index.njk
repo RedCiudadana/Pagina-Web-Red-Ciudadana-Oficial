@@ -443,21 +443,45 @@ permalink: "index.html"
                              </div>
                         </div>
                     </div>
-                    <!--Embed de medium-->
                     <div class="row">
-                        <div class="col-xl-12 col-lg-12 col-md-12">
-                            <div class="blog-wrapper mb-30"  style="z-index:10000">
-                                <div id="retainable-rss-embed" 
-                                data-rss="https://medium.com/feed/redciudadana" 
-                                 data-maxcols="3" 
-                                 data-layout="slider" 
-                                 data-poststyle="modal" 
-                                 data-readmore="Leer Más" 
-                                 data-buttonclass="btn btn-primary" 
-                                 data-offset="-200">&#160;</div>   
+                    {% for post in collections.blogs | reverse | limit(4)%}
+
+                        <!-- Blog -->
+                        <div class="event-bg event-bg-03 pos-rel mb-30 ">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-3">
+                                    <div class="event-content mb-20">
+                                        <span><i class="far fa-calendar-alt verdeo"></i> Fecha:</span>
+                                        <h3>{{post.data.date | dateFormat('DD / MM / YYYY')}}</h3>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4">
+                                    <div class="event-img mb-20">
+                                        <a href="{{post.url}}"><img src="{{post.data.image}}" alt="Lanzamiento Web Red Ciudadana"></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-5 col-lg-5">
+                                    <div class="event-wrapper mb-20 ">
+                                        <div class="event-text">                                    
+                                            <h3><a href="{{post.url}}">{{post.data.title}}</a></h3>
+                                        </div>
+                                        <div class="event-meta">
+                                            <span><i class="far fa-user-circle"></i>{{post.data.autor}}</span>
+                                            <br>
+                                            <span><i class="far fa-map-marked-alt verdeo"></i> {{post.data.description}}</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="evt-button">
+                                <a href="{{post.url}}"><i class="far fa-long-arrow-right"></i></a>
                             </div>
                         </div>
+
+                    {% endfor %}
                     </div>
+
                 </div>
             </div>
             <!-- blog-area-end -->
