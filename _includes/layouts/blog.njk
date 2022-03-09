@@ -14,7 +14,7 @@
     {% if collections.addsHighlighted %}
       {% for anuncio in collections.addsHighlighted %}
         <div class="col-xl-12 col-lg-12 col-md-12">
-          <embed src="{{anuncio.data.enlaceh}}">
+          <embed width="100%" src="{{anuncio.data.enlaceh}}">
         </div>  
       {% endfor %}
     {% endif %}
@@ -61,10 +61,10 @@
                 {% if collections.addsHighlighted %}
                   {% for anuncio in collections.addsHighlighted %}
                     <div class="block mb-4">
-                      <embed src="{{anuncio.data.enlacev}}">
+                      <embed width="100%" src="{{anuncio.data.enlacev}}">
                     </div>
                     <div class="block mb-4">
-                      <embed src="{{anuncio.data.enlaceg}}">
+                      <embed width="100%" src="{{anuncio.data.enlaceg}}">
                     </div>  
                   {% endfor %}
                 {% endif %}
@@ -104,11 +104,13 @@
                     <div class="col-xl-5 col-lg-5">
                         <div class="event-wrapper mb-20 ">
                             <div class="event-text">
-                                <span><i class="far fa-map-marked-alt verdeo"></i> {{post.data.description}}</span>
+                                
                                 <h3><a href="{{post.url}}">{{post.data.title}}</a></h3>
                             </div>
                             <div class="event-meta">
                                 <span><i class="far fa-user-circle"></i>{{post.data.autor}}</span>
+                                <br>
+                                <span><i class="far fa-map-marked-alt verdeo"></i> {{post.data.description}}</span>
                             </div>
 
                         </div>
