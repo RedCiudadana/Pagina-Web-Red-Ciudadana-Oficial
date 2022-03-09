@@ -11,8 +11,8 @@
 <div class="container " >
 
   <div class="row my-4 py-4">
-    {% if collections.adds %}
-      {% for anuncio in collections.adds %}
+    {% if collections.addsHighlighted %}
+      {% for anuncio in collections.addsHighlighted %}
         <div class="col-xl-12 col-lg-12 col-md-12">
           <embed src="{{anuncio.data.enlaceh}}">
         </div>  
@@ -58,8 +58,8 @@
                     </div>
                   {% endfor %}
                 {% endif %}
-                {% if collections.adds %}
-                  {% for anuncio in collections.adds %}
+                {% if collections.addsHighlighted %}
+                  {% for anuncio in collections.addsHighlighted %}
                     <div class="block">
                       <embed src="{{anuncio.data.enlacev}}">
                     </div>  

@@ -28,4 +28,10 @@ module.exports = function (eleventyConfig) {
             return item.data.highlight == true;
         });
     });
+
+    eleventyConfig.addCollection('addsHighlighted', (collectionApi) => {
+        return collectionApi.getFilteredByTag('adds').filter((item) => {
+            return item.data.highlight == true;
+        });
+    });
 }
