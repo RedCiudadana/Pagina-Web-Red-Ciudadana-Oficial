@@ -147,9 +147,24 @@ collections:
     identifier_field: nombre
     fields:
       - { label: "Nombre", name: "nombre" }
-      - { name: "enlaceh", label: "Enlace Add Horizontal", widget: "image" }
-      - { name: "enlacev", label: "Enlace Add Vertical", widget: "image" }
-      - { name: "enlaceg", label: "Enlace Add de Google", widget: "image" }
+      - {
+          name: "enlaceh",
+          label: "Enlace Add Horizontal",
+          widget: "image",
+          required: false,
+        }
+      - {
+          name: "enlacev",
+          label: "Enlace Add Vertical",
+          widget: "image",
+          required: false,
+        }
+      - {
+          name: "enlaceg",
+          label: "Enlace Add de Google",
+          widget: "image",
+          required: false,
+        }
       - {
           name: "highlight",
           label: "Highlight",
