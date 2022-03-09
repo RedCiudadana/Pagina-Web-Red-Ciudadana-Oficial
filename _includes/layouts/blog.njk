@@ -60,8 +60,11 @@
                 {% endif %}
                 {% if collections.addsHighlighted %}
                   {% for anuncio in collections.addsHighlighted %}
-                    <div class="block">
+                    <div class="block mb-4">
                       <embed src="{{anuncio.data.enlacev}}">
+                    </div>
+                    <div class="block mb-4">
+                      <embed src="{{anuncio.data.enlaceg}}">
                     </div>  
                   {% endfor %}
                 {% endif %}
