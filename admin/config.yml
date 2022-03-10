@@ -162,7 +162,7 @@ collections:
       - {
           name: "enlaceg",
           label: "Enlace Add de Google",
-          widget: "image",
+          widget: "markdown",
           required: false,
         }
       - {
