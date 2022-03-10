@@ -1,7 +1,7 @@
 ---
 nombre: ADS - EleccionMP
 enlaceh: /assets/img/posts/ELECCION-MP-BANNER320X50.gif
-enlacev: /assets/img/posts/ELECCION-MP-BANNER-160x600.gif
+enlacev: ""
 enlaceg: >-
   <script async
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1186297593871080"
