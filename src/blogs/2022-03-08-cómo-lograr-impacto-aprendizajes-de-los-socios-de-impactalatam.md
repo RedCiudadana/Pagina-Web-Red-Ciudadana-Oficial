@@ -20,6 +20,20 @@ Curiosamente, lo que algunos encontraron más útil no fue evaluar el impacto (e
 
 El primer consejo, en este sentido, fue asegurar que el impacto deseado de un proyecto estuviera alineado con la misión de la organización. Esto significa que lograr el objetivo de un proyecto individual, claramente, promoverá la misión general de la organización.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1186297593871080"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1186297593871080"
+     data-ad-slot="5597731445"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 **II. Al planificar el proyecto, considerar las tareas, el equipo, las herramientas y el tiempo.**
 
 Un número importante de socios de [ImpactaLatam](https://www.impactalatam.org/) sugiere que la planificación del proyecto implica tener presente cuatro elementos:
