@@ -76,6 +76,24 @@ No te acerques a los aliados naturales sólo después de los hechos. Introdúcel
 
 Finalmente, recuerda que estos métodos y herramientas pueden ser nuevos para tus aliadxs y destinatarixs. Es posible que debas invertir tiempo en explicarles qué es la medición de impacto o cómo funciona. De esta forma, todos podrán participar activamente cuando los necesites.
 
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1186297593871080"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1186297593871080"
+     data-ad-slot="5597731445"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
 **IV. Mantente flexible**
 
 Por último, recuerda ser flexible al implementar tu proyecto. Hacer cambios sociales y políticos es tremendamente complejo. Es casi imposible anticipar exactamente cómo funcionará un proyecto en la etapa de planificación.
