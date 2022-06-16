@@ -6019,3 +6019,7 @@ button.mfp-close, button.mfp-arrow{
 .rtb-modal{
   z-index: 10000;
 }
+
+.justify-text{
+  text-align: justify!important;
+}
