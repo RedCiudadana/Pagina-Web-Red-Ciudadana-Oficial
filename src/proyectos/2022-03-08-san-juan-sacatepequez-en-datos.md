@@ -1,6 +1,6 @@
 ---
 title: San Juan Sacatepequez en Datos
-enlace: https://redciudadana.org/proyectos/index.html
+enlace: sjs.redciudadana.org/
 programa: Innovación en Gobierno
 descripcion: Este proyecto/ subvención desarrolla un proceso de apoyo y
   asistencia técnica a la Municipalidad de San Juan Sacatepéquez, junto con el
