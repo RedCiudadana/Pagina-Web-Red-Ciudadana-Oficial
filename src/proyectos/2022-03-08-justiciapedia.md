@@ -1,6 +1,6 @@
 ---
 title: JusticiaPedia
-enlace: https://redciudadana.org/proyectos/index.html
+enlace: justiciapedia.redciudadana.org/
 programa: Auditoria Social
 descripcion: Es una herramienta interactiva y sencilla que busca acercar a la
   ciudadanía con el sector justicia, hacer que sea comprensible, socializar y
