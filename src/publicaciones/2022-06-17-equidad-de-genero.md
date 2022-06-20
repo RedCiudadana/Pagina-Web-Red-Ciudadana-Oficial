@@ -1,6 +1,6 @@
 ---
 title: Participación política de la mujer en Guatemala
-image: /assets/img/posts/01.jpg
+image: /assets/img/posts/publicaciones.png
 description: Equidad de Genero
 enlace: https://publicaciones.redciudadana.org/2021/Un%20acercamiento%20a%20la%20Justicia%20Abierta%20en%20Guatemala%20Justicia%20Abierta%20-%20Red%20Ciudadana.pdf
 autor: Julio Herrera
