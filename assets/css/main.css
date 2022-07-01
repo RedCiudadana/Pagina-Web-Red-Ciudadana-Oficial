@@ -6023,3 +6023,37 @@ button.mfp-close, button.mfp-arrow{
 .justify-text{
   text-align: justify!important;
 }
+
+.cuadro-dep:hover{
+  box-shadow: 5px 5px 5px #b7b7b7;
+}
+
+.cuadro-dep{
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+.cuadro-dep .content{
+  padding: 30px;
+}
+
+.cuadro-dep h1{
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.cuadro-dep img{
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.cuadro-dep .img-bottom img{
+  width:93%;
+  margin:0;
+  bottom:0;
+  position:absolute;
+  left:3.5%
+}

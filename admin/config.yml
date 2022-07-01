@@ -204,5 +204,105 @@ collections:
         }
       - { name: "description", label: "Descripción", widget: "markdown" }
       - { name: "image", label: "Imagen", widget: "image" }
+  - name: "proyecto_departamental"
+    label: "Proyecto Departamental"
+    folder: "src/proyecto_departamental"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { name: "title", label: "Title" }
+      - {
+          name: "departamento",
+          label: "Departamento",
+          widget: "relation",
+          collection: "departamental",
+          searchFields: ["nombre"],
+          valueField: "nombre",
+          multiple: false,
+        }
+      - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "image", label: "Imagen", widget: "image" }
+  - name: "hacknights_departamental"
+    label: "Hacknights Departamental"
+    folder: "src/hacknights_departamental"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { name: "title", label: "Title" }
+      - {
+          name: "departamento",
+          label: "Departamento",
+          widget: "relation",
+          collection: "departamental",
+          searchFields: ["nombre"],
+          valueField: "nombre",
+          multiple: false,
+        }
+      - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "image", label: "Imagen", widget: "image" }
+  - name: "procesos_departamental"
+    label: "Procesos Departamental"
+    folder: "src/procesos_departamental"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { name: "title", label: "Title" }
+      - {
+          name: "departamento",
+          label: "Departamento",
+          widget: "relation",
+          collection: "departamental",
+          searchFields: ["nombre"],
+          valueField: "nombre",
+          multiple: false,
+        }
+      - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "image", label: "Imagen", widget: "image" }
+  - name: "red_departamental"
+    label: "Red Departamental"
+    folder: "src/red_departamental"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { name: "title", label: "Title" }
+      - {
+          name: "departamento",
+          label: "Departamento",
+          widget: "relation",
+          collection: "departamental",
+          searchFields: ["nombre"],
+          valueField: "nombre",
+          multiple: false,
+        }
+      - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "image", label: "Imagen", widget: "image" }
+  - name: "video_departamental"
+    label: "Video Departamental"
+    folder: "src/video_departamental"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { name: "title", label: "Title" }
+      - {
+          name: "departamento",
+          label: "Departamento",
+          widget: "relation",
+          collection: "departamental",
+          searchFields: ["nombre"],
+          valueField: "nombre",
+          multiple: false,
+        }
+      - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "image", label: "Imagen", widget: "image" }
 
 show_preview_links: true
