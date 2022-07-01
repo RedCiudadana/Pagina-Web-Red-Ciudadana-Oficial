@@ -172,5 +172,37 @@ collections:
           default: false,
           hint: "Anuncio Activo",
         }
+  - name: "departamental"
+    label: "Departamental"
+    folder: "src/departamental"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: nombre
+    fields:
+      - { name: "nombre", label: "Nombre del Departamento" }
+      - { name: "titulo", label: "Título" }
+      - { name: "description", label: "Descripión", widget: "markdown" }
+      - { name: "image", label: "Imagen del Departamento", widget: "image" }
+      - { name: "slider", label: "Slider del Departamento", widget: "image" }
+  - name: "estretegia_departamental"
+    label: "Estrategia Departamental"
+    folder: "src/estrategia_departamental"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { name: "title", label: "Title" }
+      - {
+          name: "departamento",
+          label: "Departamento",
+          widget: "relation",
+          collection: "departamental",
+          searchFields: ["nombre"],
+          valueField: "nombre",
+          multiple: false,
+        }
+      - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "image", label: "Imagen", widget: "image" }
 
 show_preview_links: true
