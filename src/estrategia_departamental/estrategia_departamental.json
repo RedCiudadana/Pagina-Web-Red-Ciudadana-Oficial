@@ -1,5 +1,0 @@
-{
-    "tags": "estrategia_departamental",
-    "permalink": "estrategia_departamental/{{ page.fileSlug }}/index.html",
-    "layout": "layouts/departamental.njk"
-}
