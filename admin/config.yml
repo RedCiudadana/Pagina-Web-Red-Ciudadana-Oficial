@@ -224,9 +224,9 @@ collections:
         }
       - { name: "description", label: "Descripción", widget: "markdown" }
       - { name: "image", label: "Imagen", widget: "image" }
-  - name: "hacknights_departamental"
-    label: "Hacknights Departamental"
-    folder: "src/hacknights_departamental"
+  - name: "cursos_talleres_departamental"
+    label: "Cursos y Talleres"
+    folder: "src/cursos_talleres_departamental"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
@@ -244,9 +244,9 @@ collections:
         }
       - { name: "description", label: "Descripción", widget: "markdown" }
       - { name: "image", label: "Imagen", widget: "image" }
-  - name: "procesos_departamental"
-    label: "Procesos Departamental"
-    folder: "src/procesos_departamental"
+  - name: "hacknights_departamental"
+    label: "Hacknights Departamental"
+    folder: "src/hacknights_departamental"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
