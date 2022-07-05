@@ -1,5 +1,5 @@
 ---
-nombre: Verapaz
+nombre: Red Ciudadana Alta Verapaz
 titulo: Red Ciudadana Alta Verapaz
 description: >-
   Red Ciudadana Alta Verapaz es el capítulo de la Asociación Civil Red Ciudadana
