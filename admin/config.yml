@@ -284,9 +284,9 @@ collections:
         }
       - { name: "description", label: "Descripción", widget: "markdown" }
       - { name: "image", label: "Imagen", widget: "image" }
-  - name: "video_departamental"
-    label: "Video Departamental"
-    folder: "src/video_departamental"
+  - name: "video_recursos_departamental"
+    label: "Video y Recursos Departamental"
+    folder: "src/video_recursos_"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
