@@ -1,0 +1,4 @@
+{
+    "tags": "video_departamental",
+    "permalink": "video_departamental/{{ page.fileSlug }}/index.html"
+}

@@ -52,83 +52,70 @@
                 <div class="container">
                     <div class="row">
 
+                        {% for item in collections.estrategia_departamental%}
+                        {{nombre}}
+                        {% if nombre == item.data.departamento %}
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
-                            <a href="#"><div class="cuadro-dep">
+                            <a href="#" target="_blank"><div class="cuadro-dep">
                                 <div class="content">
-                                    <img src="/assets/ELEMENTOS/DEPARTAMENTAL/ICONOS-04.png">
-                                    <h1>Estrategia 2022</h1>
-                                    <p>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
+                                    <img src="{{item.data.image}}">
+                                    <h1>{{item.data.title}}</h1>
+                                    <p style="height: 140px;overflow: hidden;">{{item.data.description}}</p>
                                 </div>
-                                <div class="img-bottom">
+                                <!--div class="img-bottom">
                                     <img  src="/assets/ELEMENTOS/DEPARTAMENTAL/BARRA-RECUADROS.png">
-                                </div>
+                                </div-->
                             </div></a>
                         </div>
+                        {% endif%}
+                        {% endfor %}
 
+                        {% for item in collections.proyectos_departamental%}
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
-                            <div class="cuadro-dep">
+                            <a href="#" target="_blank"><div class="cuadro-dep">
                                 <div class="content">
-                                    <img src="/assets/ELEMENTOS/DEPARTAMENTAL/ICONOS-05.png">
-                                    <h1>Proyectos</h1>
-                                    <p>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
+                                    <img src="{{item.data.image}}">
+                                    <h1>{{item.data.title}}</h1>
+                                    <p style="height: 140px;overflow: hidden;">{{item.data.description}}</p>
                                 </div>
-                                <div class="img-bottom">
+                                <!--div class="img-bottom">
                                     <img  src="/assets/ELEMENTOS/DEPARTAMENTAL/BARRA-RECUADROS.png">
-                                </div>
-                            </div>
+                                </div-->
+                            </div></a>
                         </div>
+                        {% endfor %}
 
+                         {% for item in collections.cursos_talleres_departamental%}
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
-                            <div class="cuadro-dep">
+                            <a href="https://escuela.redciudadana.org/cursos/ " target="_blank"><div class="cuadro-dep">
                                 <div class="content">
-                                    <img src="/assets/ELEMENTOS/DEPARTAMENTAL/ICONOS-06.png">
-                                    <h1>Hacknights</h1>
-                                    <p>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
+                                    <img src="{{item.data.image}}">
+                                    <h1>{{item.data.title}}</h1>
+                                    <p style="height: 140px;overflow: hidden;">{{item.data.description}}</p>
                                 </div>
-                                <div class="img-bottom">
+                                <!--div class="img-bottom">
                                     <img  src="/assets/ELEMENTOS/DEPARTAMENTAL/BARRA-RECUADROS.png">
-                                </div>
-                            </div>
+                                </div-->
+                            </div></a>
                         </div>
+                        {% endfor %}
 
+                        {% for item in collections.hacknights_departamental%}
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
-                            <div class="cuadro-dep">
+                            <a href="https://redciudadana.org/eventos/index.html" target="_blank"><div class="cuadro-dep">
                                 <div class="content">
-                                    <img src="/assets/ELEMENTOS/DEPARTAMENTAL/ICONOS-07.png">
-                                    <h1>Procesos de</h1>
-                                    <p>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
+                                    <img src="{{item.data.image}}">
+                                    <h1>{{item.data.title}}</h1>
+                                    <p style="height: 140px;overflow: hidden;">{{item.data.description}}</p>
                                 </div>
-                                <div class="img-bottom">
+                                <!--div class="img-bottom">
                                     <img  src="/assets/ELEMENTOS/DEPARTAMENTAL/BARRA-RECUADROS.png">
-                                </div>
-                            </div>
+                                </div-->
+                            </div></a>
                         </div>
+                        {% endfor %}
 
-                        <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
-                            <div class="cuadro-dep">
-                                <div class="content">
-                                    <img src="/assets/ELEMENTOS/DEPARTAMENTAL/ICONOS-08.png">
-                                    <h1>Únete a la Red</h1>
-                                    <p>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
-                                </div>
-                                <div class="img-bottom">
-                                    <img  src="/assets/ELEMENTOS/DEPARTAMENTAL/BARRA-RECUADROS.png">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
-                            <div class="cuadro-dep">
-                                <div class="content">
-                                    <img src="/assets/ELEMENTOS/DEPARTAMENTAL/ICONOS-09.png">
-                                    <h1>Video</h1>
-                                    <p>Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum</p>
-                                </div>
-                                <div class="img-bottom">
-                                    <img  src="/assets/ELEMENTOS/DEPARTAMENTAL/BARRA-RECUADROS.png">
-                                </div>
-                            </div>
-                        </div>
+                        
                        
                     </div>
                 </div>
