@@ -53,7 +53,6 @@
                     <div class="row">
 
                         {% for item in collections.estrategia_departamental%}
-                        {{nombre}}
                         {% if nombre == item.data.departamento %}
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
                             <a href="#" target="_blank"><div class="cuadro-dep">
@@ -71,21 +70,24 @@
                         {% endfor %}
 
                         {% for item in collections.proyectos_departamental%}
+                        {% if nombre == item.data.departamento %}
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
-                            <a href="#" target="_blank"><div class="cuadro-dep">
+                            <a href="{{item.url}}" target="_blank"><div class="cuadro-dep">
                                 <div class="content">
                                     <img src="{{item.data.image}}">
                                     <h1>{{item.data.title}}</h1>
-                                    <p style="height: 140px;overflow: hidden;">{{item.data.description}}</p>
+                                    <p style="height: 140px;overflow: hidden;">{{item.data.description | safe}}</p>
                                 </div>
                                 <!--div class="img-bottom">
                                     <img  src="/assets/ELEMENTOS/DEPARTAMENTAL/BARRA-RECUADROS.png">
                                 </div-->
                             </div></a>
                         </div>
+                        {% endif%}
                         {% endfor %}
 
                          {% for item in collections.cursos_talleres_departamental%}
+                         {% if nombre == item.data.departamento %}
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
                             <a href="https://escuela.redciudadana.org/cursos/ " target="_blank"><div class="cuadro-dep">
                                 <div class="content">
@@ -98,9 +100,11 @@
                                 </div-->
                             </div></a>
                         </div>
+                        {% endif%}
                         {% endfor %}
 
                         {% for item in collections.hacknights_departamental%}
+                        {% if nombre == item.data.departamento %}
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
                             <a href="https://redciudadana.org/eventos/index.html" target="_blank"><div class="cuadro-dep">
                                 <div class="content">
@@ -113,9 +117,42 @@
                                 </div-->
                             </div></a>
                         </div>
+                        {% endif%}
                         {% endfor %}
 
-                        
+                        {% for item in collections.red_departamental%}
+                        {% if nombre == item.data.departamento %}
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
+                            <a href="http://voluntarios.redciudadana.org/ " target="_blank"><div class="cuadro-dep">
+                                <div class="content">
+                                    <img src="{{item.data.image}}">
+                                    <h1>{{item.data.title}}</h1>
+                                    <p style="height: 140px;overflow: hidden;">{{item.data.description}}</p>
+                                </div>
+                                <!--div class="img-bottom">
+                                    <img  src="/assets/ELEMENTOS/DEPARTAMENTAL/BARRA-RECUADROS.png">
+                                </div-->
+                            </div></a>
+                        </div>
+                        {% endif%}
+                        {% endfor %}
+
+                        {% for item in collections.video_departamental%}
+                        {% if nombre == item.data.departamento %}
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-40">
+                            <a href="{{item.url}}" target="_blank"><div class="cuadro-dep">
+                                <div class="content">
+                                    <img src="{{item.data.image}}">
+                                    <h1>{{item.data.title}}</h1>
+                                    <p style="height: 140px;overflow: hidden;">{{item.data.description | safe}}</p>
+                                </div>
+                                <!--div class="img-bottom">
+                                    <img  src="/assets/ELEMENTOS/DEPARTAMENTAL/BARRA-RECUADROS.png">
+                                </div-->
+                            </div></a>
+                        </div>
+                        {% endif%}
+                        {% endfor %}
                        
                     </div>
                 </div>
