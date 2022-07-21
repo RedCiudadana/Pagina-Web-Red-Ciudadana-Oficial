@@ -1,6 +1,6 @@
 ---
 nombre: ADS - EleccionMP
-enlaceh: /assets/img/posts/ELECCION-MP-BANNER320X50.gif
+enlaceh: ""
 enlacev: ""
 enlaceg: >-
   <script async
