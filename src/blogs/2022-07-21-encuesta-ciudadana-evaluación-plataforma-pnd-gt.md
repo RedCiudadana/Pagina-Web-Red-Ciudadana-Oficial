@@ -13,4 +13,4 @@ highlight: false
 
 El proyecto está enfocado en desarrollar un diagnóstico y evaluación técnica de la plataforma pnd.gt (incluyendo módulo ODS) con base en insumos de los diferentes sectores de la sociedad civil, sector público y academia en los aspectos de contenido, visualización y funcionalidad para mejorar su disposición de información e interacción hacia los distintos sectores y actores que intervienen en el desarrollo sostenible y generar un informe técnico con recomendaciones a SEGEPLAN con el objetivo de promover el fortalecimiento de las plataformas.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEpQDL0AeYbIwJGN_W61pHLeL2xBky-QLQBPr_WitxbxkSmw/viewform?embedded=true" width="640" height="6542" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEpQDL0AeYbIwJGN_W61pHLeL2xBky-QLQBPr_WitxbxkSmw/viewform?embedded=true" width="100%" height="6542" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
