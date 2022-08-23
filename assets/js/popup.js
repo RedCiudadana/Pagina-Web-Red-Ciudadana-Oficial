@@ -1,7 +1,7 @@
 window.addEventListener("load",function(){
     setTimeout(
         function open(event){
-            document.querySelector(".popup").style.display="none";
+            document.querySelector(".popup").style.display="block";
         },1000
     )
 });
@@ -11,4 +11,5 @@ document.querySelector("#close").addEventListener
     document.querySelector(".popup").style.display = "none";
 });
     
+
               

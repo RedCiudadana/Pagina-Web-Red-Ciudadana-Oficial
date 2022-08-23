@@ -6,20 +6,18 @@ permalink: "index.html"
 
 {% block head %}
 <title>Red Ciudadana - Participación Ciudadana</title>
-<script src="/assets/js/popup.js"></script>
+
 {% endblock %}
 
 {% block content %}
+            
             <div class="popup">
                 <button id="close">&times;</button>
-                <h1>This is the title.</hi>
+                <h1>Informate de como va el Proceso Electoral</hi>
                 <p>
-                    Lorem,ipsum dolor sit amet consectetur
-                    adipisicing elit.Expedita distinctio
-                    fugiat alias iure qui,commodi minima
-                    magni ullam aliquam dignissimos?
+                    
                 </p>
-                <a href="https://cranky-visvesvaraya-d3c687.netlify.app/">Visita Nuestra Elección</a>
+                <a class="btn greeno-btn" target="_blank" href="https://cranky-visvesvaraya-d3c687.netlify.app/">Visita Nuestra Elección</a>
             </div>
                                                       
 
@@ -555,4 +553,8 @@ permalink: "index.html"
             </div>
             <!-- brand-area-end -->
 
+{% endblock %}
+
+{% block body_javascripts%}
+        <script src="/assets/js/popup.js"></script>
 {% endblock %}

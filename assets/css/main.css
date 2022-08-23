@@ -6064,18 +6064,45 @@ button.mfp-close, button.mfp-arrow{
 }
 
 /*POP UP*/
+
 .popup{
   background-color:#ffffff;
-  width:450px;
+  width: 90%;
+  height: 90%;
   padding:30px 40px;
-  position:absolute;
+  position:fixed;
   transform:translate(-50%,-50%);
   left:50%;
   top:50%;
   border-radius:8px;
   font-family:"Poppins",sans-serif;
-  z-index: 1000;
+  z-index: 100000;
   display: none;
+}
+
+.popup::before{
+  content:"";
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 120%;
+  height: 120%;
+  transform:translate(-50%,-50%);
+  left:50%;
+  top:50%;
+  position: absolute;
+  z-index: -1;
+}
+
+.popup::after{
+  content:"";
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  transform:translate(-50%,-50%);
+  left:50%;
+  top:50%;
+  position: absolute;
+  z-index: -1;
+  border-radius:8px;
 }
 
 .popup button{
@@ -6094,17 +6121,3 @@ button.mfp-close, button.mfp-arrow{
   text-align: justify;
 }
 
-.popup a{
-  font-size:14px;
-  text-align:justify;
-  margin:20px 0;
-  display:block;
-  width:150px;
-  position:relative;
-  margin:auto;
-  text-align:center;
-  background-color:#0f72e5;
-  color:#ffffff;
-  text-decoration:none;
-  padding:5px 10px;
-}
