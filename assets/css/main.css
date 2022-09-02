@@ -6208,7 +6208,7 @@ button.mfp-close, button.mfp-arrow{
   /*background-image:url('/assets/img/red/SLIDER-MOVIL-01.png');*/
 }
 
-@media(max-width: 760px){
+@media(max-width: 1000px){
   .bg-index{
     background-image:url('/assets/img/red/SLIDER-MOVIL-01.png');
   }
