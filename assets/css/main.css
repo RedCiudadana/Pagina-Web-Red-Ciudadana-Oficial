@@ -2672,7 +2672,12 @@ label {
   background: #ffc226; }
 
 .case-02-wrapper {
-  padding: 0; }
+  padding: 0;
+}
+
+.case-02-wrapper:hover {
+  box-shadow: 3px 3px 3px #ccc;
+}
 
 .case-02-wrapper .case-text {
   margin-top: 31px;
@@ -6395,4 +6400,19 @@ button.mfp-close, button.mfp-arrow{
   width: 100%;
   margin-bottom: 20px;
   padding: 10px;
+}
+
+.text-overflow2{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width:300px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+/*Overflow hidden menos movil*/
+.custom-overflow-hidden{
+  overflow: hidden!important;
+  height: 60px;
 }

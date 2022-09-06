@@ -49,11 +49,11 @@ permalink: "blogs/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageNum
                                     <h3><a target="_blank" href="{{post.url}}"> {{post.data.title}} </a></h3>
                                     <span>{{post.data.date | dateFormat('DD / MM / YYYY')}}</span>
                                 </div>
-                                <div class="case-info">
-                                    <p> {{post.data.description}} </p>
-                                    <div class="b-button">
-                                        <a target="_blank" href="{{post.url}}"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                                    </div>
+                                <div class="case-info custom-overflow-hidden" style="height:120px">
+                                    <p class="text-overflow2"> {{post.data.description}} </p>
+                                </div>
+                                <div class="b-button">
+                                    <a target="_blank" href="{{post.url}}"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
