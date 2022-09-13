@@ -1,7 +1,7 @@
 window.addEventListener("load",function(){
     setTimeout(
         function open(event){
-            document.querySelector(".popup").style.display="block";
+            document.querySelector(".popup").style.display="none";
         },1000
     )
 });
