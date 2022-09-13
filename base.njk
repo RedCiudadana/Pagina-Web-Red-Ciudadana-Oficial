@@ -54,6 +54,16 @@
 
     </head>
     <body class="p0">
+        <!-- Preloader Start -->
+        <div id="preloader-active">
+            <div class="preloader d-flex align-items-center justify-content-center">
+                <div class="preloader-inner position-relative">
+                    <div class="text-center">
+                        <img src="/assets/img/red/loader.gif" style="width:50%;height:auto;margin:auto" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <!-- header-start -->
 		<header class="default-header"><!--header-transparent-->
@@ -300,7 +310,20 @@
 
         <!--HelloBar-->
         <!--script src="https://my.hellobar.com/095e0a9dd7bb72110e8d160eb28ba5452fcf5a69.js" type="text/javascript" charset="utf-8" async="async"></script-->
-
+        <script>
+            (function ($) {
+                ("use strict");
+                // Page loading
+                $(window).on("load", function () {
+                    $("#preloader-active").delay(550).fadeOut("slow");
+                    $("body").delay(550).css({
+                        overflow: "visible"
+                    });
+                    $("#onloadModal").modal("show");
+                });
+            
+            })(jQuery);
+        </script>
         <script>
         if (window.netlifyIdentity) {
             window.netlifyIdentity.on('init', (user) => {
