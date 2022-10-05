@@ -6453,3 +6453,7 @@ button.mfp-close, button.mfp-arrow{
   max-height: 100px;
   max-width: 100px;
 }
+
+.h2-margin h2{
+  margin: 35px 0;
+}
