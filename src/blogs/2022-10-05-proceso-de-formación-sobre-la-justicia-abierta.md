@@ -27,10 +27,6 @@ Si tiene interés en saber más sobre la importancia de Justicia Abierta, no dud
 * Resultados de aplicación: 21 de Octubre 2022
 * Fecha de Curso: 26 de Octubre al 10 de Noviembre de 2022
 
-**Duración:**\
-4 semanas\
-2 hs/ semana
-
 
 
 ## R﻿egistro:
