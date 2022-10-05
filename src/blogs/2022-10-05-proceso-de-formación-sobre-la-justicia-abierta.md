@@ -17,17 +17,13 @@ Además, es una noción que ha ido adquiriendo cada vez más importancia en el e
 
 El proceso de formación de Justicia Abierta profundizará sobre la aplicación de una filosofía de estado abierto en las instituciones del sector justicia. La referida filosofía se traduce en la implementación de un conjunto de mecanismos y estrategias que componen un paradigma de gobernanza pública para la justicia, basado en los principios de transparencia y acceso a la información, rendición de cuentas, participación y colaboración e innovación y uso de nuevas tecnologías.
 
-Si tiene interés en saber más sobre la importancia de Justicia Abierta, no dude en inscribirse y se parte de este proceso de formación, en el cual podrá aprender de la mano de expertos internacionales, y así fortalecer sus capacidades técnicas en la materia de Justicia Abierta. ***Más información acá.***
-
-
+Si tiene interés en saber más sobre la importancia de Justicia Abierta, no dude en inscribirse y se parte de este proceso de formación, en el cual podrá aprender de la mano de expertos internacionales, y así fortalecer sus capacidades técnicas en la materia de Justicia Abierta. ***[Más información acá.](https://publicaciones.redciudadana.org/2022/Cursos/BriefJusticiaAbierta.pdf)***
 
 ## Fechas Importantes:
 
 * Fecha Límite de Inscripción: 19 de Octubre 2022
 * Resultados de aplicación: 21 de Octubre 2022
 * Fecha de Curso: 26 de Octubre al 10 de Noviembre de 2022
-
-
 
 ## R﻿egistro:
 
