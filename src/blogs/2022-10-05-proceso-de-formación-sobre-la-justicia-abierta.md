@@ -9,8 +9,6 @@ correo: info@redciudadana.org.gt
 date: 2022-10-05T00:34:22.580Z
 highlight: false
 ---
-
-
 ![Proceso de formación: Justicia Abierta](/assets/img/posts/01_formación-justicia-abierta_post-.png "Proceso de formación: Justicia Abierta")
 
 La Justicia es considerada como el poder más conservador, formalizado y jerárquico del sistema democrático (Elena, Sandra, 2015). Lo anterior hace necesario evaluar sobre la calidad de la justicia y la relación con la ciudadanía. La Justicia Abierta pretende implementar políticas que visibilicen el funcionamiento y la labor que realiza el sector justicia, para así fortalecer su funcionamiento y el servicio que prestan los órganos de justicia. En ese sentido, es un modelo que contribuye a la rendición de cuentas y la transparencia de los actores de la administración de justicia, permitiendo ayudar a mejorar la comprensión por parte de ciudadano de las funciones que realiza el sector justicia. 
@@ -38,6 +36,6 @@ Fecha de Curso: 26 de Octubre al 10 de Noviembre de 2022
 **Resultados (Diploma):**\
 A partir de noviembre
 
-
-
 ## R﻿egistro:
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOWCHC1zK3KK8wQaYAw0sFfT5JtTu9Dsa1UPzoJqeRv_tflg/viewform?embedded=true" width="640" height="2174" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
