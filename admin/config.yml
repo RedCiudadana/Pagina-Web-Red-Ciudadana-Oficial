@@ -140,7 +140,7 @@ collections:
       - { label: "Foto", name: "foto", widget: "image" }
       - { label: "FotoPreview", name: "fotop", widget: "image" }
   - name: "adds"
-    label: "Adds"
+    label: "Ads"
     folder: "src/adds"
     create: true
     slug: "{{slug}}"
@@ -149,14 +149,19 @@ collections:
       - { label: "Nombre", name: "nombre" }
       - {
           name: "enlaceh",
-          label: "Enlace Add Horizontal",
+          label: "Enlace Ad Horizontal",
           widget: "image",
           required: false,
         }
       - {
           name: "enlacev",
-          label: "Enlace Add Vertical",
+          label: "Enlace Ad Vertical",
           widget: "image",
+          required: false,
+        }
+      - {
+          name: "enlacered",
+          label: "Enlace de redirección de Ad Vertical",
           required: false,
         }
       - {

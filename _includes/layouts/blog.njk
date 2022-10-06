@@ -7,43 +7,43 @@
 
 {% block content %}
     
+
+<!-- Banner-area-start -->
+<div class="breadcrumb-area pt-150 pb-155" style="background-image:url(/assets/img/red/05.png)">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="breadcrumb-text text-center">
+                    <h1 style="font-size:45px">{{ title }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Banner-area-end -->
+
 <!--POST-->
 <div class="container " >
-
-  <div class="row my-4 py-2">
-    {% if collections.addsHighlighted %}
-      {% for anuncio in collections.addsHighlighted | limit(1) %}
-        <div class="col-xl-12 col-lg-12 col-md-12 justify-content-center">
-          <embed width="100%" src="{{anuncio.data.enlaceh}}">
-        </div>  
-      {% endfor %}
-    {% endif %}
-  </div>
 
   <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12">
       <article>
-        <header class="py-4 my-4">
-          <h1 class=" font-bold text-4xl text-gray-800">
-            {{ title }}
-          </h1>
-          <br>
-          <h6 class=" font-bold text-1xl text-gray-800">
-            {{ description }}
-          </h6>
-
-          <div class=" text-sm text-gray-600 mb-6">
-            Autor:
-              <span class="text-sm font-semibold text-gray-900 ml-2">
-                <!--autor correo fecha-->
-                    {{ autor }} | {{ correo }} | {{ date|dateFormat('DD/MM/YYYY')}}
-              </span>
-          </div>
-        </header>
         
         <section class="content text-justify">
-          <div class="row">
+          <div class="row mt-40 mb-40">
+            
             <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 px-4 h2-margin">
+              <h6 class=" font-bold text-1xl text-gray-800">
+                {{ description }}
+              </h6>
+
+              <div class=" text-sm text-gray-600 mb-40">
+                Autor:
+                  <span class="text-sm font-semibold text-gray-900 ml-2">
+                    <!--autor correo fecha-->
+                        {{ autor }} | {{ correo }} | {{ date|dateFormat('DD/MM/YYYY')}}
+                  </span>
+              </div>
               {{ content | safe}}
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 px-4" >
@@ -61,7 +61,7 @@
                 {% if collections.addsHighlighted %}
                   {% for anuncio in collections.addsHighlighted | limit(1) %}
                     <div class="block mb-4">
-                      <embed width="100%" src="{{anuncio.data.enlacev}}">
+                      <a href="{{anuncio.data.enlacered}}"><embed width="100%" src="{{anuncio.data.enlacev}}"></a>
                     </div>
                   {% endfor %}
                 {% endif %}
