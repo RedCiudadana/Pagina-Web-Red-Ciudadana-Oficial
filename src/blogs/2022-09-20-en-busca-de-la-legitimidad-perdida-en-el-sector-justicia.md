@@ -9,7 +9,7 @@ correo: info@redciudadana.org.gt
 date: 2022-09-20T14:14:00.193Z
 highlight: false
 ---
-La última medición del Latinobarómetro del año 2020 arroja cifras preocupantes: “América Latina muestra escepticismo respecto del poder judicial, como se observa en estas cifras. El poder judicial desde 1995 no alcanza nunca cuarenta puntos porcentuales de confianza y fluctúa entre un máximo del 37% en 2006 y un mínimo del 23% en 2003. En 2020 alcanza un 25%. La debilidad de la justicia en la región es uno de los puntos más débiles de sus democracias.” 
+La última medición del Latinobarómetro del año 2020 arroja cifras preocupantes: “América Latina muestra escepticismo respecto del poder judicial. Desde 1995 el poder judicial no alcanza los cuarenta puntos porcentuales de confianza y fluctúa entre un máximo del 37% en 2006 y un mínimo del 23% en 2003. En 2020 alcanza un 25%. La debilidad de la justicia en la región es uno de los puntos más débiles de sus democracias.” 
 
 Parte de esta desconfianza tiene entre sus causas la lejanía que los operadores y operadores judiciales muestran de la ciudadanía y sus principales problemas, así como de de casos frecuentes de corrupción. Para muchas personas, la justicia es principalmente percibida como una institución poco receptiva de las demandas ciudadanas, en particular cuando se trata de comunidades vulnerabilizadas, contrario a lo que entienden que sucede con quienes detentan situaciones de mayor poder o privilegio.
 
@@ -23,6 +23,14 @@ Además, es una noción que ha ido adquiriendo cada vez más importancia en el e
 
 El proceso de formación de Justicia Abierta profundizará sobre la aplicación de una filosofía de estado abierto en las instituciones del sector justicia. La referida filosofía se traduce en la implementación de un conjunto de mecanismos y estrategias que componen un paradigma de gobernanza pública para la justicia, basado en los principios de transparencia y acceso a la información, rendición de cuentas, participación y colaboración e innovación y uso de nuevas tecnologías.
 
-Si tiene interés en saber más sobre la importancia de Justicia Abierta, no dude en inscribirse y se parte de este proceso de formación, en el cual podrá aprender de la mano de expertos internacionales, y así fortalecer sus capacidades técnicas en la materia de Justicia Abierta. ***Mas información acá.***
+Si tiene interés en saber más sobre la importancia de **Justicia Abierta**, no dude en inscribirse y se parte de este proceso de formación, en el cual podrá aprender de la mano de expertos internacionales, y así fortalecer sus capacidades técnicas en la materia de Justicia Abierta. ***[Más información acá.](https://publicaciones.redciudadana.org/2022/Cursos/BriefJusticiaAbierta.pdf)***
+
+## Fechas Importantes:
+
+* Fecha límite de inscripción: **21 de Octubre 2022**
+* Resultados de aplicación: **22 de Octubre 2022**
+* Fecha de curso: **26 de Octubre al 10 de Noviembre de 2022**
 
 ## R﻿egistro:
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOWCHC1zK3KK8wQaYAw0sFfT5JtTu9Dsa1UPzoJqeRv_tflg/viewform?embedded=true" width="100%" height="2174" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
