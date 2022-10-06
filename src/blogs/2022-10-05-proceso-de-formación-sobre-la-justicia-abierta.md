@@ -21,9 +21,9 @@ Si tiene interés en saber más sobre la importancia de **Justicia Abierta**, no
 
 ## Fechas Importantes:
 
-* Fecha Límite de Inscripción: 21 de Octubre 2022
-* Resultados de aplicación: 22 de Octubre 2022
-* Fecha de Curso: 26 de Octubre al 10 de Noviembre de 2022
+* Fecha límite de inscripción: **21 de Octubre 2022**
+* Resultados de aplicación: **22 de Octubre 2022**
+* Fecha de curso: **26 de Octubre al 10 de Noviembre de 2022**
 
 ## R﻿egistro:
 
