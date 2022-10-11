@@ -6457,3 +6457,11 @@ button.mfp-close, button.mfp-arrow{
 .h2-margin h2{
   margin: 35px 0;
 }
+
+.content-blog ul{
+  margin-left: 15px!important;
+}
+
+.content-blog ul li{
+  list-style: circle!important;
+}
