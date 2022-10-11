@@ -1,5 +1,5 @@
 ---
-title: Proceso de formación sobre la Justicia Abierta
+title: "Proceso de formación: Justicia Abierta"
 image: /assets/img/posts/imagenes-web-curso-portada-1-.png
 description: El proceso de formación de Justicia Abierta profundizará sobre la
   aplicación de una filosofía de estado abierto en las instituciones del sector
