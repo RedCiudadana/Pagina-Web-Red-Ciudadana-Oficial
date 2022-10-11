@@ -1,5 +1,5 @@
 ---
-title: "Proceso de formación: Justicia Abierta"
+title: Proceso de formación sobre la Justicia Abierta
 image: /assets/img/posts/imagenes-web-curso-portada-1-.png
 description: El proceso de formación de Justicia Abierta profundizará sobre la
   aplicación de una filosofía de estado abierto en las instituciones del sector
@@ -25,11 +25,9 @@ Si tiene interés en saber más sobre la importancia de **Justicia Abierta**, no
 * Resultados de aplicación: **22 de Octubre 2022**
 * Fecha de curso: **26 de Octubre al 10 de Noviembre de 2022**
 * **Sesión 1** - 26 de Octubre
-  **Sesión 2** - 2 de Noviembre
-  **Sesión 3** - 9 de Noviembre
-  **Sesión 4** - 10 de Noviembre
-
-
+* **Sesión 2** - 2 de Noviembre
+* **Sesión 3** - 9 de Noviembre
+* **Sesión 4** - 10 de Noviembre
 
 ## R﻿egistro:
 
