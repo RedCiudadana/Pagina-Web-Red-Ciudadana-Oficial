@@ -165,6 +165,17 @@ collections:
           required: false,
         }
       - {
+          name: "enlacev2",
+          label: "Enlace Ad Vertical 2",
+          widget: "image",
+          required: false,
+        }
+      - {
+          name: "enlacered2",
+          label: "Enlace de redirección de Ad Vertical 2",
+          required: false,
+        }
+      - {
           name: "highlight",
           label: "Highlight",
           widget: "boolean",
