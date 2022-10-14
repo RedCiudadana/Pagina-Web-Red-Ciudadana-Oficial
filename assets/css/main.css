@@ -6470,8 +6470,8 @@ button.mfp-close, button.mfp-arrow{
 
 .popup2{
   background-color:#ffffff;
-  width: 25%;
-  height: 25%;
+  width: 26%;
+  height: 26%;
   padding:30px 40px;
   position:fixed;
   transform:translate(-50%,-50%);
