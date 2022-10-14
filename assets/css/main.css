@@ -6475,7 +6475,7 @@ button.mfp-close, button.mfp-arrow{
   padding:30px 40px;
   position:fixed;
   transform:translate(-50%,-50%);
-  right:0px;
+  right:-10px;
   bottom:0px;
   border-radius:8px;
   font-family:"Poppins",sans-serif;
