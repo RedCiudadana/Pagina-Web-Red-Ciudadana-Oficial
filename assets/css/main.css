@@ -6470,44 +6470,43 @@ button.mfp-close, button.mfp-arrow{
 
 .popup2{
   background-color:#ffffff;
-  width: 26%;
-  height: 26%;
-  padding:30px 40px;
+  width: 400px;
+  height: 328px;
+  padding:0;
   position:fixed;
-  transform:translate(-50%,-50%);
-  right:-10px;
-  bottom:0px;
+  right:1%;
+  bottom:20%;
   border-radius:8px;
   font-family:"Poppins",sans-serif;
   z-index: 100000;
   display: none;
 }
 
-.popup2::after{
-  content:"";
-  background-color: #fff;
-  width: 100%;
-  height: 100%;
-  transform:translate(-50%,-50%);
-  left:50%;
-  top:50%;
-  position: absolute;
-  z-index: -1;
-  border-radius:8px;
-}
+
 
 .popup2 button{
   display: block;
   margin: 0 0 20px auto;
   background-color: transparent;
   font-size: 30px;
-  color: #c5c5c5;
+  color: #fff;
   border: none;
   outline: none;
   cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 1000000;
+  transition: 0.5s;
 }
 
-.popup2 p{
-  font-size: 14px;
-  text-align: justify;
+.popup2 button:hover{
+  font-size: 35px;
+}
+
+.popup2 img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius:8px;
 }
