@@ -1,5 +1,5 @@
 ---
-title: Hacknights
+title: Hacknights Alta Verapaz
 departamento: Alta Verapaz
 description: El evento mensual de Red Ciudadana para construir, compartir y
   aprender sobre tecnología cívica.
