@@ -6099,6 +6099,7 @@ button.mfp-close, button.mfp-arrow{
   text-align: center;
   box-shadow: 5px 5px 5px #93949F;
   position: relative;
+  height: 100%;
 }
 
 .cuadro-dep .content{
@@ -6116,8 +6117,8 @@ button.mfp-close, button.mfp-arrow{
 }
 
 .cuadro-dep img{
-  width: 30%;
-  margin-bottom: 10px;
+  width: 40%;
+  margin-bottom: 25px;
 }
 
 .cuadro-dep .img-bottom img{
