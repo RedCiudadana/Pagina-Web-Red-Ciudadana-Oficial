@@ -1,6 +1,6 @@
 ---
-title: Únete a la Red
+title: Únete a la Red Alta Verapaz
 departamento: Alta Verapaz
 description: ¿Te gusta lo que hacemos? se parte del equipo de Red Ciudadana
-image: /assets/img/posts/iconos-08.png
+image: /assets/img/posts/iconos-10.png
 ---
