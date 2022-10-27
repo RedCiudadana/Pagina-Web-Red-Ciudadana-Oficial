@@ -203,16 +203,8 @@ collections:
       preview: false
     fields:
       - { name: "title", label: "Title" }
-      - {
-          name: "departamento",
-          label: "Departamento",
-          widget: "relation",
-          collection: "departamental",
-          searchFields: ["nombre"],
-          valueField: "nombre",
-          multiple: false,
-        }
       - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "enlace", label: "enlace", widget: "string" }
       - { name: "image", label: "Imagen", widget: "image" }
   - name: "proyecto_departamental"
     label: "Proyecto Departamental"
@@ -223,16 +215,8 @@ collections:
       preview: false
     fields:
       - { name: "title", label: "Title" }
-      - {
-          name: "departamento",
-          label: "Departamento",
-          widget: "relation",
-          collection: "departamental",
-          searchFields: ["nombre"],
-          valueField: "nombre",
-          multiple: false,
-        }
       - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "enlace", label: "enlace", widget: "string" }
       - { name: "image", label: "Imagen", widget: "image" }
   - name: "cursos_talleres_departamental"
     label: "Cursos y Talleres"
@@ -243,16 +227,8 @@ collections:
       preview: false
     fields:
       - { name: "title", label: "Title" }
-      - {
-          name: "departamento",
-          label: "Departamento",
-          widget: "relation",
-          collection: "departamental",
-          searchFields: ["nombre"],
-          valueField: "nombre",
-          multiple: false,
-        }
       - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "enlace", label: "enlace", widget: "string" }
       - { name: "image", label: "Imagen", widget: "image" }
   - name: "hacknights_departamental"
     label: "Hacknights Departamental"
@@ -263,16 +239,8 @@ collections:
       preview: false
     fields:
       - { name: "title", label: "Title" }
-      - {
-          name: "departamento",
-          label: "Departamento",
-          widget: "relation",
-          collection: "departamental",
-          searchFields: ["nombre"],
-          valueField: "nombre",
-          multiple: false,
-        }
       - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "enlace", label: "enlace", widget: "string" }
       - { name: "image", label: "Imagen", widget: "image" }
   - name: "red_departamental"
     label: "Red Departamental"
@@ -283,16 +251,8 @@ collections:
       preview: false
     fields:
       - { name: "title", label: "Title" }
-      - {
-          name: "departamento",
-          label: "Departamento",
-          widget: "relation",
-          collection: "departamental",
-          searchFields: ["nombre"],
-          valueField: "nombre",
-          multiple: false,
-        }
       - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "enlace", label: "enlace", widget: "string" }
       - { name: "image", label: "Imagen", widget: "image" }
   - name: "video_recursos_departamental"
     label: "Video y Recursos Departamental"
@@ -303,16 +263,8 @@ collections:
       preview: false
     fields:
       - { name: "title", label: "Title" }
-      - {
-          name: "departamento",
-          label: "Departamento",
-          widget: "relation",
-          collection: "departamental",
-          searchFields: ["nombre"],
-          valueField: "nombre",
-          multiple: false,
-        }
       - { name: "description", label: "Descripción", widget: "markdown" }
+      - { name: "enlace", label: "enlace", widget: "string" }
       - { name: "image", label: "Imagen", widget: "image" }
 
 show_preview_links: true
