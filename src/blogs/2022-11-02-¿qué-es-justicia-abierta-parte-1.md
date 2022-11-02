@@ -1,6 +1,6 @@
 ---
 title: ¿Qué es Justicia Abierta? - Parte 1
-image: /assets/img/posts/02_cover-youtube.png
+image: /assets/img/posts/captura-de-pantalla-2022-10-26-a-la-s-18.05.18.png
 description: Se desarrolló la primera de cuatro sesiones del Proceso de
   Formación sobre Justicia Abierta, en las cuales se abordará a profundidad el
   tema de Justicia Abierta.
