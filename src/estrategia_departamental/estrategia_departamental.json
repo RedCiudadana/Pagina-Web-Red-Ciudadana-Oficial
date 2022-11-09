@@ -1,4 +1,4 @@
 {
     "tags": "estrategia_departamental",
-    "permalink": "estrategia_departamental/{{ page.fileSlug }}/index.html"
+    "permalink": "estrategia_departamental/{{ page.fileSlug }}/{{departamento}}/index.html"
 }
