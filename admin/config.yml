@@ -29,6 +29,28 @@ collections:
       - { name: "descripcion", label: "Descripcion", widget: "markdown" }
       - { name: "ano", label: "Año" }
       - { label: "Foto", name: "foto", widget: "image" }
+  - name: "mediciones"
+    label: "Mediciones"
+    folder: "src/mediciones"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      previer: false
+    fields:
+      - { name: "title", label: "Title" }
+      - { name: "enlace", label: "Enlace" }
+      - {
+          name: "programa",
+          label: "Programa",
+          widget: "relation",
+          collection: "programas",
+          searchFields: ["nombre"],
+          valueField: "nombre",
+          multiple: false,
+        }
+      - { name: "descripcion", label: "Descripcion", widget: "markdown" }
+      - { name: "ano", label: "Año" }
+      - { label: "Foto", name: "foto", widget: "image" }
   - name: "publicaciones" # Used in routes, e.g., /admin/collections/blog
     label: "Publicaciones" # Used in the UI
     folder: "src/publicaciones" # The path to the folder where the documents are stored
