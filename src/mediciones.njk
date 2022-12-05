@@ -1,0 +1,108 @@
+---
+pagination:
+  data: collections.mediciones
+  size: 4
+  alias: mediciones
+  reverse: true
+permalink: "mediciones/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+
+{% extends "base.njk" %}
+
+{% block head %}
+<title>Red Ciudadana - Mediciones</title>
+{% endblock %}
+
+{% block content %}
+
+             <!-- Banner -area-start -->
+            <div class="breadcrumb-area pt-150 pb-155" style="background-image:url(/assets/img/red/publicaciones/07.png)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="breadcrumb-text text-center">
+                                <h1 style="font-size:45px">Mediciones </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- breadcrumb-area-end -->
+
+            <!-- event-area-start -->
+            <div class="event-area pt-130 pb-130 ml-100 mr-100">
+                <div class="row">
+                {% if mediciones %}
+                {% for medicion in mediciones%}
+
+                    <!-- Publicación 1 - Publicaciones, reportes, investigaciones -->
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="case-wrapper case-02-wrapper mb-30">
+                            <div class="case-img">
+                                <a target="_blank" href="{{medicion.data.enlace}}"><img src="{{medicion.data.image}}" alt="{{medicion.data.title}}"></a>
+                            </div>
+                            <div class="case-text">
+                                <h3><a target="_blank" href="{{medicion.data.enlace}}"> {{medicion.data.title}} </a></h3>
+                                <span>{{medicion.data.date | dateFormat('DD / MM / YYYY')}}</span>
+                            </div>
+                            <div class="case-info">
+                                <p> {{medicion.data.description}} </p>
+                                <div class="b-button">
+                                    <a target="_blank" href="{{medicion.data.enlace}}"><span>Descargar Publicación</span> <i class="far fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--div class="container">
+                    <div class="event-bg event-bg-03 pos-rel mb-30">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="event-img mb-20">
+                                    <a><img src="{{publicacion.data.image}}" alt="{{publicacion.data.title}}"></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="event-wrapper mb-20 ">
+                                    <div class="event-text">
+                                        <span><i class="far fa-map-marked-alt verdeo"></i> {{publicacion.data.date | dateFormat('DD / MM / YYYY')}}</span>
+                                        <h3><a>{{publicacion.data.title}}</a></h3>
+                                    </div>
+                                    <div class="event-meta">
+                                        <span><i class="far fa-user-circle"></i>{{publicacion.data.description}}</span>
+                                    </div><br>
+                                    <div class="cta-content">
+                                        <div class="cta-button">
+                                            <a class="btn" href="{{publicacion.data.enlace}}">Descargar <i class="far fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div-->
+
+                {% endfor %}
+                {% endif %}
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    {% if pagination.href.previous %}
+                    <div class="mx-4">
+                        {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Publicaciones más recientes</a>{% else %}←  Nuevas Publicaciones{% endif %}
+                    </div>
+                    {% endif %}
+                    {% if pagination.href.next %}
+                    <div class="mx-4">
+                        {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Publicaciones anteriores →</a>{% else %}Publicaciones anteriores →{% endif %}
+                    </div>
+                    {% endif %}
+                </div>
+
+                
+            </div>
+
+
+            <!-- event-area-end -->
+
+{% endblock %}
