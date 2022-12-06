@@ -431,6 +431,46 @@ permalink: "index.html"
             </div>
             <cta-area-end -->
 
+            <!-- mediciones-area-start -->
+            <div class="blog-area pt-60 pb-60">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
+                             <div class="section-title text-center mr-40 ml-40 mb-75">
+                                 <h6> Mediciones</h6>
+                                 <div class="linea"></div>
+                                 <h1 style="font-size: 45px!important;">Nuestras últimas mediciones</h1>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        {% for medicion in collections.mediciones%}
+
+                            <!-- Publicación 1 - Publicaciones, reportes, investigaciones -->
+                            <div class="col-xl-4 col-lg-4 col-md-6 ">
+                                <div class="case-wrapper case-02-wrapper mb-30">
+                                    <div class="case-img">
+                                        <a target="_blank" href="{{medicion.data.enlace}}"><img src="{{medicion.data.foto}}" alt="{{medicion.data.title}}"></a>
+                                    </div>
+                                    <div class="case-text">
+                                        <h3><a target="_blank" href="{{medicion.data.enlace}}"> {{medicion.data.title}} </a></h3>
+                                        <span>{{medicion.data.date | dateFormat('DD / MM / YYYY')}}</span>
+                                    </div>
+                                    <div class="case-info">
+                                        <p> {{medicion.data.description}} </p>
+                                        <div class="b-button">
+                                            <a target="_blank" href="{{medicion.data.enlace}}"><span>Descargar Medición</span> <i class="far fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        {% endfor %}
+            </div>
+                </div>
+            </div>
+
+
             <!-- blog-area-start -->
             <div class="blog-area pt-130 pb-100">
                 <div class="container">
