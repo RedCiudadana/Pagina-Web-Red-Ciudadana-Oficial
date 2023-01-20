@@ -1,5 +1,5 @@
 ---
-title: Alianza por la Democracia
+title: "Alianza por la Democracia "
 enlace: https://redciudadana.org/proyectos/index.html
 programa: Fortalecimiento de Espacios Cívicos
 descripcion: Este proyecto es un grupo de organizaciones de sociedad civil que
