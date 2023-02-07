@@ -8,4 +8,4 @@ correo: info@redciudadana.org.gt
 date: 2023-01-11T15:16:27.378Z
 highlight: false
 ---
-Un acercamiento a la Justicia Abierta en Guatemala
+Un acercamiento a la Justicia Abierta en Guatemala 2022
