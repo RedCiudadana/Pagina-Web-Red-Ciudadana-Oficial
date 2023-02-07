@@ -31,4 +31,4 @@ Si tiene interés en saber más sobre la importancia de **Justicia Abierta**, no
 
 ## R﻿egistro:
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOWCHC1zK3KK8wQaYAw0sFfT5JtTu9Dsa1UPzoJqeRv_tflg/viewform?embedded=true" width="100%" height="2174" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeSjz0iDM33G5Ev3AEzxh_xng2uYIvUrCfe2bkmHJw-jitqLg/viewform?embedded=true" width="100%" height="2174" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
