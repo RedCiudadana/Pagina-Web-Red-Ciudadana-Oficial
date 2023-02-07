@@ -19,14 +19,14 @@ Si tiene interés en saber más sobre la importancia de **Justicia Abierta**, no
 
 ## Fechas Importantes:
 
-* Fecha límite de inscripción: **1 de Febrero 2023**
+* Fecha límite de inscripción: **7 de Marzo 2023**
 * Resultados de aplicación: Martes 7 de Marzo 2023
 * Fecha de curso: 14 de Marzo al 21 de Marzo 2023
-* **Sesión 1** - Martes 14 de Marzo 2023- 8 a 11 am (GMT-6)
+* **Sesión 1** - **Martes 14 de Marzo 2023- 8 a 11 am (GMT-6)**
 * **Sesión 2** - Martes 14 de Marzo 2023- 8 a 11 am (GMT-6)
-* **Sesión 3** - Martes 21 de Marzo 2023- 8 a 11 am (GMT-6)
+* **Sesión 3** - **Martes 21 de Marzo 2023- 8 a 11 am (GMT-6)**
 * **Sesión 4** - Martes 21 de Marzo 2023- 8 a 11 am (GMT-6)
 
 ## R﻿egistro:
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScg7nPONuuiR1_OoaGkIX5OtbpDPqPgc0764t9b3XxxOnxW5w/viewform?embedded=true" width="100%" height="2174" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScg7nPONuuiR1_OoaGkIX5OtbpDPqPgc0764t9b3XxxOnxW5w/viewform?embedded=true" width="100%" height="2574" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
