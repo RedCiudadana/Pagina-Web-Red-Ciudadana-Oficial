@@ -1,5 +1,5 @@
 ---
-title: ¡Faltan 2 millones de jóvenes! Ingresa a nuestra pagina www.NuestraElección.gt
+title: Faltan 2 millones de jóvenes
 enlace: '<blockquote class="tiktok-embed"
   cite="https://www.tiktok.com/@redxguate/video/7200923380843859205"
   data-video-id="7200923380843859205" style="max-width: 605px;min-width: 325px;"
