@@ -3910,42 +3910,6 @@ ul.cat li {
   .social-profile a:hover {
     background: #ffc226; }
 
-blockquote {
-  background: #ffc226;
-  padding: 50px;
-  position: relative;
-  padding-left: 95px;
-  margin: 50px 0 60px; }
-  blockquote::before {
-    content: "\f10e";
-    left: 56px;
-    top: 45px;
-    position: absolute;
-    color: #233f4d;
-    font-family: "Font Awesome 5 Pro";
-    font-size: 50px;
-    opacity: .2; }
-  blockquote p {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #233f4d;
-    font-weight: 700;
-    font-family: "Barlow", sans-serif;
-    line-height: 30px; }
-  blockquote footer {
-    font-size: 18px;
-    color: #233f4d;
-    font-weight: 400;
-    padding-left: 45px;
-    position: relative; }
-    blockquote footer::before {
-      background: #233f4d;
-      position: absolute;
-      content: "";
-      height: 2px;
-      width: 30px;
-      left: 0;
-      bottom: 13px; }
 
 .blog-details-wrapper .blog-02-content p {
   margin-bottom: 28px;
@@ -6510,4 +6474,13 @@ button.mfp-close, button.mfp-arrow{
   height: 100%;
   position: absolute;
   border-radius:8px;
+}
+
+.blockquote{
+  padding: 0!important;
+  background-color: transparent!important;
+}
+
+.blockquote::before{
+  content:""!important;
 }
