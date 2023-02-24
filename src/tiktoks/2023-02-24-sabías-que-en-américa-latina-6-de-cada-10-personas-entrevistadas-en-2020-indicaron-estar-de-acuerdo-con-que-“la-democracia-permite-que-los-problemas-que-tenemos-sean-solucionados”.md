@@ -1,7 +1,5 @@
 ---
-title: Sabías que en América Latina 6 de cada 10 personas entrevistadas en 2020
-  indicaron estar de acuerdo con que “La democracia permite que los problemas
-  que tenemos sean solucionados”.
+title: Sabías que en América Latina 6 de cada 10 personas
 enlace: '<blockquote class="tiktok-embed"
   cite="https://www.tiktok.com/@redxguate/video/7202807590726749445"
   data-video-id="7202807590726749445" style="max-width: 605px;min-width: 325px;"
