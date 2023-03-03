@@ -7,7 +7,7 @@ description: El proceso de formación de Datos Abiertos profundizará sobre la
 enlace: https://redciudadana.org/blogs/proceso-de-formaci%C3%B3n-datos-abiertos/
 autor: Red Ciudadana
 correo: info@redciudadana.org.gt
-date: 2023-03-03T00:55:36.089Z
+date: 2023-03-01T00:55:36.089Z
 highlight: false
 ---
 
