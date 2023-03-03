@@ -6,7 +6,7 @@ description: El Encuentro de Justicia Abierta profundizará sobre la aplicación
 enlace: https://www.justicia-abierta.org/
 autor: Red Ciudadana
 correo: info@redciudadana.org.gt
-date: 2023-03-03T00:36:52.539Z
+date: 2023-03-08T00:36:52.539Z
 highlight: false
 ---
 La Justicia Abierta tiene su origen en el modelo de Gobierno Abierto y se basa en los principios de **colaboración, transparencia, participación y usos de tecnologías**. La aplicación de los principios mencionados en el marco de la Justicia Abierta pretende mejorar el desempeño y eficiencia de los **servicios prestados por el sector justicia**, contribuyendo a mejorar la legitimidad de los órganos que lo conforman. Además, se enfatiza los desarrollos tecnológicos como elementos esenciales para la apertura del sector justicia. 
