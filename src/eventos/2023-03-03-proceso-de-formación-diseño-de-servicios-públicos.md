@@ -7,7 +7,7 @@ description: El proceso de formación de Diseño de Servicios Públicos
 enlace: https://redciudadana.org/blogs/proceso-de-formaci%C3%B3n-dise%C3%B1o-de-servicios-p%C3%BAblicos/
 autor: Red Ciudadana
 correo: info@redciudadana.org.gt
-date: 2023-03-03T00:59:25.458Z
+date: 2023-04-13T00:59:25.458Z
 highlight: false
 ---
 La Justicia Abierta tiene su origen en el modelo de Gobierno Abierto y se basa en los principios de **colaboración, transparencia, participación y usos de tecnologías**. La aplicación de los principios mencionados en el marco de la Justicia Abierta pretende mejorar el desempeño y eficiencia de los **servicios prestados por el sector justicia**, contribuyendo a mejorar la legitimidad de los órganos que lo conforman. Además, se enfatiza los desarrollos tecnológicos como elementos esenciales para la apertura del sector justicia. 
