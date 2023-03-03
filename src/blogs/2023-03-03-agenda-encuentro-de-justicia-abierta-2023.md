@@ -36,10 +36,10 @@ Si tiene interés en saber más sobre la importancia de **Justicia Abierta**, no
 
 ![](/assets/img/posts/plantilla-expositores_justicia-abierta-3-.png)
 
-![](/assets/img/posts/plantilla-expositores_justicia-abierta-5-.png)
+![](/assets/img/posts/plantilla-expositores_justicia-abierta-17-.png)
 
-![](/assets/img/posts/plantilla-expositores_justicia-abierta-6-.png)
+![](/assets/img/posts/plantilla-expositores_justicia-abierta-14-.png)
 
-![](/assets/img/posts/plantilla-expositores_justicia-abierta-7-.png)
+![](/assets/img/posts/plantilla-expositores_justicia-abierta-15-.png)
 
 ![](/assets/img/posts/plantilla-expositores_justicia-abierta-8-.png)
