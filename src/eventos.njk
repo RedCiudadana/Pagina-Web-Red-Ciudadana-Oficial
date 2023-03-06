@@ -35,61 +35,31 @@ permalink: "eventos/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageN
                     <!--div class="breadcrumb-text text-left">
                         <h2>Enero 2022 </h2>
                     </div><br-->
-
+                    <div class="row">
                     {% if eventos%}
                     {% for post in eventos%}
                     <!-- Eventos -->
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="case-wrapper case-02-wrapper mb-30">
-                            <div class="case-img">
-                                <a target="_blank" href="{{post.url}}"><img src="{{post.data.image}}" alt="{{proyecto.data.title}}"></a>
-                            </div>
-                            <div class="case-text">
-                                <h3><a target="_blank" href="{{post.url}}"> {{post.data.title}} </a></h3>
-                                <span>{{post.data.date | dateFormat('DD / MM / YYYY')}}</span>
-                            </div>
-                            <div class="case-info custom-overflow-hidden" style="height:120px">
-                                <p class="text-overflow2"> {{post.data.description}} </p>
-                            </div>
-                            <div class="b-button">
-                                <a target="_blank" href="{{post.url}}"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--div class="event-bg event-bg-03 pos-rel mb-30">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-3">
-                                <div class="event-content mb-20">
-                                    <span><i class="far fa-calendar-alt verdeo"></i> Fecha:</span>
-                                    <h3>{{post.data.date | dateFormat('DD / MM / YYYY')}}</h3>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="case-wrapper case-02-wrapper mb-30">
+                                <div class="case-img">
+                                    <a target="_blank" href="{{post.url}}"><img src="{{post.data.image}}" alt="{{proyecto.data.title}}"></a>
                                 </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4">
-                                <div class="event-img mb-20">
-                                    <a target="_blank" href="{{post.data.enlace}}"><img src="{{post.data.image}}" alt="Lanzamiento Web Red Ciudadana"></a>
+                                <div class="case-text">
+                                    <h3><a target="_blank" href="{{post.url}}"> {{post.data.title}} </a></h3>
+                                    <span>{{post.data.date | dateFormat('DD / MM / YYYY')}}</span>
                                 </div>
-                            </div>
-                            <div class="col-xl-5 col-lg-5">
-                                <div class="event-wrapper mb-20 ">
-                                    <div class="event-text">                                    
-                                        <h3><a target="_blank" href="{{post.data.enlace}}">{{post.data.title}}</a></h3>
-                                    </div>
-                                    <div class="event-meta">
-                                        <span><i class="far fa-user-circle"></i>{{post.data.autor}}</span>
-                                        <br>
-                                        <span><i class="far fa-map-marked-alt verdeo"></i> {{post.data.description}}</span>
-                                    </div>
-
+                                <div class="case-info custom-overflow-hidden" style="height:120px">
+                                    <p class="text-overflow2"> {{post.data.description}} </p>
+                                </div>
+                                <div class="b-button">
+                                    <a target="_blank" href="{{post.url}}"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="evt-button">
-                            <a target="_blank" href="{{post.url}}"><i class="far fa-long-arrow-right"></i></a>
-                        </div>
-                    </div-->
 
                     {% endfor %}
                     {% endif %}
+                    </div>
 
                     <div class="d-flex justify-content-center">
                         {% if pagination.href.previous %}
