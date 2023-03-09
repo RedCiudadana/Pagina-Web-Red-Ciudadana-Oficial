@@ -1,11 +1,11 @@
 ---
 title: Participación política de la mujer en Guatemala
-image: /assets/img/posts/02_cover-youtube.png
+image: /assets/img/posts/screenshot_11.jpg
 description: Guatemala es el único país en Latinoamérica que no tiene reformas
   encaminadas a las llamadas democracias paritarias.
 autor: Steffany Figueroa
 correo: info@redciudadana.org.gt
-date: 2023-03-09T14:35:59.901Z
+date: 2023-03-08T06:35:00.000Z
 highlight: true
 ---
 Guatemala es el único país en Latinoamérica que no tiene reformas encaminadas a las llamadas democracias paritarias. En Centroamérica y el Caribe, Costa Rica (1996), Panamá (1997), República Dominicana (1997), Honduras (2000) y El Salvador (2013) han incorporado cuotas en la legislación de partidos políticos. Nicaragua (2012) reformó la Ley de Municipios, que actualmente establece cuotas para optar a cargos municipales. Guatemala ha prosperado en el cumplimiento de los marcos normativos internacionales para el avance de las mujeres. Sin embargo, los avances en términos de igualdad política no han sido muchos, a pesar de que desde hace más de 25 años las mujeres organizadas del país han luchado por incorporar reformas a la Ley Electoral y de Partidos Políticos (LEPP) con propuestas diversas.
