@@ -298,6 +298,8 @@ collections:
     fields:
       - { name: "title", label: "Título del TikTok" }
       - { name: "enlace", label: "Enlace del Embed", widget: "string" }
+      - { name: "autor", label: "Autor", widget: "string" }
+      - { name: "image", label: "Imagen", widget: "image" }
       - {
           name: "highlight",
           label: "Highlight",
