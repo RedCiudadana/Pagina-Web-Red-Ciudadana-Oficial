@@ -6446,6 +6446,10 @@ button.mfp-close, button.mfp-arrow{
   margin-top: 10px;
 }
 
+.content-blog iframe{
+  width: 100%;
+}
+
 /*POP UP*/
 
 .popup2{
