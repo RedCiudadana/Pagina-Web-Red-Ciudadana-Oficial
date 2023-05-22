@@ -6425,10 +6425,25 @@ button.mfp-close, button.mfp-arrow{
 
 .content-blog ul{
   margin-left: 15px!important;
+  margin-bottom: 15px;
 }
 
 .content-blog ul li{
   list-style: circle!important;
+}
+
+.content-blog ol{
+  margin-bottom: 15px;
+}
+
+.content-blog ol li{
+  list-style: decimal;
+}
+
+.content-blog ol li strong{
+  display: block;
+  clear: both;
+  margin-top: 10px;
 }
 
 /*POP UP*/
