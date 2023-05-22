@@ -48,3 +48,7 @@ Los equipos ganadores recibirán premios increíbles que ayudarán a llevar sus 
 4. **Licencia de uso para Prototipos:** Para garantizar que los prototipos y soluciones generados durante estos eventos puedan ser compartidos y utilizados de manera más amplia para beneficiar a la sociedad, todos los trabajos producidos serán licenciados bajo la Licencia Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA). Esta licencia permite a otros remixar, adaptar y construir sobre el trabajo no comercialmente, siempre y cuando den crédito al creador original y licencien sus nuevas creaciones bajo los mismos términos. Esto significa que otros pueden utilizar las soluciones y prototipos creados durante los eventos para el bien común, pero no para propósitos comerciales, a menos que obtengan una autorización directa del equipo creador.
 
 **Participar en estos eventos de innovación significa aceptar estas reglas y licencia de uso. ¡Esperamos contar con tu presencia y ver las maravillosas soluciones que crearás!**
+
+
+
+<iframe height="1100" src="https://us06web.zoom.us/meeting/register/tZcvd-GrrjouG9QVWu144VSaEI3NRRSuolZO" title="Registrate"></iframe>
