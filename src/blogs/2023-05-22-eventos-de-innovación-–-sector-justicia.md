@@ -11,7 +11,6 @@ highlight: true
 ---
 ¡Llega una nueva serie de emocionantes eventos de innovación! Invitamos a todos los interesados a formar parte de este increíble viaje para generar soluciones transformadoras en diversas áreas. 
 
-
 Los eventos están abiertos a todos, sin importar el nivel de experiencia o conocimiento. ¡Solo necesitamos tu pasión, creatividad y compromiso para hacer del mundo un lugar mejor!
 
 1. **Maratón de Soluciones – Datos y Género**
@@ -30,20 +29,18 @@ Los eventos están abiertos a todos, sin importar el nivel de experiencia o cono
    *Ejemplos de posibles soluciones:* 
    Ideas para plataformas digitales que permitan a los ciudadanos realizar trámites judiciales en línea, propuestas para el uso de la IA en la optimización de la programación de audiencias judiciales, conceptos para aplicaciones que proporcionen información clara y comprensible sobre los procesos legales, propuestas para el uso de tecnología blockchain para mejorar la transparencia y seguridad en la documentación legal.
 
-
-
 **Premios**
 Los equipos ganadores recibirán premios increíbles que ayudarán a llevar sus ideas al siguiente nivel. Pero recuerda, todos ganan al ser parte de esta experiencia de aprendizaje y crecimiento.
 
 * 1er lugar - $500 + Acompañamiento técnico
-  2do lugar - Acompañamiento técnico
-  3er lugar - Acompañamiento técnico
+* 2do lugar - Acompañamiento técnico
+* 3er lugar - Acompañamiento técnico
 
 **Registro**
 ¡No te pierdas esta increíble oportunidad! Las inscripciones están abiertas. ¡Únete a nosotros y juntos podemos innovar para un futuro mejor!
 <https://us06web.zoom.us/j/84926911986?pwd=N3hSdnBHeVpySXNlVm9wMVNxRmF3dz09>
 
-**[](https://us06web.zoom.us/j/84926911986?pwd=N3hSdnBHeVpySXNlVm9wMVNxRmF3dz09)Reglas Básicas para los Eventos de Innovación**
+[](https://us06web.zoom.us/j/84926911986?pwd=N3hSdnBHeVpySXNlVm9wMVNxRmF3dz09)**Reglas Básicas para los Eventos de Innovación**
 
 1. **Respeto:** Todos los participantes deben tratar a los demás con dignidad y respeto. No se tolerará ninguna forma de discriminación, acoso o comportamiento inapropiado. Recordemos que la diversidad de pensamiento, antecedentes y experiencias enriquecen la innovación.
 2. **Colaboración:** Se espera que los participantes trabajen de manera colaborativa con sus compañeros de equipo y otros participantes. La competencia amigable es bienvenida, pero el espíritu de estos eventos es colaborar para encontrar soluciones a los problemas planteados.
