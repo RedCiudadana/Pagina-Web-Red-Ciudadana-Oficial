@@ -273,7 +273,7 @@ permalink: "index.html"
                                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="row">
 
-                                            {% for proyecto in collections.proyectos%}
+                                            {% for proyecto in collections.proyectos | reverse%}
                                             {% if proyecto.data.programa == 'Innovación en Gobierno'%}
 
                                             <!-- Proyecto - Innovación en Gobierno --> 
@@ -305,7 +305,7 @@ permalink: "index.html"
                                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                     <div class="row">
 
-                                        	{% for proyecto in collections.proyectos%}
+                                        	{% for proyecto in collections.proyectos | reverse%}
                                             {% if proyecto.data.programa == 'Innovación Social'%}
 
                                             <!-- Proyecto - Innovación Social --> 
@@ -338,7 +338,7 @@ permalink: "index.html"
                                 <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                                     <div class="row">
  
-                                        	{% for proyecto in collections.proyectos%}
+                                        	{% for proyecto in collections.proyectos | reverse%}
                                             {% if proyecto.data.programa == 'Auditoria Social'%}
 
                                             <!-- Proyecto - Auditoria Social --> 
@@ -373,7 +373,7 @@ permalink: "index.html"
                                     <div class="row">
 
 
-                                            {% for proyecto in collections.proyectos%}
+                                            {% for proyecto in collections.proyectos | reverse%}
                                             {% if proyecto.data.programa == 'Fortalecimiento de Espacios Cívicos'%}
 
                                             <!-- Proyecto - Fortalecimiento de Espacios Cívicos --> 
@@ -528,6 +528,8 @@ permalink: "index.html"
                 </div>
             </div>
             <Intagram-gallery-end-->
+
+            <!--TIK TOKs>
             <div class="blog-area pt-130 pb-100">
                 <div class="container">
                     <div class="row">
@@ -547,7 +549,7 @@ permalink: "index.html"
                         {% endfor %}
                     </div>
                 </div>
-            </div>
+            </div-->
             <!-- brand-area-start -->
 
 
