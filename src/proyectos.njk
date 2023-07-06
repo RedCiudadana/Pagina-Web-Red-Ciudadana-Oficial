@@ -106,7 +106,7 @@ permalink: "/proyectos/index.html"
                                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="row">
 
-                                            {% for proyecto in collections.proyectos%}
+                                            {% for proyecto in collections.proyectos | reverse%}
                                             {% if proyecto.data.programa == 'Innovación en Gobierno'%}
 
                                             <!-- Proyecto - Innovación en Gobierno --> 
@@ -138,7 +138,7 @@ permalink: "/proyectos/index.html"
                                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                     <div class="row">
 
-                                        	{% for proyecto in collections.proyectos%}
+                                        	{% for proyecto in collections.proyectos | reverse%}
                                             {% if proyecto.data.programa == 'Innovación Social'%}
 
                                             <!-- Proyecto - Innovación Social --> 
@@ -171,7 +171,7 @@ permalink: "/proyectos/index.html"
                                 <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                                     <div class="row">
  
-                                        	{% for proyecto in collections.proyectos%}
+                                        	{% for proyecto in collections.proyectos | reverse%}
                                             {% if proyecto.data.programa == 'Auditoria Social'%}
 
                                             <!-- Proyecto - Auditoria Social --> 
@@ -206,7 +206,7 @@ permalink: "/proyectos/index.html"
                                     <div class="row">
 
 
-                                            {% for proyecto in collections.proyectos%}
+                                            {% for proyecto in collections.proyectos | reverse%}
                                             {% if proyecto.data.programa == 'Fortalecimiento de Espacios Cívicos'%}
 
                                             <!-- Proyecto - Fortalecimiento de Espacios Cívicos --> 
