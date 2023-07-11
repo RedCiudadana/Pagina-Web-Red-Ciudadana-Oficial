@@ -40,5 +40,11 @@ module.exports = function (eleventyConfig) {
             return item.data.highlight == true;
         });
     });  
+
+    eleventyConfig.addNunjucksFilter("sortById", function (items) {
+        return items.sort(function (a, b) {
+        return a.data.ano - b.data.ano;
+        });
+    });
       
 }

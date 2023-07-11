@@ -209,7 +209,9 @@ permalink: "index.html"
                         </div>
                     </div>
                     <div class="row">
-                        {% for proyecto in collections.proyectos | reverse | limit(6)%}
+                        {% set sortedProyectos = collections.proyectos | sortById %}
+
+                        {% for proyecto in sortedProyectos | reverse | limit(6) %}
 
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="case-wrapper case-02-wrapper mb-30">
