@@ -64,6 +64,15 @@ permalink: "/proyectos/index.html"
                 </div>
             </div>
 
+            {% set sortedProyectos = proyectos | sort((a, b) => b[ano] - a[ano]) %}
+
+            {% for proyecto in sortedProyectos %}
+                <p>
+                {{proyecto.data.title}} | {{proyecto.data.ano}}
+                </p>
+            {% endfor %}
+
+
             <!-- Proyectos divididos en programas  >
             <div class="case-area pt-130 pb-100 " id="proyectos">
                 <div class="container" >
