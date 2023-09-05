@@ -35,11 +35,12 @@
                 {{ description }}
               </h6>
 
+              <img class="mb-4" src="{{foto}}">
+
               <div class=" text-sm text-gray-600 mb-40">
-                Autor:
                   <span class="text-sm font-semibold text-gray-900 ml-2">
                     <!--autor correo fecha-->
-                        {{ autor }} | {{ correo }} | {{ date|dateFormat('DD/MM/YYYY')}}
+                      {{ date|dateFormat('DD/MM/YYYY')}}
                   </span>
               </div>
               <div class="content-blog mb-4">
@@ -49,7 +50,7 @@
               <a class="btn" target="_blank" href="{{enlace}}">Visita nuestra página</a>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 px-4" >
-              <h6>Escucha nuestros podcasts</h6>
+              <!--h6>Escucha nuestros podcasts</h6-->
               <div class="w-full">
                 {% if collections.podcasts %}
                   {% for podcast in collections.podcasts | reverse | limit(4) %}
