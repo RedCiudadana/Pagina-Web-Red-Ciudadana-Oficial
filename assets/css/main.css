@@ -218,7 +218,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: title_semibold, sans-serif;
+  font-family: 'title_semibold', sans-serif;
   color: #232830;
   margin-top: 0px;
   font-style: normal;
@@ -6164,6 +6164,13 @@ button.mfp-close, button.mfp-arrow{
   margin: 15px auto;
 }
 
+.linea2{
+  background: linear-gradient(#77cebb, #7FB9EF);
+  width: 60px;
+  height: 4px;
+  margin: 20px 0;
+}
+
 .linea_lg{
   background: linear-gradient(#77cebb, #7FB9EF);
   width: 100px;
@@ -6502,4 +6509,116 @@ button.mfp-close, button.mfp-arrow{
 
 .blockquote::before{
   content:""!important;
+}
+
+.img_perfil{
+  display: block;
+  justify-content: center;
+}
+
+.img_perfil img{
+  float: right;
+  width:80%
+}
+
+.titulo_perfil img{
+  width: 40px;
+  position: absolute;
+  left: -18px;
+  bottom: 48px;
+}
+
+.titulo_perfil{
+  width: 60%;
+  background-image: url('/assets/ELEMENTOS/ESTRATEGIA/fondos/ESTRATEGIA_RED-13.png');
+  padding: 10px 20px;
+  box-shadow: 5px -5px #7cc5db;
+  position: absolute;
+  right: 20px;
+  bottom: -29px;
+}
+
+.no_res{
+  display: block;
+}
+
+@media only screen and (max-width: 960px) {
+  .img_perfil {
+    text-align: center;
+  }
+  .pr-120{
+    padding-right: 10px;
+  }
+
+  .pl-120{
+    padding-left: 10px;
+  }
+
+  .img_perfil img{
+    float: none;
+  }
+
+  .titulo_perfil{
+    right: 23%;
+  }
+
+  .no_res{
+    display: none!important;
+  }
+}
+
+.titulo_estrategia{
+  background-image: url('/assets/ELEMENTOS/ESTRATEGIA/fondos/ESTRATEGIA_RED-13.png');
+  padding: 70px 15px;
+  box-shadow: 15px -15px #7cc5db;
+  text-align: center;
+}
+
+.goto_estrategia{
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.goto_estrategia img{
+  width: 80px;
+}
+
+.link_estrategia{
+  color: #232830;
+  text-decoration:underline;
+}
+
+.link_estrategia:hover{
+  text-decoration:none;
+}
+
+.link_estrategia2{
+  color: #232830;
+  text-decoration:underline;
+  text-align: end;
+}
+
+.link_estrategia2:hover{
+  text-decoration:none;
+}
+
+.numero_plan{
+  position: absolute;
+  background: #000;
+  border-radius: 50%;
+  padding: 20px 35px;
+  font-size: 30px;
+  color: #fff;
+  top: -45px;
+  right: 41%;
+}
+
+.align_end{
+  align-items: end;
+  display: flex;
+}
+
+.align_center{
+  align-items: center;
+  display: flex;
 }
