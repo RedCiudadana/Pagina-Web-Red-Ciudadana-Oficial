@@ -52,7 +52,7 @@ permalink: "eventos/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageN
                                     <p class="text-overflow2"> {{post.data.description}} </p>
                                 </div>
                                 <div class="b-button">
-                                    <a target="_blank" href="{{post.url}}"><span>Mas Información</span> <i class="far fa-long-arrow-right"></i></a>
+                                    <a target="_blank" href="{{post.url}}"><span>Mas Información</span> <i class="fa-solid fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -64,12 +64,12 @@ permalink: "eventos/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageN
                     <div class="d-flex justify-content-center">
                         {% if pagination.href.previous %}
                         <div class="mx-4">
-                            {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Blogs más recientes</a>{% else %}←  Nuevos blog{% endif %}
+                            {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Eventos más recientes</a>{% else %}←  Nuevos Eventos{% endif %}
                         </div>
                         {% endif %}
                         {% if pagination.href.next %}
                         <div class="mx-4">
-                            {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Blogs anteriores →</a>{% else %}Blog anteriores →{% endif %}
+                            {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Eventos anteriores →</a>{% else %}Eventos anteriores →{% endif %}
                         </div>
                         {% endif %}
                     </div>

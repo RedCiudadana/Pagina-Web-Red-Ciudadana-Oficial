@@ -68,7 +68,7 @@ permalink: "especiales/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pa
                             </div>
                         </div>
                         <div class="evt-button">
-                            <a href="{{post.url}}"><i class="far fa-long-arrow-right"></i></a>
+                            <a href="{{post.url}}"><i class="fa-solid fa-long-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -78,12 +78,12 @@ permalink: "especiales/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pa
                     <div class="d-flex justify-content-center">
                         {% if pagination.href.previous %}
                         <div class="mx-4">
-                            {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Blogs más recientes</a>{% else %}←  Nuevos blog{% endif %}
+                            {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Especiales más recientes</a>{% else %}←  Nuevos Especiales{% endif %}
                         </div>
                         {% endif %}
                         {% if pagination.href.next %}
                         <div class="mx-4">
-                            {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Blogs anteriores →</a>{% else %}Blog anteriores →{% endif %}
+                            {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Especiales anteriores →</a>{% else %}Especiales anteriores →{% endif %}
                         </div>
                         {% endif %}
                     </div>
