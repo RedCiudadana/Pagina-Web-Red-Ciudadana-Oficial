@@ -30,7 +30,7 @@
       <article>
         
         <section class="content text-justify">
-          <div class="row mt-40 mb-40">
+          <div class="row mt-40 mb-40 justify-content-center">
             
             <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 px-4 h2-margin">
               <h6 class=" font-bold text-1xl text-gray-800">
@@ -48,7 +48,7 @@
                 {{ content | safe}}
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 px-4" >
+            <!--div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 px-4" >
               <h6>Escucha nuestros podcasts</h6>
               <div class="w-full">
                 {% if collections.podcasts %}
@@ -60,6 +60,7 @@
                     </div>
                   {% endfor %}
                 {% endif %}
+                
                 {% if collections.addsHighlighted %}
                   {% for anuncio in collections.addsHighlighted | limit(1) %}
                     <div class="block mb-4">
@@ -71,8 +72,9 @@
                     </div>
                   {% endfor %}
                 {% endif %}
+
               </div>
-            </div>  
+            </div-->  
           </div>
 
         </section>
