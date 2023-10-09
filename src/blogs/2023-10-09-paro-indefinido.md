@@ -1,12 +1,11 @@
 ---
 title: "Paro Indefinido "
 image: /assets/img/posts/01.jpg
-description: En las recientes semanas, el paisaje guatemalteco ha experimentado
-  una transformación sin precedentes. Lo que comenzó como un llamado a la
-  justicia y al respeto del proceso democrático se ha convertido en un
-  movimiento imparable que abarca todos los rincones de la nación. Estamos
-  hablando, por supuesto, del paro indefinido convocado por distintas
-  organizaciones y sectores del país.
+description: Un paro nacional indefinido se ha desatado en Guatemala como una
+  poderosa protesta contra lo que se percibe como amenazas a la democracia
+  después de las recientes elecciones, con una amplia coalición de sectores de
+  la sociedad participando en las manifestaciones y dejando el futuro político
+  del país en una incertidumbre palpable.
 autor: Red Ciudadana
 correo: info@redciudadana.org.gt
 date: 2023-10-09T16:42:14.352Z
