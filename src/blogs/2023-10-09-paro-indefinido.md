@@ -13,7 +13,7 @@ highlight: false
 ---
 <!--StartFragment-->
 
-**El Paro Indefinido en Guatemala: Una Defensa Férrea de la Democracia**Publicado por Red Ciudadana\
+**El Paro Indefinido en Guatemala: Una Defensa Férrea de la Democracia**\
 \
 En las recientes semanas, el paisaje guatemalteco ha experimentado una transformación sin precedentes. Lo que comenzó como un llamado a la justicia y al respeto del proceso democrático se ha convertido en un movimiento imparable que abarca todos los rincones de la nación. Estamos hablando, por supuesto, del paro indefinido convocado por distintas organizaciones y sectores del país.\
 \
