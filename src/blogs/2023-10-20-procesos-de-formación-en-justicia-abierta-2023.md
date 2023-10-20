@@ -1,6 +1,6 @@
 ---
 title: Procesos de Formación en Justicia Abierta 2023
-image: /assets/img/posts/imagenes-web-curso-portada-1-.png
+image: /assets/img/posts/diagnostico-justicia-abierta.png
 description: ¡Aprende y Participa! Descubre Nuestros Procesos de Formación en
   Justicia Abierta
 autor: Red Ciudadana y RIJA
