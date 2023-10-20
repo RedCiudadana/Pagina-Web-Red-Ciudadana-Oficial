@@ -12,6 +12,10 @@ highlight: true
 
 En el mundo actual, el acceso a la información y la comprensión de la justicia abierta son fundamentales para empoderar a los ciudadanos y promover la transparencia en las instituciones. En Red Ciudadana y la Red Internacional de Justicia Abierta (RIJA), estamos comprometidos en ofrecer oportunidades de aprendizaje que ayuden a las personas a entender y aprovechar al máximo estos conceptos vitales. Te invitamos a descubrir nuestros emocionantes procesos de formación que te permitirán explorar temas cruciales como la justicia abierta, el acceso a la información y los datos abiertos.
 
+![](/assets/img/posts/general-cursos_01.png)
+
+
+
 **Proceso de Formación de Justicia Abierta: 9 y 16 de noviembre de 2023** 
 
 Nuestro primer proceso de formación se centra en la "Justicia Abierta". Los días 9 y 16 de noviembre de 2023, tendrás la oportunidad de sumergirte en el mundo de la justicia abierta y entender cómo puede transformar las instituciones judiciales. Descubrirás cómo la transparencia, la participación ciudadana y la rendición de cuentas son elementos cruciales en la construcción de una sociedad justa. Este proceso de formación te proporcionará las herramientas y los conocimientos necesarios para comprender y promover la justicia abierta en tu comunidad.
@@ -34,8 +38,8 @@ Nuestro tercer proceso de formación se centra en los "Datos Abiertos". Los día
 
 **Formulario de Registro:** <https://bit.ly/ProcesoDatosAbiertosRC> 
 
-En Red Ciudadana y RIJA, creemos en el poder de la educación para transformar comunidades y promover la transparencia y la justicia. Te invitamos a unirte a nuestros procesos de formación y a ser parte del movimiento de Justicia Abierta. Aprovecha esta oportunidad para expandir tus horizontes, adquirir nuevas habilidades y hacer una diferencia en tu sociedad. ¡Te esperamos en nuestros próximos procesos de formación!
 
-![](/assets/img/posts/general-cursos_01.png)
+
+En Red Ciudadana y RIJA, creemos en el poder de la educación para transformar comunidades y promover la transparencia y la justicia. Te invitamos a unirte a nuestros procesos de formación y a ser parte del movimiento de Justicia Abierta. Aprovecha esta oportunidad para expandir tus horizontes, adquirir nuevas habilidades y hacer una diferencia en tu sociedad. ¡Te esperamos en nuestros próximos procesos de formación!
 
 <!--EndFragment-->
