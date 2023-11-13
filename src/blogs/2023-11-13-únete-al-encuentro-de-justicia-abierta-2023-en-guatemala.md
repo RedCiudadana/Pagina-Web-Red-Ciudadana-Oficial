@@ -37,6 +37,12 @@ Registrarse para el Encuentro de Justicia Abierta 2023 es sencillo. Visita nuest
 
 No pierdas la oportunidad de ser parte de este evento destacado en el mundo de la justicia abierta. ¡Esperamos verte en Guatemala en el Encuentro de Justicia Abierta 2023! Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos en info@redciudadana.org.gt 
 
+**Agenda:** 
+
+![](/assets/img/posts/dia-1-encuentro-de-ja.jpg)
+
+![](/assets/img/posts/dia-2-encuentro-de-ja.jpg)
+
 **¡Regístrate ahora y sé parte del cambio hacia una justicia más abierta y transparente!**
 
 <!--EndFragment-->
