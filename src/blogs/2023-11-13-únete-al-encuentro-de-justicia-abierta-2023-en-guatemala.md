@@ -47,4 +47,4 @@ No pierdas la oportunidad de ser parte de este evento destacado en el mundo de l
 
 <!--EndFragment-->
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfr-D5mJuOjKFEVLGtnsMUWKgwDpfMPjbfVN7NZRHPnxGZ1Xg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfr-D5mJuOjKFEVLGtnsMUWKgwDpfMPjbfVN7NZRHPnxGZ1Xg/viewform?embedded=true" width="700" height="1520" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
