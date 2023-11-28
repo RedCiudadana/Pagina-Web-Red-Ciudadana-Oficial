@@ -48,21 +48,21 @@
                 Mediciones
               </h6>
               <div class="content-blog mb-4">
-                {{ mediciones | safe }}
+                {% if mediciones %}{{ mediciones | rmj | safe }}{% endif %}
               </div>
 
               <h6 class=" font-bold text-1xl text-gray-800">
                 Procesos de formación
               </h6>
               <div class="content-blog mb-4">
-                {{ procesos | safe }}
+                {% if procesos %}{{ procesos | rmj | safe }}{% endif %}
               </div>
 
               <h6 class=" font-bold text-1xl text-gray-800">
                 Datos Abiertos
               </h6>
               <div class="content-blog mb-4">
-                {{ procesos | safe }}
+                {% if datos %}{{ datos | rmj | safe }}{% endif %}
               </div>
               
               <a class="btn" target="_blank" href="{{enlace}}">Visita nuestra página</a>
