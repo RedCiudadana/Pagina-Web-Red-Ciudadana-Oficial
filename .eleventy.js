@@ -1,5 +1,6 @@
 const moment = require("moment");
 const now = new Date();
+const rmj = require('render-markdown-js');
 
 module.exports = function (eleventyConfig) {
 
@@ -10,6 +11,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('fancybox');
     eleventyConfig.addPassthroughCopy('super-sidebar');
     eleventyConfig.addPassthroughCopy('admin');
+
+    eleventyConfig.addNunjucksFilter("rmj", function (content) {
+        return rmj(content);
+    });
 
     eleventyConfig.addNunjucksFilter("limit", function(array, limit) {
         return array.slice(0, limit);

@@ -160,7 +160,15 @@ collections:
       - { label: "Nombre", name: "nombre", widget: "string" }
       - { name: "description", label: "Description" }
       - { label: "Foto", name: "foto", widget: "image" }
-      - { label: "FotoPreview", name: "fotop", widget: "image" }
+      - { label: "Foto Preview", name: "fotop", widget: "image" }
+      - { name: "mediciones", label: "Mediciones", widget: "markdown" }
+      - { name: "procesos", label: "Procesos de formación", widget: "markdown" }
+      - {
+          name: "datos",
+          label: "Datos Abiertos para Combatir la Corrupción (PIDA)",
+          widget: "markdown",
+        }
+      - { label: "Enlace de Página", name: "enlace" }
   - name: "adds"
     label: "Ads"
     folder: "src/adds"

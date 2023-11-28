@@ -1,0 +1,66 @@
+---
+permalink: "/programas/index.html"
+---
+
+{% extends "base.njk" %}
+
+{% block head %}
+<title>Red Ciudadana - Programas</title>
+{% endblock %}
+
+{% block content %}
+
+            <!-- Banner -area-start -->
+            <div class="breadcrumb-area pt-150 pb-155" style="background-image:url(/assets/img/red/proyectos/04.png)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="breadcrumb-text text-center">
+                                <h1 style="font-size:45px">Nuestros Programas </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- breadcrumb-area-end -->
+            
+            <!-- PROYECTOS -->
+
+            <!-- proyectos-area-start -->
+            <div class="blog-area pt-60 pb-60">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
+                             <div class="section-title text-center mr-40 ml-40 mb-75">
+                                 <h6><img width="30px" style="margin-right:10px" src="/assets/img/redciudadana.png">¿Qué hacemos?</h6>
+                                 <div class="linea"></div>
+                                 <h1 style="font-size: 45px!important;">Explora nuestros programas</h1>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        {% for programa in collections.programas | reverse %}
+
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="case-wrapper case-02-wrapper mb-30">
+                                <div class="case-img">
+                                    <a href="{{programa.url}}"><img src="{{programa.data.fotop}}" alt="{{programa.data.title}}"></a>
+                                </div>
+                                <div class="case-text">
+                                    <h3><a href="{{programa.url}}"> {{programa.data.nombre}} </a></h3>
+                                </div>
+                                <div class="case-info custom-overflow-hidden" style="height:120px">
+                                    <p class="text-overflow2"> {{programa.data.description}} </p>
+                                </div>
+                                <div class="b-button">
+                                    <a href="{{programa.url}}"><span>Mas Información</span> <i class="fa-solid fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+{% endblock %}
