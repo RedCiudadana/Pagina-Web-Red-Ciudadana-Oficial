@@ -1,7 +1,7 @@
 ---
 title: Elección MP
 enlace: https://eleccionmp.redciudadana.org/
-programa: Auditoria Social
+programa: Anticorrupción
 descripcion: “ElecciónMP” es un proyecto que utiliza estrategias y actividades
   mixtas para transparentar el proceso de elección del Fiscal General (2018-
   2022) de Guatemala e incentivar la participación e incidencia ciudadana en los
