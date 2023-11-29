@@ -1,7 +1,7 @@
 ---
 title: Observatorio Fiscal
 enlace: https://redciudadana.org/proyectos/index.html
-programa: Auditoria Social
+programa: Anticorrupción
 descripcion: El proyecto busca desarrollar iniciativas destinadas a generar una
   evaluación ciudadana del gasto público y a promover, con ello, una mejor
   rendición de cuentas en Guatemala.
