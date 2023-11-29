@@ -1,7 +1,7 @@
 ---
 title: Semáforo Electoral
 enlace: https://redciudadana.org/proyectos/index.html
-programa: Auditoria Social
+programa: Anticorrupción
 descripcion: El proyecto Semaforo electoral es una herramienta que busca
   facilitar a la ciudadanía la comprensión de qué es permitido y qué no lo es,
   en cada momento del proceso de campaña electoral, así como el reporte hacia el
