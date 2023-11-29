@@ -1,7 +1,7 @@
 ---
 title: CandiDatos
 enlace: https://redciudadana.org/proyectos/index.html
-programa: Auditoria Social
+programa: Anticorrupción
 descripcion: Candidatos.gt es una plataforma web que permitió visualizar a los
   guatemaltecos, la información de los candidatos presidenciales en las
   elecciones del 2019.
