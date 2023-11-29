@@ -6,5 +6,6 @@ autor: Red Ciudadana
 correo: info@redciudadana.org.gt
 date: 2023-11-29T17:00:31.289Z
 highlight: false
+enlace: https://redciudadana.org/programas/
 ---
 Esto es una descripción
