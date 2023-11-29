@@ -1,7 +1,7 @@
 ---
 title: Nuestra Salud
 enlace: https://redciudadana.org/proyectos/index.html
-programa: Auditoria Social
+programa: Anticorrupción
 descripcion: Este proyecto es una herramienta cívica y de fiscalización que
   tiene como fin centralizar de información pública de manera amigable con la
   ciudadanía para buscar la transparencia en las acciones, gasto e inversión que
