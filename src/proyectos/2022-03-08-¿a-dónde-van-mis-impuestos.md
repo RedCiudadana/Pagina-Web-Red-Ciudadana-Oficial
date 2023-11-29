@@ -1,7 +1,7 @@
 ---
 title: ¿A dónde van mis Impuestos?
 enlace: https://redciudadana.org/proyectos/index.html
-programa: Auditoria Social
+programa: Anticorrupción
 descripcion: Plataforma virtual, amigable para conocer el presupuesto de la
   nación y como son utilizados los impuestos por el Gobierno. Asimismo diversas
   herramientas para conocer como se distribuye el presupuesto y el gasto a nivel
