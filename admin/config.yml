@@ -337,5 +337,6 @@ collections:
           default: false,
           hint: "Display posts in home's highlights",
         }
+      - { name: "enlace", label: "Enlace de Formulario" }
 
 show_preview_links: true

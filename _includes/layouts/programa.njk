@@ -28,7 +28,7 @@
       <article>
         
         <section class="content text-justify">
-          <div class="row mt-40 mb-40">
+          <div class="row mt-40 mb-40 justify-content-center">
             
             <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 px-4 h2-margin">
 
@@ -67,31 +67,7 @@
               
               <a class="btn" target="_blank" href="{{enlace}}">Visita nuestra página</a>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 px-4" >
-              <!--h6>Escucha nuestros podcasts</h6-->
-              <div class="w-full">
-                {% if collections.podcasts %}
-                  {% for podcast in collections.podcasts | reverse | limit(4) %}
-                    <div class="block mb-4">
-                      <iframe src="{{ podcast.data.link }}" width="100%"
-                        height="152" frameBorder="0" allowfullscreen="" class="rifra"
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                    </div>
-                  {% endfor %}
-                {% endif %}
-                {% if collections.addsHighlighted %}
-                  {% for anuncio in collections.addsHighlighted | limit(1) %}
-                    <div class="block mb-4">
-                      <a href="{{anuncio.data.enlacered}}"><embed width="100%" src="{{anuncio.data.enlacev}}"></a>
-                    </div>
-
-                    <div class="block mb-4">
-                      <a href="{{anuncio.data.enlacered2}}"><embed width="100%" src="{{anuncio.data.enlacev2}}"></a>
-                    </div>
-                  {% endfor %}
-                {% endif %}
-              </div>
-            </div>  
+    
           </div>
 
         </section>
