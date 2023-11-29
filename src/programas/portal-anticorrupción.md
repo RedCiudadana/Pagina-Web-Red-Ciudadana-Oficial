@@ -1,5 +1,5 @@
 ---
-nombre: Portal Anticorrupción
+nombre: Anticorrupción
 description: Pequeña descripción
 foto: /assets/img/posts/web-18.png
 fotop: /assets/img/posts/web-22.png
