@@ -24,43 +24,96 @@ permalink: "/programas/index.html"
             </div>
             <!-- breadcrumb-area-end -->
             
-            <!-- PROYECTOS -->
+            <!-- PROGRAMAS -->
 
-            <!-- proyectos-area-start -->
-            <div class="blog-area pt-60 pb-60">
+            <!-- features-area-start -->
+            <div class="features-02-area pb-90 pt-50">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
-                             <div class="section-title text-center mr-40 ml-40 mb-75">
-                                 <h6><img width="30px" style="margin-right:10px" src="/assets/img/redciudadana.png">¿Qué hacemos?</h6>
-                                 <div class="linea"></div>
-                                 <h1 style="font-size: 45px!important;">Explora nuestros programas</h1>
-                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        {% for programa in collections.programas | reverse %}
 
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="case-wrapper case-02-wrapper mb-30">
-                                <div class="case-img">
-                                    <a href="{{programa.url}}"><img src="{{programa.data.fotop}}" alt="{{programa.data.title}}"></a>
-                                </div>
-                                <div class="case-text">
-                                    <h3><a href="{{programa.url}}"> {{programa.data.nombre}} </a></h3>
-                                </div>
-                                <div class="case-info custom-overflow-hidden" style="height:120px">
-                                    <p class="text-overflow2"> {{programa.data.description}} </p>
-                                </div>
-                                <div class="b-button">
-                                    <a href="{{programa.url}}"><span>Mas Información</span> <i class="fa-solid fa-long-arrow-right"></i></a>
+                        <div class="col-xl-10 col-lg-10 mx-auto">
+                            <div class="row">
+                                <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
+                                    <div class="section-title text-center mr-40 ml-40 mb-75">
+                                        <h6><img width="30px" style="margin-right:10px" src="/assets/img/redciudadana.png">¿Qué hacemos?</h6>
+                                        <div class="linea"></div>
+                                        <h3 class="txt-titulo2">Explora Nuestros Programas</h3>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                
+                                <div class="col-xl-3 col-lg-3 col-md-6 mb-40">
+                                    <div class="features-02-wrapper text-center">
+                                        <div class="features-02-icon-img pos-rel">
+                                            <div class="features-02-icon">
+                                                <img src="/assets/img/red/ICONOS-08.png" alt="Innovación en Gobierno">
+                                            </div>
+                                            <div class="features-03-icon">
+                                                <a href="/programas/innovación-en-gobierno/index.html"><i class="far fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="features-02-text text-center">
+                                            <h3>Innovación en Gobierno</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-3 col-md-6 mb-40">
+                                    <div class="features-02-wrapper text-center">
+                                        <div class="features-02-icon-img pos-rel">
+                                            <div class="features-02-icon">
+                                                <img src="/assets/img/red/ICONOS-09.png" alt="Innovación Social">
+                                            </div>
+                                            <div class="features-03-icon">
+                                                <a href="/programas/innovación-social/index.html"><i class="far fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="features-02-text text-center">
+                                            <h3>Innovación Social</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-3 col-md-6 mb-40">
+                                    <div class="features-02-wrapper text-center">
+                                        <div class="features-02-icon-img pos-rel">
+                                            <div class="features-02-icon">
+                                                <img src="/assets/img/red/ICONOS-10.png" alt="Auditoria Social">
+                                            </div>
+                                            <div class="features-03-icon">
+                                                <a href="/programas/anticorrupcion/index.html"><i class="far fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="features-02-text text-center">
+                                            <h3>Anticorrupción</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 col-lg-3 col-md-6 mb-40">
+                                    <div class="features-02-wrapper text-center">
+                                        <div class="features-02-icon-img pos-rel">
+                                            <div class="features-02-icon">
+                                                <img src="/assets/img/red/ICONOS-11.png" alt="Fortalecimiento de Espacios Cívicos">
+                                            </div>
+                                            <div class="features-03-icon">
+                                                <a href="/programas/fortalecimiento-de-espacios-cívicos/index.html"><i class="far fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="features-02-text text-center">
+                                            <h3>Fortalecimiento de Espacios Cívicos</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
 
-                        {% endfor %}
                     </div>
                 </div>
             </div>
+            <!-- features-area-end -->
 
 {% endblock %}
