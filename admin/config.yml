@@ -159,7 +159,7 @@ collections:
     fields:
       - { label: "Nombre", name: "nombre", widget: "string" }
       - { name: "description", label: "Description" }
-      - { name: "slider", label: "Slider" }
+      - { name: "slider", label: "Slider", widget: "image" }
       - { label: "Foto", name: "foto", widget: "image" }
       - { label: "Foto Preview", name: "fotop", widget: "image" }
       - { name: "mediciones", label: "Mediciones", widget: "markdown" }
