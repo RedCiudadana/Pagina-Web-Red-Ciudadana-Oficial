@@ -6622,3 +6622,18 @@ button.mfp-close, button.mfp-arrow{
   align-items: center;
   display: flex;
 }
+
+.titulo_cuadro{
+  background-image: url('/assets/img/red/programas/NUEVOWEB\ RED-33.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  margin: 0 auto;
+  height: 260px;
+}
+
+.titulo_cuadro h1{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
