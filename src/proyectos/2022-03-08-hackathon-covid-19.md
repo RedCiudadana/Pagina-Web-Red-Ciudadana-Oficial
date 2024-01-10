@@ -1,7 +1,7 @@
 ---
 title: Hackathon COVID-19
 enlace: https://redciudadana.org/proyectos/index.html
-programa: Innovación Social
+programa: Transformación Digital
 descripcion: El proyecto Hackathon Covi-19 surge ante la crisis de salud pública
   que se enfrenta de manera mundial, y en busca de fomentar espacios de
   innovación y construcción de oportunidades.
