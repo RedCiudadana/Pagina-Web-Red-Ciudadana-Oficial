@@ -1,5 +1,5 @@
 ---
-nombre: Innovación Social
+nombre: Transformación Digital
 description: Este es Innovación Social
 slider: /assets/img/posts/nuevoweb-red-36.png
 icono: /assets/img/posts/nuevoweb-red-29.png
