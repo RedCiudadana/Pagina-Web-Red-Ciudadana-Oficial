@@ -1,7 +1,7 @@
 ---
 title: Desafio COVID-19
 enlace: https://redciudadana.org/proyectos/index.html
-programa: Innovación Social
+programa: Transformación Digital
 descripcion: El desafío COVID19 es un iniciativa para ciudadanos y ciudadanas de
   Guatemala que deseen presentar modelos físicos funcionales hechos con
   materiales locales de fácil acceso y bajo costo, para resolver problemas
