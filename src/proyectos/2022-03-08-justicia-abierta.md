@@ -1,7 +1,7 @@
 ---
 title: Justicia Abierta
 enlace: https://redciudadana.org/proyectos/index.html
-programa: Innovación Social
+programa: Transformación Digital
 descripcion: En este proyecto se brindó asistencia técnica a la Comision de
   Gobierno Abierto y Electronico (GAE) para el Plan de Gobierno Abierto. Este
   proyecto trae consigo un acompañamiento en las fases posteriores, de
