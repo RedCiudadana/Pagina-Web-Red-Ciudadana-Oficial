@@ -6,5 +6,5 @@ descripcion: Elaboración de un índice que evalúe y compare el nivel de madure
   digital de las instituciones gubernamentales, incentivando la adopción de
   tecnologías y prácticas innovadoras.
 ano: "2024"
-foto: /assets/img/posts/02_cover-youtube.png
+foto: /assets/img/posts/indice-de-gobierno-digital.png
 ---
