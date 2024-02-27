@@ -6,5 +6,5 @@ descripcion: Desarrollo de un índice que mida el grado de apertura y
   disponibilidad de los datos gubernamentales, fomentando la transparencia y el
   acceso a la información pública.
 ano: "2024"
-foto: /assets/img/posts/02_cover-youtube.png
+foto: /assets/img/posts/indice-de-datos-abiertos-.png
 ---
