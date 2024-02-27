@@ -6,5 +6,5 @@ descripcion: Desarrollo de un portal en línea que facilite el acceso a conjunto
   de datos relacionados con el sector salud, incluyendo estadísticas de
   enfermedades, infraestructura hospitalaria y cobertura de servicios.
 ano: "2023"
-foto: /assets/img/posts/02_cover-youtube.png
+foto: /assets/img/posts/portal-de-datos-abiertos-salud.png
 ---
