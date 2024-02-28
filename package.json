@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/RedCiudadana/Pagina-Web-Red-Ciudadana-2021#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^2.0.1"
   },
   "dependencies": {
     "moment": "^2.29.1",
