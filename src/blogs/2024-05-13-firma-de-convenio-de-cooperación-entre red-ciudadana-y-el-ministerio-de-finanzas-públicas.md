@@ -1,6 +1,6 @@
 ---
-title: "**Firma de convenio de cooperación entre Red Ciudadana y el Ministerio
-  de Finanzas Públicas.**"
+title: Firma de convenio de cooperación entre Red Ciudadana y el Ministerio de
+  Finanzas Públicas.
 image: /assets/img/posts/firmaminfin1.jpeg
 description: Firmaron un convenio de cooperación que promete ser un gran paso
   hacia la modernización y la transparencia del sistema de contrataciones
