@@ -1,9 +1,6 @@
 ---
 nombre: Fortalecimiento de Espacios Cívicos
-description: El segundo objetivo estratégico es el Fortalecimiento de las
-  Organizaciones de la Sociedad Civil (OSC). Las OSC juegan un papel crucial en
-  la defensa de los derechos de los ciudadanos, la promoción de la rendición de
-  cuentas y la mejora de la gobernanza.
+description: Las OSC y medios de comunicación juegan un papel crucial en la democracia, defensa de los derechos de los ciudadanos, la promoción de la rendición de cuentas y la mejora de la gobernanza.
 slider: /assets/img/posts/nuevoweb-red-37.png
 icono: /assets/img/posts/nuevoweb-red-31.png
 foto: /assets/img/posts/web-17.png
