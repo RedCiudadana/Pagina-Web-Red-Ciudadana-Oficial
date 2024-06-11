@@ -1,6 +1,6 @@
 ---
 title: Índice De Gobierno Digital 2024
-enlace: http://gobiernodigital.redciudadana.org/
+enlace: https://publicaciones.redciudadana.org/2024/Indice_de_Gobierno_Digital_2024.pdf
 programa: Transformación Digital
 descripcion: >-
   ### **¿Qué es el Índice de Gobierno Digital (IGD)?**
