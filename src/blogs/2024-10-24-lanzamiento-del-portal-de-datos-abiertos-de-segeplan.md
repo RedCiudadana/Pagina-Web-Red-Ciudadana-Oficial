@@ -1,5 +1,5 @@
 ---
-title: "**Lanzamiento del Portal de Datos Abiertos de SEGEPLAN**"
+title: Lanzamiento del Portal de Datos Abiertos de SEGEPLAN
 image: /assets/img/posts/portal-da-segeplan.png
 description: SEGEPLAN busca abrir las puertas a una nueva era de gobernanza
   basada en datos, permitiendo a cualquier persona acceder a información clave
@@ -44,6 +44,8 @@ El lanzamiento del Portal de Datos Abiertos de SEGEPLAN marca un hito en el comp
 La transparencia es un valor esencial en cualquier democracia, y la apertura de datos juega un papel crucial en la creación de un entorno donde las instituciones públicas son más accesibles y responsables ante la ciudadanía. Al hacer públicos estos datos, SEGEPLAN no solo está cumpliendo con su mandato de facilitar el acceso a la información, sino que también está fomentando un diálogo más amplio sobre el desarrollo y la planificación del país.
 
 Además, el portal no solo es una herramienta para los ciudadanos. Las organizaciones de la sociedad civil, los medios de comunicación, los académicos y los investigadores también se benefician de esta iniciativa, al tener acceso a información que puede ser utilizada para generar estudios, reportes y análisis que contribuyan a una mejor comprensión de los desafíos y las oportunidades que enfrenta Guatemala en términos de desarrollo y gestión pública.
+
+![](/assets/img/posts/portal-da-segeplan.png "Portal de Datos Abiertos SEGEPLAN")
 
 ### ¿Cómo Acceder al Portal?
 
