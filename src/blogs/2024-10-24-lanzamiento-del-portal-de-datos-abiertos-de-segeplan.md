@@ -1,6 +1,6 @@
 ---
 title: Lanzamiento del Portal de Datos Abiertos de SEGEPLAN
-image: /assets/img/posts/portal-da-segeplan.png
+image: /assets/img/posts/portal-de-datos-abiertos-segeplan.png
 description: SEGEPLAN busca abrir las puertas a una nueva era de gobernanza
   basada en datos, permitiendo a cualquier persona acceder a información clave
   sobre la gestión pública, los proyectos de inversión y el desarrollo
