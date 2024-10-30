@@ -1,7 +1,7 @@
 ---
 title: "Inteligencia Artificial y Planificación Pública: Un paso hacia la
   Innovación en el Sector Público"
-image: /assets/img/posts/portal-de-datos-abiertos-segeplan.png
+image: /assets/img/posts/01_ai.png
 description: La Inteligencia Artificial (IA) se posiciona como una herramienta
   clave para transformar el sector público.
 autor: Red Ciudadana
