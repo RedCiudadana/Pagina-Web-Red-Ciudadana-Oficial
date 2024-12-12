@@ -2,11 +2,10 @@
 title: "Red Ciudadana participa en América Abierta 2024: Fortaleciendo el camino
   hacia un Estado Abierto"
 image: /assets/img/posts/cover_america-abierta-2024.png
-description: "**Red Ciudadana** tuvo el honor de participar en el evento
-  **América Abierta**, celebrado en el Instituto Serzedello Correa de Brasilia.
-  Este evento emblemático reunió a líderes, organizaciones y expertos de toda la
-  región para dialogar y promover iniciativas relacionadas con la transparencia,
-  los datos abiertos, la rendición de cuentas y el gobierno abierto."
+description: Red Ciudadana participo en América Abierta, celebrado en Brasilia.
+  Este evento reunió a líderes, organizaciones y expertos de toda la región para
+  dialogar y promover iniciativas relacionadas con la transparencia, los datos
+  abiertos, la rendición de cuentas y el gobierno abierto.
 autor: Red Ciudadana
 correo: info@redciudadana.org.gt
 date: 2024-12-10T21:09:58.961Z
