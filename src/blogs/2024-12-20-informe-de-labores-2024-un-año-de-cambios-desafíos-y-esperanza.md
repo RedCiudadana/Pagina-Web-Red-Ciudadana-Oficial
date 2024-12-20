@@ -1,9 +1,9 @@
 ---
 title: "Informe de Labores 2024: Un Año de Cambios, Desafíos y Esperanza"
-image: /assets/img/posts/nuevoweb-red-35.png
-description: El 2024 fue un año crucial para Guatemala y para **Red Ciudadana**.
-  La llegada del nuevo gobierno liderado por Bernardo Arévalo trajo consigo una
-  ola de esperanza y expectativas.
+image: /assets/img/posts/informe-de-labores-2024.png
+description: El 2024 fue un año crucial para Guatemala y para Red Ciudadana. La
+  llegada del nuevo gobierno liderado por Bernardo Arévalo trajo consigo una ola
+  de esperanza y expectativas.
 autor: Red Ciudadana
 correo: info@redciudadana.org.gt
 date: 2024-12-20T19:05:40.217Z
