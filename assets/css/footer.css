@@ -13,6 +13,7 @@
 .text_footer{
     color: #fff;
     margin-bottom: 20px;
+    line-height: 22px;
 }
 
 .title_footer{
@@ -49,7 +50,19 @@
         display: flex;
         justify-content: start;
     }
-  }
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: end;
+}
+
+@media only screen and (max-width: 960px) {
+    .flex-container2{
+        display: flex;
+        justify-content: start;
+    }
+}
 
 .links-footer {
     background-color: #000;
@@ -68,6 +81,7 @@
     text-decoration: none;
     cursor: pointer;
     transition: 0.5s all ease;
+    font-weight: 600;
 }
 
 .links-footer > a:hover{
@@ -112,4 +126,9 @@
 .links-footer div ul li a:hover {
     background-color: #f2f2f2;
     color: #000;
+}
+
+
+footer .container{
+    max-width: 1500px!important;
 }
