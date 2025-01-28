@@ -1,5 +1,5 @@
 ---
-title: "### Oportunidades Clave para Guatemala en 2025"
+title: Oportunidades para Guatemala en 2025
 image: /assets/img/posts/02_nueva-administración-2024-2028.png
 description: Con la llegada de 2025, Guatemala tiene frente a sí muchas
   oportunidades emocionantes que pueden cambiar su futuro.
