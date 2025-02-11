@@ -1,7 +1,7 @@
 ---
 title: "Lanzamiento del portal de datos abiertos del MINFIN: un nuevo capítulo
   para la transparencia fiscal en Guatemala"
-image: /assets/img/posts/img_7082.jpg
+image: /assets/img/posts/cover_01.png
 description: En un mundo donde la información es poder, los datos abiertos se
   han convertido en una herramienta clave para fortalecer la democracia y
   promover la rendición de cuentas.
