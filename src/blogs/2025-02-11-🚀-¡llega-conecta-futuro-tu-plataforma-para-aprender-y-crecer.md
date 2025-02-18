@@ -31,7 +31,7 @@ Y lo mejor… ¡ya están abiertas las inscripciones para nuestros primeros dos 
 ✅ Cómo organizar y analizar datos con tablas dinámicas.\
 ✅ Trucos y atajos para trabajar más rápido.
 
-**R﻿EGISTRO**: <https://bit.ly/Curso_Interoperabilidad>
+**R﻿EGISTRO**: <https://bit.ly/Curso_Excel_RC>[](https://bit.ly/Curso_Interoperabilidad)
 
 Ideal para cualquier persona que quiera mejorar su productividad con Excel.
 
@@ -44,16 +44,12 @@ Ideal para cualquier persona que quiera mejorar su productividad con Excel.
 ✅ Normas y estándares para mejorar la gestión de información.\
 ✅ Casos reales donde los datos ayudan a tomar mejores decisiones.
 
-**R﻿EGISTRO**: <https://bit.ly/Curso_Excel_RC>
+**R﻿EGISTRO**: <https://bit.ly/Curso_Interoperabilidad>[](https://bit.ly/Curso_Excel_RC)
 
 Perfecto para funcionarios públicos, investigadores y personas interesadas en la tecnología y la transparencia.
-
-
 
 📢 **¡Inscríbete hoy y comienza a aprender!**
 
 🔗 Regístrate aquí 👉 [](#)<https://escuela.redciudadana.org/>
-
-
 
 No te quedes fuera. **Aprende hoy, transforma el mañana.** 🚀 #ConectaFuturo
