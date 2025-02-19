@@ -36,3 +36,7 @@ Estos resultados evidencian la necesidad de una agenda clara para la interoperab
 La interoperabilidad no es solo un tema técnico, sino una oportunidad para modernizar el Estado, reducir costos y mejorar la experiencia de la ciudadanía. En *Red Ciudadana*, seguimos comprometidos en generar conocimiento y soluciones para avanzar hacia un gobierno más eficiente y conectado.
 
 ¿Te gustaría aportar a esta conversación? Escríbenos y súmate a la transformación digital de Guatemala. 🚀
+
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1nwxSexJDXo?si=GohyCrGfG85KcRaL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
