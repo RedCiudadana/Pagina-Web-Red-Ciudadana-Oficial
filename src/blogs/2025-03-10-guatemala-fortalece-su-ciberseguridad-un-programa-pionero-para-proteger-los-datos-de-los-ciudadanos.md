@@ -16,6 +16,8 @@ La transformación digital en Guatemala avanza a pasos agigantados, y con ella, 
 
 Este programa llega en un momento crucial, ya que el último informe del **Foro Económico Mundial** ha identificado el ciberespionaje y la guerra cibernética como dos de los principales riesgos globales para los próximos años. Para enfrentar estos desafíos, es imprescindible fortalecer las competencias digitales del sector público y garantizar la protección de la información de los ciudadanos.
 
+![](/assets/img/posts/f0e18e72-942a-4f7d-9ff1-3ea044e8bcab.jpeg)
+
 ## **Un enfoque práctico para una mayor protección**
 
 El **Programa de Capacitación en Ciberseguridad para la Administración Pública de Guatemala** tiene como objetivo capacitar a los funcionarios en la **prevención, identificación y respuesta a amenazas cibernéticas**. A través de una metodología teórico-práctica, los participantes recibirán formación en:
@@ -33,6 +35,8 @@ Para garantizar la calidad del programa, se ha reunido a un equipo de especialis
 👨‍💻 **Germán López Ardila**, especialista en regulación digital\
 👩‍💻 **Janett García Marín**, experta en cibercrimen.\
 🎓 **Emanuel Ortiz, PhD(c)** en Ciberseguridad.
+
+![](/assets/img/posts/bcead5bb-4062-41d8-ab54-5cab3ece1122.jpeg)
 
 ### **Red Ciudadana: Compromiso con la innovación y la transparencia**
 
