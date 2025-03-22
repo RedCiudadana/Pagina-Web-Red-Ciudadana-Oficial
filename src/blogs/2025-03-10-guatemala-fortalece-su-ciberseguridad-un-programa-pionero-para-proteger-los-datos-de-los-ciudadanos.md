@@ -1,7 +1,7 @@
 ---
 title: "Guatemala fortalece su ciberseguridad: Un programa para proteger los
   datos de los ciudadanos"
-image: /assets/img/posts/cover_04.png
+image: /assets/img/posts/plantilla_covers-blogs-red-ciudadana.png
 description: "Red Ciudadana y Guatemala No Se Detiene realiza el lanzamiento del
   programa de capacitación en ciberseguridad, dirigido a 150 funcionarios del
   sector público. "
