@@ -1,6 +1,6 @@
 ---
 title: "Convocatoria Abierta: Iniciativa de Datos Abiertos para GT, HN y DO"
-image: /assets/img/posts/arte-convocatoria.png
+image: /assets/img/posts/plantilla_covers-blogs-red-ciudadana-2-.jpg
 description: Esta iniciativa busca fortalecer la transparencia y la eficiencia
   en la gestión pública, promoviendo el uso de datos abiertos como una
   herramienta clave para la participación ciudadana y la transformación
@@ -56,9 +56,8 @@ Semana 2 - 5 y 7 de agosto 2025
 **🌐 Foros Regionales de Presentación de Hallazgos y Diálogo**
 
 \- 9 de julio 2025\
-- 6 de agosto 2025
 
-
+* 6 de agosto 2025
 
 ## ✅ Requisitos para aplicar
 
@@ -70,10 +69,10 @@ Semana 2 - 5 y 7 de agosto 2025
 🔗 Formulario de aplicación:\
 <https://bit.ly/Convocatoria_Datos_Abiertos_GT_HN_DO> 
 
-
-
 ## 🌍 Una oportunidad para transformar desde lo local
 
 Este proyecto parte de la convicción de que el acceso a la información y el uso estratégico de los datos son esenciales para fortalecer las democracias. A través del Índice de Datos Abiertos en Centroamérica, queremos ofrecer una herramienta útil, construida por y para actores locales, que permita monitorear avances y generar propuestas concretas para gobiernos más abiertos y eficaces.
 
 <!--EndFragment-->
+
+![](/assets/img/posts/arte-convocatoria.png)
