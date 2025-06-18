@@ -1,6 +1,5 @@
 ---
-title: "Convocatoria Abierta: Construyamos el Índice de Datos Abiertos de
-  Centroamérica"
+title: "Convocatoria Abierta: Iniciativa de Datos Abiertos para GT, HN y DO"
 image: /assets/img/posts/arte-convocatoria.png
 description: Esta iniciativa busca fortalecer la transparencia y la eficiencia
   en la gestión pública, promoviendo el uso de datos abiertos como una
