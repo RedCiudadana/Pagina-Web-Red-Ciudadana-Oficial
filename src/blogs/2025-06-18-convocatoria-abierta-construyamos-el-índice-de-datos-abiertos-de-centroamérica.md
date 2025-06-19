@@ -16,11 +16,15 @@ Red Ciudadana, con el apoyo del Ministerio Federal de Cooperación Económica y 
 
 Esta iniciativa busca fortalecer la transparencia y la eficiencia en la gestión pública, promoviendo el uso de datos abiertos como una herramienta clave para la participación ciudadana y la transformación institucional.
 
-## 📌 ¿De qué se trata esta convocatoria?
+## ¿De qué se trata esta convocatoria?
 
 Se seleccionarán al menos 6 organizaciones de sociedad civil (2 por país) para formar parte de un proceso de formación, colaboración y co-creación del Índice de Datos Abiertos en Centroamérica, una herramienta que permitirá medir el avance, las oportunidades y los desafíos en materia de apertura de datos a nivel regional.
 
-## 🎯 ¿A quién está dirigida?
+## Una oportunidad para transformar desde lo local
+
+Este proyecto parte de la convicción de que el acceso a la información y el uso estratégico de los datos son esenciales para fortalecer las democracias. A través del Índice de Datos Abiertos en Centroamérica, queremos ofrecer una herramienta útil, construida por y para actores locales, que permita monitorear avances y generar propuestas concretas para gobiernos más abiertos y eficaces.
+
+## ¿A quién está dirigida?
 
 Buscamos organizaciones que trabajen activamente en temas como:
 
@@ -51,13 +55,12 @@ Cierre de postulaciones: 30 de junio de 2025
 **💻 Proceso de Formación en Datos Abiertos y Participación Ciudadana**
 
 Semana 1 - 29 y 31 de julio 2025\
-Semana 2 - 5 y 7 de agosto 2025
+Semana 2 - 12 y 14 de agosto 2025
 
 **🌐 Foros Regionales de Presentación de Hallazgos y Diálogo**
 
-\- 9 de julio 2025\
-
-* 6 de agosto 2025
+* 9 de julio 2025
+* 13 de agosto 2025
 
 ## ✅ Requisitos para aplicar
 
