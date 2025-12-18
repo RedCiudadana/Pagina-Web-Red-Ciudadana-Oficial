@@ -2,9 +2,9 @@
 title: "Formación en Datos Abiertos: fortaleciendo capacidades ciudadanas para
   una Centroamérica más transparente"
 image: /assets/img/posts/plantilla_covers-blogs-red-ciudadana-6-.jpg
-description: Impulsamos procesos de **formación en datos abiertos** a nivel
-  nacional y regional, diseñados para responder a las realidades, necesidades y
-  niveles de alfabetización digital
+description: Impulsamos procesos de formación en datos abiertos a nivel nacional
+  y regional, diseñados para responder a las realidades, necesidades y niveles
+  de alfabetización digital
 autor: Red Ciudadana
 correo: info@redciudadana.org.gt
 date: 2025-12-18T18:11:45.414Z
