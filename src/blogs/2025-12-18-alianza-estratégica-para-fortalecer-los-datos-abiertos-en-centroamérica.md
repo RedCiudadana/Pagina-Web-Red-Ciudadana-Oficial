@@ -32,27 +32,6 @@ El proyecto se implementará en **Centroamerica**, combinando medición, formaci
 * Contenidos adaptados a distintos niveles de alfabetización en datos: básico, intermedio, avanzado y especializado.
 * Módulos especializados en **contrataciones públicas abiertas (OCDS)** y análisis de compras públicas.
 
-### 🌎 Observatorio Regional de Datos Abiertos
-
-* Creación de un **Observatorio Regional**, basado en tecnología CKAN y estándares internacionales.
-* Publicación de conjuntos de datos estratégicos sobre:
-
-  * Inclusión digital
-  * Género y paridad
-  * Discapacidad
-  * Resiliencia climática
-* Desarrollo de productos aplicados como:
-
-  * Observatorio de Transparencia Fiscal
-  * Análisis de banderas rojas en contrataciones públicas
-  * Estudio regional de paridad política
-
-## Un enfoque centrado en inclusión y sostenibilidad
-
-Uno de los pilares de esta alianza es el enfoque inclusivo. El proyecto establece metas claras para garantizar que al menos **el 40 % de las personas participantes sean mujeres**, además de promover la participación de juventudes, personas con discapacidad y comunidades históricamente excluidas.
-
-Asimismo, todos los productos del proyecto —datos, metodologías, manuales y código— se publicarán con **licencias abiertas**, asegurando su reutilización, réplica y sostenibilidad más allá del período de implementación.
-
 ## Centroamérica: una región que se conecta a través de los datos
 
 Este acuerdo con la Embajada del Reino Unido en Panamá no solo representa un respaldo institucional, sino también una apuesta por una **Centroamérica más conectada, informada y colaborativa**.
