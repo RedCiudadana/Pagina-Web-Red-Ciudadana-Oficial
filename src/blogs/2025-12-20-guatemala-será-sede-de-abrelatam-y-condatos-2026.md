@@ -12,7 +12,7 @@ highlight: false
 ---
 ### **Un encuentro que nos ilusiona, nos compromete y nos proyecta como región**
 
-Hay noticias que se sienten como un punto de llegada, pero, sobre todo, como un nuevo punto de partida. La confirmación de que **Guatemala será sede de ABRELATAM + CONDATOS 2026** es una de ellas. Para quienes creemos en los datos abiertos, la innovación pública y la democracia construida desde la colaboración, esta noticia representa **una enorme alegría y una gran responsabilidad**.
+Guatemala ha sido confirmada como **país anfitrión de ABRELATAM + CONDATOS 2026**, el evento más importante de América Latina dedicado a los **datos abiertos, el gobierno digital, la tecnología cívica, la transparencia y los derechos digitales**. Para quienes creemos en los datos abiertos, la innovación pública y la democracia construida desde la colaboración, esta noticia representa **una enorme alegría y una gran responsabilidad**.
 
 Desde **Red Ciudadana**, estamos **profundamente entusiasmados**. No solo porque Guatemala recibirá el evento más importante de América Latina en materia de datos abiertos, gobierno digital y tecnología cívica, sino porque este hito reconoce años de trabajo colectivo, alianzas estratégicas y una visión compartida de país y de región.
 
