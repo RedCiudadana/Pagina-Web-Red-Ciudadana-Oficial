@@ -38,8 +38,6 @@ Al mismo tiempo, la ciudadanía percibe los trámites como complejos, dispersos 
 
 La inteligencia artificial puede convertirse en una aliada estratégica para cambiar esta realidad. Pero necesitamos soluciones diseñadas desde el territorio, con enfoque inclusivo, abierto y responsable.
 
- 
-
 **🎯 ¿Cuál es el objetivo?**
 
 El desafío busca:
@@ -51,8 +49,6 @@ El desafío busca:
 
 No buscamos proyectos teóricos.\
 Buscamos **prototipos funcionales con impacto real**.
-
- 
 
 **🧠 Los 2 retos estratégicos**
 
@@ -70,8 +66,6 @@ Imagina:
 
 El objetivo es que los emprendimientos pasen de una gestión reactiva a una gestión planificada, informada y sostenible.
 
- 
-
 **🔹 Reto 2: IA para formalización y servicios municipales**
 
 Imagina:
@@ -83,17 +77,15 @@ Imagina:
 
 Queremos reducir barreras, simplificar procesos y fortalecer la confianza.
 
- 
-
 **🛠 ¿Cómo funciona el desafío?**
 
 Se desarrollará como un desafio **de Innovación Abierta**, entre el **11 de febrero y el 26 de marzo**, con fases obligatorias:
 
-* Lanzamiento
-* Sesión de inspiración técnica
-* Desarrollo y prototipado
-* Mentorías
-* Demo Day final
+* Lanzamiento - 11 de Febrero
+* Sesión de inspiración técnica - 18 de Febrero
+* Desarrollo y prototipado - 25 de Febrero
+* Mentorías - 11 al 25 de Febrero
+* Demo Day final - 18 de Marzo
 
 Cada equipo deberá:
 
@@ -103,8 +95,6 @@ Cada equipo deberá:
 * Realizar al menos una prueba con usuarios reales.
 
 Porque la innovación pública debe probarse en la realidad.
-
- 
 
 **Principios clave del desafío**
 
@@ -122,8 +112,6 @@ Todas las soluciones deberán cumplir con:
 La sofisticación técnica **no será el criterio principal**.\
 El impacto práctico sí.
 
- 
-
 **👥 ¿Quiénes pueden participar?**
 
 Pueden participar equipos de 1 a 6 integrantes conformados por:
@@ -139,8 +127,6 @@ La convocatoria está abierta a personas de cualquier parte del país —e inclu
 
 La diversidad es bienvenida.\
 Los equipos multidisciplinarios son altamente valorados.
-
- 
 
 **🏆 ¿Qué recibirán los equipos ganadores?**
 
@@ -161,8 +147,6 @@ Además de:
 
 El objetivo no es solo premiar, sino impulsar soluciones con potencial real de implementación.
 
- 
-
 **¿Cómo se evaluará?**
 
 Los criterios incluyen:
@@ -176,12 +160,8 @@ Los criterios incluyen:
 
 La evaluación priorizará impacto y pertinencia sobre complejidad tecnológica
 
-
-
 **🔔 ¿Te animas a participar?**
 
 Enlace: <https://bit.ly/DesafioIALocal>
-
-
 
 <!--EndFragment-->
