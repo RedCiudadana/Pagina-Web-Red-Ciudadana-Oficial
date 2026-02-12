@@ -30,11 +30,7 @@ Un espacio más estructurado, con paneles, presentaciones y sesiones temáticas 
 
 Un formato horizontal y participativo donde las personas asistentes proponen los temas “in situ”, construyendo colectivamente la agenda. Aquí el intercambio entre pares es protagonista y las ideas se transforman en proyectos, alianzas y acciones concretas.
 
-```
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jVhXC4sA9sI?si=2HRLNLU-0Xg3cYQW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-```
-
-
 
 **Guatemala 2026: una sede con identidad y visión**
 
@@ -48,8 +44,6 @@ Para Guatemala, esta edición representa una oportunidad histórica:
 Cada edición culmina con un informe público que documenta aprendizajes, impacto y lecciones para futuras sedes. La transparencia no es solo un tema de agenda: es un principio organizativo.
 
 ABRELATAM + CONDATOS ha demostrado que la apertura no es únicamente publicar datos, sino abrir espacios de diálogo, colaboración y co-creación.
-
-
 
 **Guatemala les espera**
 
